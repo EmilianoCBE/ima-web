@@ -1,3 +1,0 @@
-LogiXpress 1.1
-New added Homepage Moving Company (index-moving-company.html)
-New added Onepage Moving Company (index-moving-company-onepage.html)
