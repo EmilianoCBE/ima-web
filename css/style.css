@@ -13577,3 +13577,42 @@ img {
         line-height: 1.1;
     }
 }
+
+
+
+/*! SERVICIOS  */
+
+/* --- IGUALAR ALTURA DE TARJETAS --- */
+
+/* 1. Obliga a la tarjeta (el enlace <a>) a ocupar toda la altura de la columna */
+.full-height-card {
+    height: 100%;
+    display: flex;           /* Activa flexbox para controlar el interior */
+    flex-direction: column;  /* Mantiene el flujo vertical */
+}
+
+/* 2. Obliga a la fila interna a estirarse */
+.full-height-card > .row {
+    flex-grow: 1;            /* Ocupa todo el espacio sobrante */
+    height: 100%;            /* Asegura altura completa */
+}
+
+/* 3. Ajuste para que la imagen siempre cubra su mitad, sin deformarse */
+.full-height-card img {
+    height: 100%;
+    object-fit: cover;       /* Recorta la imagen si es necesario para llenar el hueco */
+    min-height: 300px;       /* Altura mínima de seguridad para móviles */
+}
+
+/* 4. Asegura que el contenedor de la imagen ocupe el 100% */
+.full-height-card .relative {
+    height: 100%;
+}
+
+/* 5. Centra el texto verticalmente para que se vea equilibrado si sobra espacio */
+.full-height-card .p-40 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrado vertical */
+}
