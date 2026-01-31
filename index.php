@@ -29,9 +29,10 @@
                   >
                     <div class="col-lg-10 text-center">
                       <div class="sw-text-wrapper">
-                        <h1 class="animated text-uppercase fadeInUp hero-title">
-                          Conectando distancias, acercando oportunidades
-                        </h1>
+                        <img src="images/IMA_logo_white.png" alt="" width="300">
+                        <h2 class="animated text-uppercase fadeInUp">
+                          Conectando distancias,<br> acercando oportunidades
+                        </h2>
                       </div>
                     </div>
                   </div>
@@ -41,10 +42,11 @@
 
             <div class="swiper">
               <div class="swiper-wrapper">
+                
                 <div class="swiper-slide">
                   <div
                     class="swiper-inner"
-                    data-bgimage="url(images/slider/a1.webp)"
+                    data-bgimage="url(images/slider/slider_1.jpeg) center"
                   >
                     <div class="sw-overlay op-4"></div>
                   </div>
@@ -53,7 +55,7 @@
                 <div class="swiper-slide">
                   <div
                     class="swiper-inner"
-                    data-bgimage="url(images/slider/slider_2.jpeg)"
+                    data-bgimage="url(images/slider/slider_2.jpeg) center"
                   >
                     <div class="sw-overlay op-4"></div>
                   </div>
@@ -67,6 +69,7 @@
                     <div class="sw-overlay op-4"></div>
                   </div>
                 </div>
+
               </div>
 
               <div class="swiper-pagination"></div>
@@ -81,7 +84,7 @@
             <div class="row g-3">
               <!-- First Item -->
               <div class="col-lg-4 col-md-6">
-                <a href="about.html">
+                <a href="about.php">
                   <div
                     class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
                     data-wow-delay="0s"
@@ -105,7 +108,7 @@
 
               <!-- Second Item -->
               <div class="col-lg-4 col-md-6">
-                <a href="about.html">
+                <a href="about.php">
                   <div
                     class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
                     data-wow-delay="0.2s"
@@ -138,7 +141,7 @@
 
               <!-- Third Item -->
               <div class="col-lg-4 col-md-6">
-                <a href="about.html">
+                <a href="about.php">
                   <div
                     class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
                     data-wow-delay="0.4s"
@@ -179,7 +182,7 @@
                 class="col-lg-3 col-md-6 wow fadeInRight"
                 data-wow-delay="0s"
               >
-                <a href="service-single.html" class="d-block hover relative">
+                <a href="service-single.php" class="d-block hover relative">
                   <img
                     src="images/icons-color/1.png"
                     class="w-70px mb-3 hover-jello infinite"

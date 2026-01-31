@@ -1,25 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>LogiXpress - Transportation, Cargo & Logistics HTML Template</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="LogiXpress - Transportation, Cargo & Logistics HTML Template" name="description" >
-    <meta content="" name="keywords">
-    <meta content="" name="author">
-    <!-- CSS Files
-    ================================================== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
-    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
-    <link href="css/style.css" rel="stylesheet" type="text/css" >
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
-    <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
-
-</head>
+<?php include 'includes/head.php'; ?>
 
 <body>
     <div id="wrapper">
@@ -30,159 +12,7 @@
         <!-- page preloader close -->
 
         <!-- header begin -->
-        <header class="header-static transparent mt-lg-4 pt-lg-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
-                            <div class="de-flex-col">
-                                <!-- logo begin -->
-                                <div id="logo">
-                                    <a href="index.html">
-                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
-                                        <img class="logo-scroll" src="images/logo-white.webp" alt="" >
-                                        <img class="logo-mobile" src="images/logo-white.webp" alt="" >
-                                    </a>
-                                </div>
-                                <!-- logo end -->
-                            </div>
-                            <div class="de-flex-col header-col-mid">
-                                <!-- mainemenu begin -->
-                                <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a>
-                                        <ul class="mega">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="sb-menu p-4">
-                                                        <div class="row g-3">
-                                                            <div class="col-lg-4 col-md-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden rounded-1">
-                                                                    <img src="images/demo/homepage-1.webp" class="w-100 relative hover-scale-1-1" alt="">
-
-                                                                    <div class="abs abs-centered w-70 z-2 hover-op-1">
-                                                                        <a class="btn-main mb-2" href="index.html">Multipage</a>
-                                                                        <a class="btn-main" href="index-onepage.html">One Page</a>
-                                                                    </div>
-                                                                    <div class="hover-op-05 abs abs-centered bg-dark w-100 h-100 z-1"></div>
-                                                                </div>
-                                                                <h5 class="mt-2 mb-0">Logistic</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden rounded-1">
-                                                                    <img src="images/demo/homepage-2.webp" class="w-100 relative hover-scale-1-1" alt="">
-
-                                                                    <div class="abs abs-centered w-70 z-2 hover-op-1">
-                                                                        <a class="btn-main mb-2" href="index-ship-freight.html">Multipage</a>
-                                                                        <a class="btn-main" href="index-ship-freight-onepage.html">One Page</a>
-                                                                    </div>
-                                                                    <div class="hover-op-05 abs abs-centered bg-dark w-100 h-100 z-1"></div>
-                                                                </div>
-                                                                <h5 class="mt-2 mb-0">Ship Freight</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden rounded-1">
-                                                                    <img src="images/demo/homepage-3.webp" class="w-100 relative hover-scale-1-1" alt="">
-
-                                                                    <div class="abs abs-centered w-70 z-2 hover-op-1">
-                                                                        <a class="btn-main mb-2" href="index-air-freight.html">Multipage</a>
-                                                                        <a class="btn-main" href="index-air-freight-onepage.html">One Page</a>
-                                                                    </div>
-                                                                    <div class="hover-op-05 abs abs-centered bg-dark w-100 h-100 z-1"></div>
-                                                                </div>
-                                                                <h5 class="mt-2 mb-0">Air Freight</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden rounded-1">
-                                                                    <img src="images/demo/homepage-4.webp" class="w-100 relative hover-scale-1-1" alt="">
-
-                                                                    <div class="abs abs-centered w-70 z-2 hover-op-1">
-                                                                        <a class="btn-main mb-2" href="index-truck-freight.html">Multipage</a>
-                                                                        <a class="btn-main" href="index-truck-freight-onepage.html">One Page</a>
-                                                                    </div>
-                                                                    <div class="hover-op-05 abs abs-centered bg-dark w-100 h-100 z-1"></div>
-                                                                </div>
-                                                                <h5 class="mt-2 mb-0">Truck Freight</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden rounded-1">
-                                                                    <img src="images/demo/homepage-5.webp" class="w-100 relative hover-scale-1-1" alt="">
-
-                                                                    <div class="abs abs-centered w-70 z-2 hover-op-1">
-                                                                        <a class="btn-main mb-2" href="index-warehouse.html">Multipage</a>
-                                                                        <a class="btn-main" href="index-warehouse-onepage.html">One Page</a>
-                                                                    </div>
-                                                                    <div class="hover-op-05 abs abs-centered bg-dark w-100 h-100 z-1"></div>
-                                                                </div>
-                                                                <h5 class="mt-2 mb-0">Warehouse</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 text-center">
-                                                                <div class="relative hover text-center overflow-hidden rounded-1">
-                                                                    <img src="images/demo/homepage-6.webp" class="w-100 relative hover-scale-1-1" alt="">
-
-                                                                    <div class="abs abs-centered w-70 z-2 hover-op-1">
-                                                                        <a class="btn-main mb-2" href="index-moving-company.html">Multipage</a>
-                                                                        <a class="btn-main" href="index-moving-company-onepage.html">One Page</a>
-                                                                    </div>
-                                                                    <div class="hover-op-05 abs abs-centered bg-dark w-100 h-100 z-1"></div>
-                                                                </div>
-                                                                <h5 class="mt-2 mb-0">Moving Service</h5>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="services.html">Services</a>
-                                        <ul>
-                                            <li><a href="services.html">Services 1</a></li>
-                                            <li><a href="services-2.html">Services 2</a></li>
-                                            <li><a href="service-single.html">Service Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="#">Company</a>
-                                        <ul>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="certifications.html">Certifications</a></li>
-                                            <li><a href="careers.html">Careers</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="track.html">Track Your Package</a></li>                                    
-                                            <li><a href="booking.html">Book Shipment</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="testimonials.html">Testimonials</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="blog.html">Blog</a></li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
-                                </ul>
-                                <!-- mainmenu end -->
-                            </div>
-                            <div class="de-flex-col">
-                                <div class="menu_side_area">
-                                    <a href="booking.html" class="btn-main btn-line fx-slide"><span>Book Shipment</span></a>
-                                    <span id="menu-btn"></span>
-                                </div>
-
-                                <div id="btn-extra">
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <?php include 'includes/header.php'; ?>
         <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
@@ -193,10 +23,10 @@
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
-                            <h1 class="split">About Us</h1>
+                            <h1 class="split">Nuestra Historia</h1>
                             <ul class="crumb wow fadeInUp">
                                 <li><a href="index.html">Home</a></li>
-                                <li class="active">About Us</li>
+                                <li class="active">Nuestra Historia</li>
                             </ul>   
                         </div>
                     </div>
