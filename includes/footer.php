@@ -1,82 +1,68 @@
 <footer class="text-light section-dark">
-            <div class="container">
-                <div class="row g-4 justify-content-between">
-                    <div class="col-md-6">
-                        <img src="images/logo-white.webp" class="w-170px mb-2" alt="">
-                        <div class="spacer-single"></div>
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="widget">
-                                    <h5>Services</h5>
-                                    <ul>                                        
-                                        <li><a href="service-single.html">Trucking</a></li>
-                                        <li><a href="service-single.html">Air Freight</a></li>
-                                        <li><a href="service-single.html">Ship Freight</a></li>
-                                        <li><a href="service-single.html">Rail Freight</a></li>
-                                        <li><a href="service-single.html">Warehousing</a></li>
-                                        <li><a href="service-single.html">Customs Brokerage</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="widget">
-                                    <h5>Company</h5>
-                                    <ul>                                        
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="social-icons mb-sm-30 text-center">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <h2>Get in Touch</h2>
-                            <img src="images/ui/up-right-arrow.webp" class="w-60px op-5" alt="">
-                        </div>
-
+    <div class="container">
+        <div class="row g-4 justify-content-between">
+            
+            <div class="col-md-6">
+                <img src="images/IMA_logo_white.png" class="w-170px mb-4" alt="IMA Express">
+                
+                <div class="row g-4">
+                    <div class="col-md-12">
                         <div class="widget">
-                            <div class="op-5 fs-15">Email</div>
-                            <h3>contact@logixpress.com</h3>
-
-                            <div class="spacer-20"></div>      
-
-                            <div class="op-5 fs-15">Phone</div>
-                            <h3>+929 333 9296</h3>
-
-                            <div class="spacer-20"></div>
-
-                            <div class="op-5 fs-15">Office Location</div>
-                            <h3>100 S Main St, New York, NY</h3>
-
-                            <div class="spacer-20"></div>
-                      
+                            <h5>Navegación</h5>
+                            <ul class="list-unstyled">                                        
+                                <li><a href="index.php">Inicio</a></li>
+                                <li><a href="sectores.php">Sectores</a></li>
+                                <li><a href="servicios.php">Servicios</a></li>
+                                <li><a href="about.php">Quiénes somos</a></li>
+                                <li><a href="contact.php">Contacto</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            Copyright 2025 LogiXpress by Designesia
-                        </div>
-                    </div>
+
+                <div class="spacer-single"></div>
+
+                <div class="social-icons mb-sm-30">
+                    <a href="https://www.facebook.com/p/IMA-Express-LLC-61574402533065/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/ima-express-llc/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/imaexpressllc?igsh=MWt5dzh6d3N5dDBncA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
-        </footer>
+
+            <div class="col-md-6">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2>Contáctanos</h2>
+                    <img src="images/ui/up-right-arrow.webp" class="w-60px op-5" alt="">
+                </div>
+
+                <div class="widget">
+                    <div class="op-5 fs-15">Email</div>
+                    <h3>admin@imaexpressllc.com</h3>
+
+                    <div class="spacer-20"></div>      
+
+                    <div class="op-5 fs-15">Teléfonos</div>
+                    <h3 class="mb-0">+1 (956) 771-9884</h3>
+                    <h3>+1 (956) 757-2302</h3>
+
+                    <div class="spacer-20"></div>
+
+                    <div class="op-5 fs-15">Ubicación</div>
+                    <h3>Laredo, Texas</h3>
+
+                    <div class="spacer-20"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    Copyright <?php echo date('Y'); ?> IMA Express LLC
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

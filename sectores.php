@@ -12,6 +12,7 @@
         
         <div id="de-loader"></div>
         <?php include 'includes/header.php'; ?>
+        
         <div class="no-bottom no-top" id="content">
 
             <div id="top"></div>
@@ -22,7 +23,7 @@
                         <div class="col-lg-12">
                             <h1 class="split">Sectores</h1>
                             <ul class="crumb wow fadeInUp">
-                                <li><a href="index.php">Home</a></li>
+                                <li><a href="index.php">Inicio</a></li>
                                 <li class="active">Sectores</li>
                             </ul>   
                         </div>
@@ -32,102 +33,149 @@
                 <div class="sw-overlay op-7"></div>
             </section>
 
-            <section>
+            <section class="pb-0">
                 <div class="container">
-                    
-                    <div class="row mb-5">
-                        <div class="col-lg-8 offset-lg-2 text-center wow fadeInUp">
-                            <h3 class="mb-3">Soluciones para cada Industria</h3>
-                            <p class="lead">Abarcamos una amplia variedad de sectores, ofreciendo soluciones adaptadas a las necesidades específicas de cada uno de ellos.</p>
-                            <div class="spacer-single"></div>
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8 wow fadeInUp">
+                            <div class="subtitle id-color">Nuestra Cobertura</div>
+                            <h2 class="mb-3">Soluciones para cada Industria</h2>
+                            <p class="lead">
+                                Hemos diseñado una estrategia logística flexible que se adapta al ritmo (2-3-2) de las industrias modernas, cubriendo desde manufactura pesada hasta envíos especializados.
+                            </p>
                         </div>
                     </div>
+                </div>
+            </section>
 
-                    <div class="row g-4 gx-5">
+            <section>
+                <div class="container">
+                    <div class="row g-4 justify-content-center">
                         
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <div class="p-4 rounded-1 border bg-light h-100 relative hover-scale-effect">
-                                <i class="fa-solid fa-industry fs-40 mb-3 id-color"></i>
-                                <h4>Industria y manufactura</h4>
-                                <p>Trabajamos con sectores vinculados a procesos industriales y producción.</p>
-                                <ul class="list-unstyled fw-bold text-dark op-8">
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Automoción</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Industria manufacturera</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Industria y maquinaria pesada</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Tecnología y electrónica</li>
-                                </ul>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0s">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-5 relative overflow-hidden h-min-200">
+                                        <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
+                                        <img src="images/misc/s1.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Industria">
+                                    </div>
+                                    <div class="col-md-7 d-flex align-items-center">
+                                        <div class="p-4">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <i class="fa-solid fa-industry fs-30 id-color me-3"></i>
+                                                <h4 class="mb-0">Industria y Manufactura</h4>
+                                            </div>
+                                            <p class="fs-14 text-muted mb-3">Soporte integral para cadenas de producción continua y maquinaria pesada.</p>
+                                            <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Automoción y Aeroespacial</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Maquinaria Pesada</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <div class="p-4 rounded-1 border bg-light h-100 relative hover-scale-effect">
-                                <i class="fa-solid fa-wheat-awn fs-40 mb-3 id-color"></i>
-                                <h4>Agroalimentario</h4>
-                                <p>Cubrimos la producción, procesamiento y distribución de alimentos.</p>
-                                <ul class="list-unstyled fw-bold text-dark op-8">
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Agricultura y agroindustria</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Alimentación y bebidas</li>
-                                </ul>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-5 relative overflow-hidden h-min-200 order-md-2"> <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
+                                        <img src="images/misc/s2.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Agroalimentario">
+                                    </div>
+                                    <div class="col-md-7 d-flex align-items-center order-md-1">
+                                        <div class="p-4">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <i class="fa-solid fa-wheat-awn fs-30 id-color me-3"></i>
+                                                <h4 class="mb-0">Agroalimentario</h4>
+                                            </div>
+                                            <p class="fs-14 text-muted mb-3">Logística sensible al tiempo para productos perecederos y cadena de frío.</p>
+                                            <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Agricultura y Bebidas</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Control de Temperatura</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <div class="p-4 rounded-1 border bg-light h-100 relative hover-scale-effect">
-                                <i class="fa-solid fa-helmet-safety fs-40 mb-3 id-color"></i>
-                                <h4>Construcción e infraestructuras</h4>
-                                <p>Damos soporte a proyectos relacionados con obras, materiales y maquinaria.</p>
-                                <ul class="list-unstyled fw-bold text-dark op-8">
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Construcción</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Minería y energía</li>
-                                </ul>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
+                                <div class="relative overflow-hidden" style="height: 200px;">
+                                    <img src="images/misc/s3.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Construcción">
+                                    <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
+                                        <i class="fa-solid fa-helmet-safety fs-20 id-color"></i>
+                                    </div>
+                                </div>
+                                <div class="p-4">
+                                    <h5 class="mb-2">Construcción</h5>
+                                    <p class="fs-14 text-muted mb-0">Transporte de materiales voluminosos y soporte a grandes obras.</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <div class="p-4 rounded-1 border bg-light h-100 relative hover-scale-effect">
-                                <i class="fa-solid fa-cart-shopping fs-40 mb-3 id-color"></i>
-                                <h4>Comercio y consumo</h4>
-                                <p>Acompañamos a sectores orientados al consumidor final y al retail.</p>
-                                <ul class="list-unstyled fw-bold text-dark op-8">
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Retail y distribución</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>E-commerce</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Sector editorial y papelero</li>
-                                </ul>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
+                                <div class="relative overflow-hidden" style="height: 200px;">
+                                    <img src="images/misc/s4.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Comercio">
+                                    <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
+                                        <i class="fa-solid fa-cart-shopping fs-20 id-color"></i>
+                                    </div>
+                                </div>
+                                <div class="p-4">
+                                    <h5 class="mb-2">Retail y Consumo</h5>
+                                    <p class="fs-14 text-muted mb-0">Velocidad para E-commerce, retail y distribución final.</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <div class="p-4 rounded-1 border bg-light h-100 relative hover-scale-effect">
-                                <i class="fa-solid fa-heart-pulse fs-40 mb-3 id-color"></i>
-                                <h4>Salud y farmacia</h4>
-                                <p>Ofrecemos soluciones para sectores vinculados al ámbito médico.</p>
-                                <ul class="list-unstyled fw-bold text-dark op-8">
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Sector farmacéutico y sanitario</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Salud y hospitales</li>
-                                </ul>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
+                                <div class="relative overflow-hidden" style="height: 200px;">
+                                    <img src="images/misc/s5.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Salud">
+                                    <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
+                                        <i class="fa-solid fa-heart-pulse fs-20 id-color"></i>
+                                    </div>
+                                </div>
+                                <div class="p-4">
+                                    <h5 class="mb-2">Salud y Farmacia</h5>
+                                    <p class="fs-14 text-muted mb-0">Seguridad máxima para suministros médicos y farmacéuticos.</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <div class="p-4 rounded-1 border bg-light h-100 relative hover-scale-effect">
-                                <i class="fa-solid fa-recycle fs-40 mb-3 id-color"></i>
-                                <h4>Medio ambiente</h4>
-                                <p>Operamos en sectores con normativas específicas y altos requisitos.</p>
-                                <ul class="list-unstyled fw-bold text-dark op-8">
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Medioambiente y reciclaje</li>
-                                </ul>
+
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
+                                <div class="d-flex align-items-center h-100 p-4 border-start border-4 border-success">
+                                    <div class="me-4">
+                                        <div class="p-3 bg-light rounded-circle text-success">
+                                            <i class="fa-solid fa-recycle fs-32"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="mb-2">Medio Ambiente</h4>
+                                        <p class="mb-0 fs-15 text-muted">Gestión responsable de residuos, reciclaje industrial y cumplimiento de normativas ecológicas estrictas.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 offset-lg-4 wow fadeInRight" data-wow-delay=".6s">
-                            <div class="p-4 rounded-1 border bg-light h-100 relative hover-scale-effect">
-                                <i class="fa-solid fa-boxes-packing fs-40 mb-3 id-color"></i>
-                                <h4>Logística especializada</h4>
-                                <p>Gestionamos operaciones de transporte con necesidades muy concretas.</p>
-                                <ul class="list-unstyled fw-bold text-dark op-8">
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Arte y cultura</li>
-                                    <li><i class="fa-solid fa-angle-right id-color me-2"></i>Eventos</li>
-                                </ul>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-dark text-light relative group">
+                                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/background/2.webp') center/cover; opacity: 0.2;"></div>
+                                
+                                <div class="d-flex align-items-center h-100 p-4 relative z-2 border-start border-4 border-warning">
+                                    <div class="me-4">
+                                        <div class="p-3 bg-white-10 rounded-circle text-warning">
+                                            <i class="fa-solid fa-boxes-packing fs-32"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="mb-2 text-white">Logística Especializada</h4>
+                                        <p class="mb-0 fs-15 op-8">Gestión de proyectos complejos: Arte, Eventos, Cargas Sobredimensionadas y necesidades críticas.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -137,24 +185,24 @@
 
             <section class="bg-color text-light pt-50 pb-50">
                 <div class="container">
-                    <div class="row g-4">
+                    <div class="row g-4 align-items-center">
                         <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">¿Listo para mover su carga en cualquier sector?</h3>
+                            <h3 class="mb-0 fs-32 split">¿Tu sector requiere atención especial?</h3>
+                            <p class="mb-0 mt-2 op-8">Nuestra flexibilidad es nuestra fortaleza. Hablemos de tu proyecto.</p>
                         </div>
                         <div class="col-lg-3 text-lg-end">
-                            <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contacto.php"><span>Contáctanos</span></a>
+                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span>Contactar Ahora</span></a>
                         </div>
                     </div>
                 </div>
             </section>
+
         </div>
         <?php include 'includes/footer.php'; ?>
-        </div>
+    </div>
 
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/custom-swiper-1.js"></script>
 
 </body>
 </html>

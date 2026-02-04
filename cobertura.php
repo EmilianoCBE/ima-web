@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<?php 
+    $page_title = "Cobertura - IMA Express";
+    include 'includes/head.php'; 
+?>
+
+<body>
+    <div id="wrapper">
+        <a href="#" id="back-to-top"></a>
+        
+        <div id="de-loader"></div>
+        <?php include 'includes/header.php'; ?>
+        
+        <div class="no-bottom no-top" id="content">
+
+            <div id="top"></div>
+
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/background/4.webp) center">
+                <div class="container relative z-2">
+                    <div class="row gy-4 gx-5 align-items-center">
+                        <div class="col-lg-12">
+                            <h1 class="split">Cobertura</h1>
+                            <ul class="crumb wow fadeInUp">
+                                <li><a href="index.php">Inicio</a></li>
+                                <li class="active">Cobertura Global</li>
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+                <div class="gradient-edge-bottom color op-7 h-80"></div>
+                <div class="sw-overlay op-7"></div>
+            </section>
+
+            <section class="pb-0">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8 wow fadeInUp">
+                            <div class="subtitle id-color">Dos Países, Un Solo Servicio</div>
+                            <h2 class="mb-3">Infraestructura Sin Límites Geográficos</h2>
+                            <p class="lead">
+                                Nuestra red logística no tiene fronteras ni restricciones regionales. Operamos con capacidad total a lo largo y ancho de Norteamérica, garantizando que su carga llegue a cualquier código postal de México y Estados Unidos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeInLeft">
+                            <div class="pe-lg-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="images/flags/usa.png" alt="USA" class="w-40px me-3 shadow-sm rounded">
+                                    <h2 class="mb-0">Estados Unidos</h2>
+                                </div>
+                                
+                                <h4 class="mb-3 id-color">De Costa a Costa (Coast-to-Coast)</h4>
+                                <p class="lead mb-4">
+                                    Nuestra cobertura abarca la totalidad del territorio estadounidense. No importa si el destino es un puerto en California, una fábrica en el Medio Oeste o un centro de distribución en la Costa Este.
+                                </p>
+                                
+                                <div class="d-flex flex-wrap gap-3 mb-4">
+                                    <div class="px-3 py-2 bg-light rounded-1 border fw-bold text-dark">
+                                        <i class="fa-solid fa-map id-color me-2"></i>48 Estados Contiguos
+                                    </div>
+                                    <div class="px-3 py-2 bg-light rounded-1 border fw-bold text-dark">
+                                        <i class="fa-solid fa-road id-color me-2"></i>Rutas Interestatales
+                                    </div>
+                                </div>
+
+                                <p class="mb-0 op-8 fs-14">
+                                    *Gestionamos la logística compleja de larga distancia (Long-Haul) y distribución regional con la misma eficiencia.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 wow fadeInRight">
+                            <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
+                                <img src="images/misc/map-usa-placeholder.jpg" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total USA" 
+                                     style="min-height: 350px; background-color: #e9ecef;">
+                                
+                                <div class="abs top-0 end-0 m-4">
+                                    <div class="p-3 bg-color text-white rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                                        <div style="line-height: 1.1;">
+                                            <span class="d-block fw-bold fs-18">100%</span>
+                                            <span class="fs-10">USA</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-dark text-light py-5 mx-3 rounded-1 relative overflow-hidden">
+                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/background/1.webp') center/cover; opacity: 0.1;"></div>
+                
+                <div class="container relative z-2">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 text-center text-lg-start mb-4 mb-lg-0">
+                            <i class="fa-solid fa-right-left fs-60 id-color"></i>
+                        </div>
+                        <div class="col-lg-7 text-center text-lg-start mb-4 mb-lg-0">
+                            <h3 class="mb-1 text-white">Conexión Transfronteriza Fluida</h3>
+                            <p class="mb-0 op-8 fs-18">Expertos en cruces vía <strong>Laredo, Texas</strong>, conectando ambas naciones sin fricción.</p>
+                        </div>
+                        <div class="col-lg-3 text-center text-lg-end">
+                            <div class="px-4 py-2 border border-light rounded-1 d-inline-block">
+                                <span class="text-uppercase ls-1 fs-12 op-7">Hub Principal</span>
+                                <div class="fw-bold fs-20">Laredo / N. Laredo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
+                            <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
+                                <img src="images/misc/map-mex-placeholder.jpg" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total México" 
+                                     style="min-height: 350px; background-color: #e9ecef;">
+                                
+                                <div class="abs top-0 start-0 m-4">
+                                    <div class="p-3 bg-color text-white rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                                        <div style="line-height: 1.1;">
+                                            <span class="d-block fw-bold fs-18">32</span>
+                                            <span class="fs-10">Estados</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight">
+                            <div class="ps-lg-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="images/flags/mexico.png" alt="México" class="w-40px me-3 shadow-sm rounded">
+                                    <h2 class="mb-0">México</h2>
+                                </div>
+
+                                <h4 class="mb-3 id-color">Todo el Territorio Nacional</h4>
+                                <p class="lead mb-4">
+                                    Llegamos a cada rincón de la República Mexicana. Desde los parques industriales del Bajío y el Norte, hasta los puertos del Sur y centros de consumo en el Centro.
+                                </p>
+
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
+                                            <div class="me-3 p-2 bg-white rounded-circle text-success shadow-sm">
+                                                <i class="fa-solid fa-check fs-18"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Cobertura Completa</h5>
+                                                <small class="text-muted">Norte, Centro, Bajío, Sur y Penínsulas.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
+                                            <div class="me-3 p-2 bg-white rounded-circle text-success shadow-sm">
+                                                <i class="fa-solid fa-city fs-18"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Entregas Urbanas e Industriales</h5>
+                                                <small class="text-muted">Acceso a zonas federales y urbanas complejas.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-color text-light pt-50 pb-50">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-9">
+                            <h3 class="mb-0 fs-32 split">Su carga no tiene límites con nosotros</h3>
+                            <p class="mb-0 mt-2 op-8">Cotice su envío a cualquier punto de Norteamérica hoy mismo.</p>
+                        </div>
+                        <div class="col-lg-3 text-lg-end">
+                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span>Cotizar Envío</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <?php include 'includes/footer.php'; ?>
+    </div>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+
+</body>
+</html>

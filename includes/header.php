@@ -38,7 +38,7 @@
                       <a class="menu-item" href="sectores.php">Sectores</a>
                     </li>
                     <li>
-                      <a class="menu-item" href="#">Cobertura</a>
+                      <a class="menu-item" href="cobertura.php">Cobertura</a>
                       <!-- <ul>
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="team.html">Our Team</a></li>
@@ -68,7 +68,7 @@
                       </ul>
                     </li>
                     <li>
-                      <a class="menu-item" href="contact.html">Contacto</a>
+                      <a class="menu-item" href="contact.php">Contacto</a>
                     </li>
                   </ul>
                   <!-- mainmenu end -->

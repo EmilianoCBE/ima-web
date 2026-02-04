@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-<?php include 'includes/head.php'; ?>
+<?php 
+    $page_title = "Nuestra Historia - IMA Express";
+    include 'includes/head.php'; 
+?>
 
 <body>
     <div id="wrapper">
         <a href="#" id="back-to-top"></a>
         
-        <!-- page preloader begin -->
         <div id="de-loader"></div>
-        <!-- page preloader close -->
-
-        <!-- header begin -->
         <?php include 'includes/header.php'; ?>
-        <!-- header close -->
-        <!-- content begin -->
         <div class="no-bottom no-top" id="content">
 
             <div id="top"></div>
@@ -25,7 +22,7 @@
                         <div class="col-lg-12">
                             <h1 class="split">Nuestra Historia</h1>
                             <ul class="crumb wow fadeInUp">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Inicio</a></li>
                                 <li class="active">Nuestra Historia</li>
                             </ul>   
                         </div>
@@ -38,297 +35,198 @@
             <section>
                 <div class="container">
                     <div class="row g-4 align-items-center">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 wow scaleIn">
                             <div class="relative">
-                                <div class="w-100 pe-5 pb-5 wow scaleIn">
-                                    <img src="images/misc/l1.webp" class="w-100 rounded-1" alt="Cargo logistics service">
+                                <div class="w-100 pe-5 pb-5">
+                                    <img src="images/misc/l1.webp" class="w-100 rounded-1 shadow-lg" alt="Logística IMA Express">
                                 </div>
-                                <img src="images/misc/s1.webp" class="w-40 rounded-1 abs end-0 bottom-0 z-2 soft-shadow wow scaleIn" data-wow-delay=".2s" alt="Freight transport">
+                                <div class="abs end-0 bottom-0 z-2 mb-5 me-5 p-4 bg-color text-light rounded-1 text-center shadow-lg wow fadeInUp" data-wow-delay=".2s">
+                                    <h4 class="mb-0 text-white">Est. 2021</h4>
+                                    <span class="fs-14">Fundada</span>
+                                </div>
                             </div>
                         </div>
+
                         <div class="col-lg-6">
-                            <div class="ps-lg-3">
-                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">About Us</div>
-                                <h2 class="split">Moving Cargo, Connecting the World</h2>
-                                <p class="mb-0 wow fadeInUp" data-wow-delay=".6s">
-                                    We are a trusted logistics and cargo solutions provider committed to delivering your goods safely, efficiently, and on time. 
-                                    With years of experience in freight forwarding, warehousing, and international shipping, we combine expertise and innovation 
-                                    to keep your supply chain moving. From small parcels to large-scale cargo, our mission is simple — reliable delivery 
-                                    that helps your business grow across borders.
+                            <div class="ps-lg-4">
+                                <div class="subtitle id-color wow fadeInUp">¿Quiénes Somos?</div>
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s">Conectando México y Estados Unidos</h2>
+                                <p class="lead wow fadeInUp" data-wow-delay=".4s">
+                                    IMA Express LLC es una empresa fundada en 2021, con el objetivo de ofrecer soluciones integrales para el transporte de mercancías entre México y Estados Unidos.
+                                </p>
+                                <p class="wow fadeInUp" data-wow-delay=".6s">
+                                    Nos hemos consolidado como un puente estratégico para el comercio internacional, entendiendo las necesidades específicas de la cadena de suministro binacional y adaptándonos a los retos de la logística moderna.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-light rounded-1 mx-3 overflow-hidden">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-6 wow fadeInLeft">
+                            <div class="p-5 bg-white rounded-1 h-100 border-hover shadow-sm-hover transition-all">
+                                <i class="fa-solid fa-bullseye fs-40 id-color mb-4"></i>
+                                <h3>Misión</h3>
+                                <p class="mb-0">
+                                    Queremos brindar un servicio seguro y confiable, optimizando cada envío con eficiencia y responsabilidad, con el objetivo de apoyar el crecimiento de los negocios que confían en nosotros.
                                 </p>
                             </div>
                         </div>
 
-                        <div class="spacer-single"></div>
-
-                        <div class="row g-4">
-                            <div class="col-lg-12">
-                                <h2 class="split mb-0">Our Expertise</h2>                    
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="skill-bar style-2">
-                                    <h5>Freight Forwarding</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="95%">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-bar style-2">
-                                    <h5>Customs Clearance</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="90%">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-bar style-2">
-                                    <h5>Warehousing & Distribution</h5>
-                                    <div class="de-progress">
-                                        <div class="value"></div>
-                                        <div class="progress-bar" data-value="85%">
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="row g-4">
-                                    <div class="col-md-6 text-center">
-                                        <div class="de_count wow fadeInRight" data-wow-delay=".0s">
-                                            <h3 class="fs-40 mb-0"><span class="timer" data-to="65250" data-speed="3000">0</span>+</h3>
-                                            Shipments Delivered
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 text-center">
-                                        <div class="de_count wow fadeInRight" data-wow-delay=".2s">
-                                            <h3 class="fs-40 mb-0"><span class="timer" data-to="23160" data-speed="3000">0</span>+</h3>
-                                            Satisfied Clients
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 text-center">
-                                        <div class="de_count wow fadeInRight" data-wow-delay=".4s">
-                                            <h3 class="fs-40 mb-0"><span class="timer" data-to="150" data-speed="3000">0</span>+</h3>
-                                            Dedicated Team Members
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 text-center">
-                                        <div class="de_count wow fadeInRight" data-wow-delay=".6s">
-                                            <h3 class="fs-40 mb-0"><span class="timer" data-to="20" data-speed="3000">0</span>+</h3>
-                                            Years of Experience
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="col-lg-6 wow fadeInRight" data-wow-delay=".2s">
+                            <div class="p-5 bg-white rounded-1 h-100 border-hover shadow-sm-hover transition-all">
+                                <i class="fa-solid fa-eye fs-40 id-color mb-4"></i>
+                                <h3>Visión</h3>
+                                <p class="mb-0">
+                                    Aspiramos a ser la empresa líder en transporte de mercancías entre México y Estados Unidos, destacar por nuestro compromiso y crear nuevas oportunidades en el comercio internacional.
+                                </p>
                             </div>
                         </div>
-
                     </div>
-                        
                 </div>
             </section>
 
             <section>
-                <div class="container relative z-1">
-                    <div class="row g-4 gx-5">
-                        <div class="col-lg-6">
-                            <div class="relative">
-                                <div class="abs bottom-0 end-0 m-5">
-                                    <div class="p-4 mb-4 bg-color text-light rounded-1 text-center wow fadeInUp" data-wow-delay=".0s">
-                                        <h1 class="fs-84 mb-1">15</h1>
-                                        <div class="fs-16 lh-1-5">Years of Excellence</div>
-                                    </div>
+                <div class="container">
+                    <div class="row justify-content-center text-center mb-5">
+                        <div class="col-lg-8">
+                            <div class="subtitle id-color wow fadeInUp">Nuestros Servicios</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">¿Qué Ofrecemos?</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".4s">
+                                Disponemos de servicios logísticos adaptados a las necesidades de nuestros clientes, trabajando con un equipo eficiente disponible las 24 horas. Para garantizar un servicio de calidad, contamos con:
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
+                            <div class="text-center p-4 rounded-1 hover-scale-effect">
+                                <div class="p-3 bg-light rounded-circle d-inline-block mb-3">
+                                    <i class="fa-solid fa-location-crosshairs fs-36 id-color"></i>
                                 </div>
-                                <img src="images/misc/s3.webp" class="w-100 rounded-1" alt="">
+                                <h4>Seguimiento en Tiempo Real</h4>
+                                <p>Visibilidad total de tu carga en cada etapa del trayecto para tu tranquilidad.</p>
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="h-100 relative">
-
-                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">Your Trusted Shipping Partner</div>
-                                <h1 class="split" data-wow-delay=".4s">Expert Ship Freight Services, Deliver Worldwide with Ease</h1>
-
-                                <div class="abs ol-lg-12 pos-sm-relative bottom-0">
-                                    <div class="d-flex align-items-center justify-content-between border-bottom pb-4 mb-4 c wow fadeInUp" data-wow-delay=".9s">
-                                        <a class="btn-main fx-slide me-5 wow fadeInUp" data-wow-delay=".6s" href="booking.html"><span>Get Started Now</span></a>
-                                        <div class="d-flex align-items-center">
-                                            <div class="me-4">
-                                                <img src="images/testimonial/1.webp" class="w-50px circle ms-min-10" alt="">
-                                                <img src="images/testimonial/2.webp" class="w-50px circle ms-min-10" alt="">
-                                                <img src="images/testimonial/3.webp" class="w-50px circle ms-min-10" alt="">
-                                            </div>
-
-                                            <div class="fw-600 fs-14 lh-1-5"><span class="fs-16 fw-bold text-dark">23k</span><br>successful shipments</div>
-                                        </div>                                
-                                    </div>
-                                    <p>We specialize in global ocean freight solutions, offering full container load, less than container load, and bulk cargo shipping. With our trusted carrier network and years of expertise, we guarantee smooth operations, reliable schedules, and cost-effective delivery for businesses of all sizes.</p>
-
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="text-center p-4 rounded-1 hover-scale-effect">
+                                <div class="p-3 bg-light rounded-circle d-inline-block mb-3">
+                                    <i class="fa-solid fa-route fs-36 id-color"></i>
                                 </div>
+                                <h4>Planificación Eficiente</h4>
+                                <p>Optimización de rutas para asegurar entregas puntuales y reducir costos.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="text-center p-4 rounded-1 hover-scale-effect">
+                                <div class="p-3 bg-light rounded-circle d-inline-block mb-3">
+                                    <i class="fa-solid fa-comments fs-36 id-color"></i>
+                                </div>
+                                <h4>Comunicación Directa</h4>
+                                <p>Trato cercano y respuesta inmediata a cualquier consulta o eventualidad.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="bg-color text-light pt-50 pb-50">
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">Ready to Ship Your Cargo Worldwide?</h3>
+            <section class="bg-dark text-light mx-3 rounded-1 overflow-hidden relative">
+                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/background/1.webp') center/cover; opacity: 0.2;"></div>
+                
+                <div class="container relative z-2">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <div class="subtitle id-color wow fadeInUp">Nuestra Promesa</div>
+                            <h2 class="mb-3 wow fadeInUp" data-wow-delay=".2s">¿Por qué trabajar con nosotros?</h2>
+                            <p class="lead mb-4 wow fadeInUp" data-wow-delay=".4s">
+                                Ofrecemos un servicio personalizado y en constante mejora, pensado para apoyar a las empresas que requieren transporte internacional con la máxima seguridad y eficacia.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">
+                                <i class="fa-solid fa-check-circle id-color me-2"></i> Nos distinguimos por nuestro compromiso y responsabilidad.<br>
+                                <i class="fa-solid fa-check-circle id-color me-2"></i> Brindamos un trato directo, honesto y cercano.
+                            </p>
                         </div>
-                        <div class="col-lg-3 text-lg-end">
-                            <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="booking.html"><span>Book Shipment</span></a>
+                        <div class="col-lg-4 text-lg-end mt-4 mt-lg-0 wow fadeInRight" data-wow-delay=".4s">
+                            <a href="contact.php" class="btn-main btn-line"><span>Contáctanos Hoy</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-lg-8 text-center">
+                            <h3 class="wow fadeInUp">Nuestros Socios Comerciales</h3>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 align-items-center justify-content-center">
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 1" style="max-height: 80px; object-fit: contain;">
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".1s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 2" style="max-height: 80px; object-fit: contain;">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".2s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 3" style="max-height: 80px; object-fit: contain;">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".3s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 4" style="max-height: 80px; object-fit: contain;">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".4s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 5" style="max-height: 80px; object-fit: contain;">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".5s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 6" style="max-height: 80px; object-fit: contain;">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".6s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 7" style="max-height: 80px; object-fit: contain;">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".7s">
+                            <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
+                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 8" style="max-height: 80px; object-fit: contain;">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
         </div>
-        <!-- content close -->
-        
-        <!-- footer begin -->
-        <footer class="text-light section-dark">
-            <div class="container">
-                <div class="row g-4 justify-content-between">
-                    <div class="col-md-6">
-                        <img src="images/logo-white.webp" class="w-170px mb-2" alt="">
-                        <div class="spacer-single"></div>
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="widget">
-                                    <h5>Services</h5>
-                                    <ul>                                        
-                                        <li><a href="service-single.html">Trucking</a></li>
-                                        <li><a href="service-single.html">Air Freight</a></li>
-                                        <li><a href="service-single.html">Ship Freight</a></li>
-                                        <li><a href="service-single.html">Rail Freight</a></li>
-                                        <li><a href="service-single.html">Warehousing</a></li>
-                                        <li><a href="service-single.html">Customs Brokerage</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="widget">
-                                    <h5>Company</h5>
-                                    <ul>                                        
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="social-icons mb-sm-30 text-center">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <h2>Get in Touch</h2>
-                            <img src="images/ui/up-right-arrow.webp" class="w-60px op-5" alt="">
-                        </div>
-
-                        <div class="widget">
-                            <div class="op-5 fs-15">Email</div>
-                            <h3>contact@logixpress.com</h3>
-
-                            <div class="spacer-20"></div>      
-
-                            <div class="op-5 fs-15">Phone</div>
-                            <h3>+929 333 9296</h3>
-
-                            <div class="spacer-20"></div>
-
-                            <div class="op-5 fs-15">Office Location</div>
-                            <h3>100 S Main St, New York, NY</h3>
-
-                            <div class="spacer-20"></div>
-                      
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            Copyright 2025 LogiXpress by Designesia
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer close -->
-    </div>
-
-    <!-- overlay content begin -->
-    <div id="extra-wrap" class="text-light">
-        <div id="btn-close">
-            <span></span>
-            <span></span>
+        <?php include 'includes/footer.php'; ?>
         </div>
-
-        <div id="extra-content">
-            <img src="images/logo-white.webp" class="w-200px" alt="">
-
-            <div class="spacer-30-line"></div>
-
-            <h5>Our Services</h5>
-            <ul class="ul-check">
-                <li>Trucking</li>
-                <li>Air Fright</li>
-                <li>Ship Freight</li>
-                <li>Rail Freight</li>
-                <li>Warehousing</li>
-                <li>Customs Brokerage</li>
-                <li>Last-Mile Delivery</li>
-                <li>Project Cargo</li>
-            </ul>
-
-            <div class="spacer-30-line"></div>
-
-            <h5>Contact Us</h5>
-            <div><i class="icofont-phone me-2 op-5"></i>+929 333 9296</div>
-            <div><i class="icofont-location-pin me-2 op-5"></i>100 S Main St, New York, NY </div>
-            <div><i class="icofont-envelope me-2 op-5"></i>contact@logixpress.com</div>
-
-            <div class="spacer-30-line"></div>
-
-            <h5>About Us</h5>
-            <p>We are a trusted logistics and cargo solutions provider committed to delivering your goods safely, efficiently, and on time. With years of experience in freight forwarding, warehousing, and international shipping.</p>
-
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-        </div>
-    </div>
-    <!-- overlay content end -->
-
-    <!-- Javascript Files
-    ================================================== -->
+    
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
 
 </body>
-
 </html>

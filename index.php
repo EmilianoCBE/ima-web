@@ -1,1031 +1,328 @@
-<!doctype html>
-<html lang="en">
-  <?php include 'includes/head.php'; ?>
+<!DOCTYPE html>
+<html lang="es">
 
-  <body>
+<?php 
+    $page_title = "Inicio - IMA Express";
+    include 'includes/head.php'; 
+?>
+
+<body>
     <div id="wrapper">
-      <a href="#" id="back-to-top"></a>
+        <a href="#" id="back-to-top"></a>
 
-      <!-- page preloader begin -->
-      <div id="de-loader"></div>
-      <!-- page preloader close -->
+        <div id="de-loader"></div>
+        
+        <?php include 'includes/header.php'; ?>
+        
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
 
-      <!-- header begin -->
-      <?php include 'includes/header.php'; ?>
-      <!-- header close -->
-      <!-- content begin -->
-      <div class="no-bottom no-top" id="content">
-        <div id="top"></div>
-
-        <section
-          class="text-light no-top no-bottom relative rounded-1 overflow-hidden m-3"
-        >
-          <div class="mh-800 position-relative">
-            <div class="static-content-layer">
-              <div class="sw-caption">
-                <div class="container h-100">
-                  <div
-                    class="row h-100 align-items-center justify-content-center"
-                  >
-                    <div class="col-lg-10 text-center">
-                      <div class="sw-text-wrapper">
-                        <img src="images/IMA_logo_white.png" alt="" width="300">
-                        <h2 class="animated text-uppercase fadeInUp">
-                          Conectando distancias,<br> acercando oportunidades
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                
-                <div class="swiper-slide">
-                  <div
-                    class="swiper-inner"
-                    data-bgimage="url(images/slider/slider_1.jpeg) center"
-                  >
-                    <div class="sw-overlay op-4"></div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div
-                    class="swiper-inner"
-                    data-bgimage="url(images/slider/slider_2.jpeg) center"
-                  >
-                    <div class="sw-overlay op-4"></div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div
-                    class="swiper-inner"
-                    data-bgimage="url(images/slider/slider_3.jpeg)"
-                  >
-                    <div class="sw-overlay op-4"></div>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-          </div>
-        </section>
-
-        <section class="mx-3 p-0">
-          <div class="container-fluid">
-            <div class="row g-3">
-              <!-- First Item -->
-              <div class="col-lg-4 col-md-6">
-                <a href="about.php">
-                  <div
-                    class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
-                    data-wow-delay="0s"
-                  >
-                    <div class="abs p-40 bottom-0 z-3">
-                      <h3 class="border-top pt-3">
-                        Advanced Real Time Tracking System
-                      </h3>
-                      <p class="mb-0 hover-mh-60">Read More</p>
-                    </div>
-                    <img
-                      src="images/misc/s1.webp"
-                      class="w-100 hover-scale-1-2 wow scaleIn"
-                      data-wow-delay="0s"
-                      alt=""
-                    />
-                    <div class="gradient-edge-bottom h-50 op-5"></div>
-                  </div>
-                </a>
-              </div>
-
-              <!-- Second Item -->
-              <div class="col-lg-4 col-md-6">
-                <a href="about.php">
-                  <div
-                    class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="abs p-4 m-1 z-2">
-                      <div
-                        class="p-4 mb-4 bg-color text-light rounded-1 text-center wow fadeInRight"
-                        data-wow-delay="0.2s"
-                      >
-                        <h1 class="fs-84 mb-1">15</h1>
-                        <div class="fs-16 lh-1-5">Years of Experience</div>
-                      </div>
-                    </div>
-                    <div class="abs p-40 bottom-0 z-3">
-                      <h3 class="border-top pt-3">
-                        Fully Transparent Freight Pricing
-                      </h3>
-                      <p class="mb-0 hover-mh-60">Read More</p>
-                    </div>
-                    <img
-                      src="images/misc/s2.webp"
-                      class="w-100 hover-scale-1-2 wow scaleIn"
-                      data-wow-delay="0.2s"
-                      alt=""
-                    />
-                    <div class="gradient-edge-bottom h-50 op-5"></div>
-                  </div>
-                </a>
-              </div>
-
-              <!-- Third Item -->
-              <div class="col-lg-4 col-md-6">
-                <a href="about.php">
-                  <div
-                    class="hover rounded-1 relative overflow-hidden text-light wow zoomIn"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="abs p-40 bottom-0 z-3">
-                      <h3 class="border-top pt-3">
-                        Comprehensive Customs and Compliance
-                      </h3>
-                      <p class="mb-0 hover-mh-60">Read More</p>
-                    </div>
-                    <img
-                      src="images/misc/s3.webp"
-                      class="w-100 hover-scale-1-2 wow scaleIn"
-                      data-wow-delay="0.4s"
-                      alt=""
-                    />
-                    <div class="gradient-edge-bottom h-50 op-5"></div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div class="container">
-            <div class="row g-4 justify-content-center">
-              <div class="col-lg-7 text-center">
-                <div class="subtitle wow fadeInUp">Our Services</div>
-                <h2 class="split" data-wow-delay=".2s">
-                  Trusted Logistics Partner for Worldwide Shipping
-                </h2>
-              </div>
-            </div>
-
-            <div class="row g-4 gx-5">
-              <div
-                class="col-lg-3 col-md-6 wow fadeInRight"
-                data-wow-delay="0s"
-              >
-                <a href="service-single.php" class="d-block hover relative">
-                  <img
-                    src="images/icons-color/1.png"
-                    class="w-70px mb-3 hover-jello infinite"
-                    alt=""
-                  />
-                  <h4>Trucking</h4>
-                  <p>
-                    Reliable ground transportation for shipments across the
-                    United States with flexible fleet options.
-                  </p>
-                </a>
-              </div>
-
-              <div
-                class="col-lg-3 col-md-6 wow fadeInRight"
-                data-wow-delay=".2s"
-              >
-                <a href="service-single.html" class="d-block hover relative">
-                  <img
-                    src="images/icons-color/2.png"
-                    class="w-70px mb-3 hover-jello infinite"
-                    alt=""
-                  />
-                  <h4>Air Freight</h4>
-                  <p>
-                    Fast delivery of time-sensitive cargo using global air
-                    routes with real-time tracking.
-                  </p>
-                </a>
-              </div>
-
-              <div
-                class="col-lg-3 col-md-6 wow fadeInRight"
-                data-wow-delay=".4s"
-              >
-                <a href="service-single.html" class="d-block hover relative">
-                  <img
-                    src="images/icons-color/3.png"
-                    class="w-70px mb-3 hover-jello infinite"
-                    alt=""
-                  />
-                  <h4>Ship Freight</h4>
-                  <p>
-                    Cost-effective shipping solution for bulk cargo with
-                    dependable international sea freight services.
-                  </p>
-                </a>
-              </div>
-
-              <div
-                class="col-lg-3 col-md-6 wow fadeInRight"
-                data-wow-delay=".6s"
-              >
-                <a href="service-single.html" class="d-block hover relative">
-                  <img
-                    src="images/icons-color/4.png"
-                    class="w-70px mb-3 hover-jello infinite"
-                    alt=""
-                  />
-                  <h4>Rail Freight</h4>
-                  <p>
-                    Efficient and eco-friendly rail transport option ideal for
-                    long-distance heavy shipments.
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section
-          aria-label="section"
-          class="p-0 mx-3 rounded-1 overflow-hidden"
-        >
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-12">
-                <a
-                  class="d-block hover popup-youtube"
-                  href="https://www.youtube.com/watch?v=FikkQTfbaOs"
-                >
-                  <div class="relative overflow-hidden">
-                    <div
-                      class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2"
-                    >
-                      <div class="player bg-dark border-0 circle wow fadeInUp">
-                        <span></span>
-                      </div>
-                    </div>
-                    <div
-                      class="absolute w-100 h-100 top-0 bg-dark hover-op-05"
-                    ></div>
-                    <img
-                      src="images/background/1.webp"
-                      class="w-100 hover-scale-1-1"
-                      alt=""
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="mx-3 mt-3 p-0">
-          <div class="container-fluid relative z-1">
-            <div class="row g-3">
-              <div class="col-lg-6">
-                <div class="h-100 relative bg-color p-5 text-light rounded-1">
-                  <div class="subtitle wow fadeInUp" data-wow-delay=".2s">
-                    Track Your Package
-                  </div>
-                  <h2 class="split" data-wow-delay=".4s">Quick Tracking</h2>
-
-                  <div class="row align-items-center justify-content-end">
-                    <div class="col-md-9 col-sm-8">
-                      <div class="hover-underline">
-                        <input
-                          class="form-underline mb-0 no-border fs-18"
-                          id="order_id"
-                          name="order_id"
-                          placeholder="enter your order number here..."
-                          type="text"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4">
-                      <a
-                        class="btn-main bg-white text-dark fx-slide w-100"
-                        href="track-result.html"
-                        ><span>Track It</span></a
-                      >
-                    </div>
-                  </div>
-
-                  <div class="abs col-lg-6 pos-sm-relative bottom-0 mb-5">
-                    <p class="wow fadeInUp" data-wow-delay=".6s">
-                      Track your package with our trusted logistics service.
-                      From pickup to delivery, we provide updates, secure
-                      handling, and visibility so your shipment arrives safely
-                      and on time.
-                    </p>
-                  </div>
-
-                  <img
-                    src="images/misc/c2.webp"
-                    class="w-50 abs bottom-0 end-0 wow scaleIn"
-                    data-wow-duration="2s"
-                    alt=""
-                  />
-                </div>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="relative">
-                  <div
-                    class="m-5 p-40 overlay-black-6 bg-blur abs bottom-0 mb-5 rounded-1 text-white z-2 xs-hide"
-                  >
-                    <p>
-                      “We’ve trusted this logistics company for years, and they
-                      never disappoint. Every shipment is handled with care,
-                      delivered on time, and supported with clear tracking.
-                      Their team makes global shipping simple, reliable, and
-                      stress-free for our business.”
-                    </p>
-
-                    <div class="d-flex align-items-center">
-                      <div>
-                        <img
-                          src="images/testimonial/2.webp"
-                          class="w-40px h-auto me-4 circle"
-                          alt=""
-                        />
-                      </div>
-                      <div class="lh-1-5">
-                        <div class="fw-600">Sarah Johnson</div>
-                        <div class="fs-14 op-6">Store Owner</div>
-                      </div>
-                    </div>
-
-                    <div class="abs bottom-0 end-0">
-                      <i class="fa fa-quote-right id-color fs-40 m-3 p-2"></i>
-                    </div>
-                  </div>
-
-                  <div class="bg-light relative overflow-hidden rounded-1">
-                    <img
-                      src="images/misc/s4.webp"
-                      class="w-100 wow scaleIn"
-                      data-wow-duration="2s"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div class="container">
-            <div class="row g-4 justify-content-center">
-              <div class="col-lg-7 text-center">
-                <div class="subtitle wow fadeInUp">Why Choose Us</div>
-                <h2 class="split" data-wow-delay=".2s">
-                  Trusted Logistics Partner for Worldwide Shipping
-                </h2>
-              </div>
-            </div>
-            <div class="row g-4">
-              <div class="col-lg-4 col-md-6 wow fadeInUp">
-                <div class="relative">
-                  <i
-                    class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"
-                  ></i>
-                  <div class="ps-100 ms-4">
-                    <h4>Experienced Logistics</h4>
-                    <p>
-                      Our specialists bring decades of experience in freight
-                      forwarding and customs clearance, ensuring smooth and
-                      efficient supply chain solutions worldwide.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 wow fadeInUp">
-                <div class="relative">
-                  <i
-                    class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"
-                  ></i>
-                  <div class="ps-100 ms-4">
-                    <h4>Fast Delivery Commitment</h4>
-                    <p>
-                      We understand the urgency of every shipment and act
-                      quickly. Optimized routes and tracking technology ensure
-                      timely deliveries without unnecessary delays.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 wow fadeInUp">
-                <div class="relative">
-                  <i
-                    class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"
-                  ></i>
-                  <div class="ps-100 ms-4">
-                    <h4>Transparent Pricing Policy</h4>
-                    <p>
-                      Our pricing is clear, competitive, and easy to understand
-                      for all clients. We guarantee no hidden charges and
-                      complete financial transparency every time.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 wow fadeInUp">
-                <div class="relative">
-                  <i
-                    class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"
-                  ></i>
-                  <div class="ps-100 ms-4">
-                    <h4>Reliable Cargo Handling</h4>
-                    <p>
-                      Every shipment is managed with precision and care to avoid
-                      risks. From packing to loading, we guarantee your cargo
-                      arrives safely and intact.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 wow fadeInUp">
-                <div class="relative">
-                  <i
-                    class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"
-                  ></i>
-                  <div class="ps-100 ms-4">
-                    <h4>Comprehensive Solutions</h4>
-                    <p>
-                      We cover every step of logistics including warehousing,
-                      distribution, and freight. Our integrated services make
-                      supply chain management simple and efficient.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 wow fadeInUp">
-                <div class="relative">
-                  <i
-                    class="abs fs-40 p-4 bg-dark icon_check rounded-1 text-light"
-                  ></i>
-                  <div class="ps-100 ms-4">
-                    <h4>Satisfaction Guarantee</h4>
-                    <p>
-                      Your trust is our highest priority across all shipments.
-                      We back our services with responsive support and a strong
-                      customer satisfaction guarantee.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="pt-0 overflow-hidden">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-12">
-                <div
-                  class="owl-custom-nav menu-float"
-                  data-target="#carousel-1"
-                >
-                  <a class="btn-next"></a>
-                  <a class="btn-prev"></a>
-
-                  <div
-                    id="carousel-1"
-                    class="owl-2-cols-center owl-carousel owl-theme"
-                  >
-                    <!-- item begin -->
-                    <div class="item">
-                      <a href="about.html">
-                        <div
-                          class="hover rounded-1 relative overflow-hidden text-light"
-                        >
-                          <div class="abs p-40 bottom-0 z-3 w-50">
-                            <h3>Advanced Real Time Tracking System</h3>
-                            <p class="mb-0 hover-mh-60">Home Installation</p>
-                          </div>
-                          <img
-                            src="images/misc/l1.webp"
-                            class="w-100 hover-scale-1-2"
-                            alt=""
-                          />
-                          <div class="gradient-edge-bottom h-50 op-5"></div>
+            <section class="text-light no-top no-bottom relative rounded-1 overflow-hidden m-3">
+                <div class="mh-800 position-relative">
+                    <div class="static-content-layer">
+                        <div class="sw-caption">
+                            <div class="container h-100">
+                                <div class="row h-100 align-items-center justify-content-center">
+                                    <div class="col-lg-10 text-center">
+                                        <div class="sw-text-wrapper">
+                                            <img src="images/IMA_logo_white.png" alt="IMA Express" width="300" class="mb-4 wow fadeInUp">
+                                            <h2 class="animated text-uppercase fadeInUp display-4 fw-bold mb-4">
+                                                Conectando distancias,<br> acercando oportunidades
+                                            </h2>
+                                            <div class="d-flex justify-content-center gap-3 wow fadeInUp" data-wow-delay=".2s">
+                                                <a href="contact.php" class="btn-main">Cotizar Ahora</a>
+                                                <a href="servicios.php" class="btn-main btn-line-white">Nuestros Servicios</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </a>
                     </div>
-                    <!-- item end -->
 
-                    <!-- item begin -->
-                    <div class="item">
-                      <a href="about.html">
-                        <div
-                          class="hover rounded-1 relative overflow-hidden text-light"
-                        >
-                          <div class="abs p-40 bottom-0 z-3 w-50">
-                            <h3>Advanced Real Time Tracking System</h3>
-                            <p class="mb-0 hover-mh-60">Home Installation</p>
-                          </div>
-                          <img
-                            src="images/misc/l2.webp"
-                            class="w-100 hover-scale-1-2"
-                            alt=""
-                          />
-                          <div class="gradient-edge-bottom h-50 op-5"></div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-inner" style="background-image: url('images/slider/slider_1.jpeg'); background-position: center; background-size: cover;">
+                                    <div class="sw-overlay op-4"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-inner" style="background-image: url('images/slider/slider_2.jpeg'); background-position: center; background-size: cover;">
+                                    <div class="sw-overlay op-4"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-inner" style="background-image: url('images/slider/slider_3.jpeg'); background-position: center; background-size: cover;">
+                                    <div class="sw-overlay op-4"></div>
+                                </div>
+                            </div>
                         </div>
-                      </a>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
-                    <!-- item end -->
+                </div>
+            </section>
 
-                    <!-- item begin -->
-                    <div class="item">
-                      <a href="about.html">
-                        <div
-                          class="hover rounded-1 relative overflow-hidden text-light"
-                        >
-                          <div class="abs p-40 bottom-0 z-3 w-50">
-                            <h3>Advanced Real Time Tracking System</h3>
-                            <p class="mb-0 hover-mh-60">Home Installation</p>
-                          </div>
-                          <img
-                            src="images/misc/l3.webp"
-                            class="w-100 hover-scale-1-2"
-                            alt=""
-                          />
-                          <div class="gradient-edge-bottom h-50 op-5"></div>
+            <section class="mx-3 p-0 relative mt-n50 sm-mt-0 z-3">
+                <div class="container">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
+                            <div class="bg-dark text-light p-4 rounded-1 h-100 shadow-lg border-top border-warning border-4 hover-scale-effect">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="p-3 bg-white-10 rounded-circle me-3">
+                                        <i class="fa-solid fa-map-location-dot fs-24 text-warning"></i>
+                                    </div>
+                                    <h4 class="mb-0">Cobertura Total</h4>
+                                </div>
+                                <p class="op-8 mb-3">Operamos en todo México y Estados Unidos con servicio puerta a puerta sin interrupciones.</p>
+                                <a href="cobertura.php" class="text-warning fw-bold hover-underline">Ver Mapa <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
                         </div>
-                      </a>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="bg-color text-light p-4 rounded-1 h-100 shadow-lg border-top border-white border-4 hover-scale-effect">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="p-3 bg-white-10 rounded-circle me-3">
+                                        <i class="fa-solid fa-right-left fs-24 text-white"></i>
+                                    </div>
+                                    <h4 class="mb-0">Expertos en Cruce</h4>
+                                </div>
+                                <p class="op-8 mb-3">Especialistas en la frontera de Laredo, Texas. Agilizamos sus importaciones y exportaciones.</p>
+                                <a href="servicios.php" class="text-white fw-bold hover-underline">Nuestros Servicios <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="bg-white text-dark p-4 rounded-1 h-100 shadow-lg border-top border-dark border-4 hover-scale-effect">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="p-3 bg-light rounded-circle me-3">
+                                        <i class="fa-solid fa-headset fs-24 id-color"></i>
+                                    </div>
+                                    <h4 class="mb-0">Atención Personal</h4>
+                                </div>
+                                <p class="text-muted mb-3">Sin sistemas automatizados complicados. Comunicación directa con expertos que conocen su cuenta.</p>
+                                <a href="contact.php" class="id-color fw-bold hover-underline">Contactar <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- item end -->
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
+            </section>
 
-        <section class="pt-0">
-          <div class="container">
-            <div class="row g-4">
-              <div class="col-lg-6">
-                <div class="subtitle id-color">FAQ</div>
-                <h2 class="split">
-                  Everything You Should Know About Cargo Logistics
-                </h2>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="de-tab">
-                  <ul class="d-tab-nav mb-4">
-                    <li class="active-tab">Shipping & Delivery</li>
-                    <li>Tracking & Support</li>
-                    <li>Billing & Documentation</li>
-                  </ul>
-                  <ul class="d-tab-content">
-                    <li>
-                      <div class="accordion">
-                        <div class="accordion-section">
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-a1"
-                          >
-                            What services do you offer?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-a1"
-                          >
-                            We provide air, sea, and land cargo shipping,
-                            customs clearance, freight forwarding, and last-mile
-                            delivery solutions.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-a2"
-                          >
-                            How do I get started to get service?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-a2"
-                          >
-                            Simply contact us or request a quote online. Our
-                            team will guide you through shipping options,
-                            documentation, and costs.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-a3"
-                          >
-                            Do you handle international shipments?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-a3"
-                          >
-                            Yes, we handle both domestic and international
-                            cargo, including customs brokerage and global
-                            freight forwarding.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-a4"
-                          >
-                            What is included in the shipping process?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-a4"
-                          >
-                            Our shipping process covers pickup, cargo handling,
-                            customs clearance, real-time tracking, and final
-                            delivery.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-a5"
-                          >
-                            How long does shipping usually take?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-a5"
-                          >
-                            Transit times depend on the route and mode of
-                            transport. Domestic shipping may take 1–5 days,
-                            while international cargo can range from 7–30 days.
-                          </div>
+            <section>
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeInLeft">
+                            <div class="relative">
+                                <img src="images/misc/s1.webp" class="w-100 rounded-1 shadow-lg relative z-2" alt="Equipo IMA Express">
+                                
+                                <div class="abs bottom-0 start-0 m-4 p-3 bg-white rounded-1 shadow z-3">
+                                    <div class="d-flex align-items-center">
+                                        <h2 class="mb-0 me-3 id-color display-4 fw-bold">2021</h2>
+                                        <div class="lh-sm">
+                                            <span class="d-block fw-bold">Año de</span>
+                                            Fundación
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="accordion">
-                        <div class="accordion-section">
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-b1"
-                          >
-                            How can I track my shipment?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-b1"
-                          >
-                            You can track your package using our online tracking
-                            system with your shipment ID or booking number.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-b2"
-                          >
-                            Do you provide real-time updates?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-b2"
-                          >
-                            Yes, we provide real-time cargo updates via email,
-                            SMS, or our mobile app so you know your shipment
-                            status at all times.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-b3"
-                          >
-                            What if my package is delayed?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-b3"
-                          >
-                            In case of delays, our customer support team will
-                            notify you immediately and provide the next
-                            available shipping option.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-b4"
-                          >
-                            Can I change the delivery address after booking?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-b4"
-                          >
-                            Yes, address changes are possible before dispatch.
-                            Once shipped, changes may incur extra costs
-                            depending on the route.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-b5"
-                          >
-                            Do you offer customer support 24/7?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-b5"
-                          >
-                            Yes, our logistics support team is available 24/7 to
-                            assist with shipment inquiries, tracking, and urgent
-                            requests.
-                          </div>
+                        
+                        <div class="col-lg-6 wow fadeInRight">
+                            <div class="ps-lg-4">
+                                <div class="subtitle id-color">Sobre Nosotros</div>
+                                <h2 class="mb-3">Su Socio Estratégico en Logística Binacional</h2>
+                                <p class="lead text-dark">
+                                    IMA Express LLC nació con una misión clara: ofrecer soluciones de transporte seguras y confiables entre México y Estados Unidos.
+                                </p>
+                                <p class="mb-4">
+                                    Entendemos que cada envío es una promesa de negocio. Por eso, combinamos una flota moderna y un equipo apasionado para apoyar el crecimiento de las empresas que confían en nosotros, brindando siempre un trato directo y humano.
+                                </p>
+                                <a href="about.php" class="btn-main">Conoce Nuestra Historia</a>
+                            </div>
                         </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="accordion">
-                        <div class="accordion-section">
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-c1"
-                          >
-                            What payment methods do you accept?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-c1"
-                          >
-                            We accept bank transfers, credit cards, PayPal, and
-                            corporate billing accounts for approved clients.
-                          </div>
+                    </div>
+                </div>
+            </section>
 
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-c2"
-                          >
-                            Do you provide shipping invoices?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-c2"
-                          >
-                            Yes, every shipment includes a detailed invoice with
-                            freight charges, customs fees, and handling costs.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-c3"
-                          >
-                            How do customs duties and taxes work?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-c3"
-                          >
-                            Duties and taxes are calculated based on the
-                            destination country’s regulations. We assist with
-                            documentation and customs clearance.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-c4"
-                          >
-                            Can I request a cost breakdown?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-c4"
-                          >
-                            Absolutely. We provide a transparent cost breakdown
-                            for shipping, including freight, handling, and
-                            clearance charges.
-                          </div>
-
-                          <div
-                            class="accordion-section-title"
-                            data-tab="#accordion-c5"
-                          >
-                            Do you offer credit terms for businesses?
-                          </div>
-                          <div
-                            class="accordion-section-content"
-                            id="accordion-c5"
-                          >
-                            Yes, we provide flexible billing and credit terms
-                            for qualified business accounts upon approval.
-                          </div>
+            <section class="bg-light mx-3 rounded-1">
+                <div class="container">
+                    <div class="row justify-content-center text-center mb-5">
+                        <div class="col-lg-7">
+                            <div class="subtitle id-color">Lo que hacemos mejor</div>
+                            <h2>Soluciones Logísticas Integrales</h2>
                         </div>
-                      </div>
-                    </li>
-                  </ul>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
+                            <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
+                                <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
+                                    <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div>
+                                    <img src="images/services/1.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Caja Seca">
+                                </div>
+                                <h4 class="mb-2 group-hover-color transition-all">Caja Seca 53'</h4>
+                                <p class="text-muted mb-0">Transporte FTL y LTL optimizado para maximizar su carga y reducir costos.</p>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                            <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
+                                <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
+                                    <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div>
+                                    <img src="images/services/2.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Internacional">
+                                </div>
+                                <h4 class="mb-2 group-hover-color transition-all">Internacional (MX-USA)</h4>
+                                <p class="text-muted mb-0">Servicio Door-to-Door sin transbordos. Gestión aduanera y cruce ágil.</p>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
+                                <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
+                                    <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div>
+                                    <img src="images/services/3.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Urgentes">
+                                </div>
+                                <h4 class="mb-2 group-hover-color transition-all">Envíos Urgentes</h4>
+                                <p class="text-muted mb-0">Soluciones Just-in-Time y Expedited para cuando el tiempo es crítico.</p>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-5">
+                        <a href="servicios.php" class="btn-main btn-line">Ver Todos los Servicios</a>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
+            </section>
 
-        <section class="p-0 overflow-hidden" aria-label="section">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <img
-                  src="images/misc/c1.webp"
-                  class="w-100 wow fadeInUp"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="bg-color text-light pt-50 pb-50">
-          <div class="container">
-            <div class="row g-4">
-              <div class="col-md-9">
-                <h3 class="mb-0 fs-32 split">
-                  Ready to Ship Your Cargo Worldwide?
-                </h3>
-              </div>
-              <div class="col-lg-3 text-lg-end">
-                <a
-                  class="btn-main fx-slide btn-line wow fadeInRight"
-                  data-wow-delay=".2s"
-                  href="booking.html"
-                  ><span>Book Shipment</span></a
-                >
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <!-- content close -->
-
-      <!-- footer begin -->
-      <footer class="text-light section-dark">
-        <div class="container">
-          <div class="row g-4 justify-content-between">
-            <div class="col-md-6">
-              <img src="images/logo-white.webp" class="w-170px mb-2" alt="" />
-              <div class="spacer-single"></div>
-              <div class="row g-4">
-                <div class="col-md-6">
-                  <div class="widget">
-                    <h5>Services</h5>
-                    <ul>
-                      <li><a href="service-single.html">Trucking</a></li>
-                      <li><a href="service-single.html">Air Freight</a></li>
-                      <li><a href="service-single.html">Ship Freight</a></li>
-                      <li><a href="service-single.html">Rail Freight</a></li>
-                      <li><a href="service-single.html">Warehousing</a></li>
-                      <li>
-                        <a href="service-single.html">Customs Brokerage</a>
-                      </li>
-                    </ul>
-                  </div>
+            <section>
+                <div class="container">
+                    <div class="row justify-content-center text-center mb-5">
+                        <div class="col-lg-8">
+                            <div class="subtitle id-color">Sectores</div>
+                            <h2>Experiencia en su Industria</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay="0s">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                                <i class="fa-solid fa-industry fs-40 id-color mb-3"></i>
+                                <h5 class="fs-16 mb-0">Manufactura</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".1s">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                                <i class="fa-solid fa-wheat-awn fs-40 id-color mb-3"></i>
+                                <h5 class="fs-16 mb-0">Agro</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".2s">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                                <i class="fa-solid fa-helmet-safety fs-40 id-color mb-3"></i>
+                                <h5 class="fs-16 mb-0">Construcción</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".3s">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                                <i class="fa-solid fa-cart-shopping fs-40 id-color mb-3"></i>
+                                <h5 class="fs-16 mb-0">Retail</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".4s">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                                <i class="fa-solid fa-recycle fs-40 id-color mb-3"></i>
+                                <h5 class="fs-16 mb-0">Medio Ambiente</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".5s">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                                <i class="fa-solid fa-plus fs-40 id-color mb-3"></i>
+                                <h5 class="fs-16 mb-0">Ver Más</h5>
+                                <a href="sectores.php" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div class="col-md-6">
-                  <div class="widget">
-                    <h5>Company</h5>
-                    <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="team.html">Our Team</a></li>
-                      <li><a href="careers.html">Careers</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                  </div>
+            <section class="bg-dark text-light mx-3 rounded-1 mb-5 p-4 p-lg-5">
+                <div class="container">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-8 text-center mb-4">
+                            <div class="subtitle text-warning wow fadeInUp">Nuestros Valores</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".1s">¿Por qué elegir IMA Express?</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
+                                <div class="me-4 mt-1 flex-shrink-0">
+                                    <div class="p-3 bg-warning rounded-circle text-dark">
+                                        <i class="fa-solid fa-comments fs-24"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h4 class="mb-2 text-white">Comunicación Directa</h4>
+                                    <p class="mb-0 op-8 fs-15">Sin call centers. Hablará con personas reales que conocen su cuenta y entienden sus necesidades específicas.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
+                                <div class="me-4 mt-1 flex-shrink-0">
+                                    <div class="p-3 bg-warning rounded-circle text-dark">
+                                        <i class="fa-solid fa-route fs-24"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h4 class="mb-2 text-white">Rutas Optimizadas</h4>
+                                    <p class="mb-0 op-8 fs-15">Planificación inteligente para evitar retrasos, reducir costos operativos y mejorar los tiempos de entrega.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
+                                <div class="me-4 mt-1 flex-shrink-0">
+                                    <div class="p-3 bg-warning rounded-circle text-dark">
+                                        <i class="fa-solid fa-shield-halved fs-24"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h4 class="mb-2 text-white">Seguridad Primero</h4>
+                                    <p class="mb-0 op-8 fs-15">Protocolos estrictos de manejo y monitoreo constante para garantizar la integridad de su carga en todo momento.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </section>
 
-              <div class="social-icons mb-sm-30 text-center">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="d-flex align-items-center justify-content-between">
-                <h2>Get in Touch</h2>
-                <img
-                  src="images/ui/up-right-arrow.webp"
-                  class="w-60px op-5"
-                  alt=""
-                />
-              </div>
-
-              <div class="widget">
-                <div class="op-5 fs-15">Email</div>
-                <h3>contact@logixpress.com</h3>
-
-                <div class="spacer-20"></div>
-
-                <div class="op-5 fs-15">Phone</div>
-                <h3>+929 333 9296</h3>
-
-                <div class="spacer-20"></div>
-
-                <div class="op-5 fs-15">Office Location</div>
-                <h3>100 S Main St, New York, NY</h3>
-
-                <div class="spacer-20"></div>
-              </div>
-            </div>
-          </div>
+            <section class="bg-color text-light pt-50 pb-50">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-9">
+                            <h3 class="mb-0 fs-32 split">¿Listo para mover su carga por Norteamérica?</h3>
+                        </div>
+                        <div class="col-lg-3 text-lg-end">
+                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span>Contactar Ahora</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="subfooter">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                Copyright 2025 LogiXpress by Designesia
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- footer close -->
+
+        <?php include 'includes/footer.php'; ?>
     </div>
 
-    <!-- overlay content begin -->
-    <div id="extra-wrap" class="text-light">
-      <div id="btn-close">
-        <span></span>
-        <span></span>
-      </div>
-
-      <div id="extra-content">
-        <img src="images/logo-white.webp" class="w-200px" alt="" />
-
-        <div class="spacer-30-line"></div>
-
-        <h5>Our Services</h5>
-        <ul class="ul-check">
-          <li>Trucking</li>
-          <li>Air Fright</li>
-          <li>Ship Freight</li>
-          <li>Rail Freight</li>
-          <li>Warehousing</li>
-          <li>Customs Brokerage</li>
-          <li>Last-Mile Delivery</li>
-          <li>Project Cargo</li>
-        </ul>
-
-        <div class="spacer-30-line"></div>
-
-        <h5>Contact Us</h5>
-        <div><i class="icofont-phone me-2 op-5"></i>+929 333 9296</div>
-        <div>
-          <i class="icofont-location-pin me-2 op-5"></i>100 S Main St, New York,
-          NY
-        </div>
-        <div>
-          <i class="icofont-envelope me-2 op-5"></i>contact@logixpress.com
-        </div>
-
-        <div class="spacer-30-line"></div>
-
-        <h5>About Us</h5>
-        <p>
-          We are a trusted logistics and cargo solutions provider committed to
-          delivering your goods safely, efficiently, and on time. With years of
-          experience in freight forwarding, warehousing, and international
-          shipping.
-        </p>
-
-        <div class="social-icons">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-      </div>
-    </div>
-    <!-- overlay content end -->
-
-    <!-- Javascript Files
-    ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
-    <script src="js/custom-marquee.js"></script>
-  </body>
+
+</body>
 </html>
