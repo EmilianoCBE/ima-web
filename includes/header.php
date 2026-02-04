@@ -1,24 +1,27 @@
 <header class="header-static transparent mt-lg-4 pt-lg-2">
     <style>
-        /* --- ESTILOS DESKTOP (Pantallas Grandes) --- */
+        /* --- DESKTOP (Pantallas Grandes) --- */
         @media (min-width: 992px) {
             .logo-mobile { display: none !important; }
             .logo-main { display: block !important; }
-            #btn-extra { display: none !important; } /* Ocultar hamburguesa en desktop */
+            #btn-mobile-custom { display: none !important; } /* Ocultar hamburguesa custom */
         }
 
-        /* --- ESTILOS MOBILE (Celulares y Tablets) --- */
+        /* --- MOBILE (Celulares y Tablets) --- */
         @media (max-width: 991px) {
-            /* 1. Header Sólido y Seguro */
+            /* Header Sólido Negro */
             header.header-static.transparent {
-                position: relative !important; /* Deja de flotar para no tapar nada */
-                background-color: #111 !important; /* Fondo negro elegante */
+                position: relative !important;
+                background-color: #111 !important;
                 margin-top: 0 !important;
                 padding: 15px 0 !important;
                 height: auto !important;
             }
 
-            /* 2. Logo Controlado */
+            /* Ocultar elementos originales que estorben */
+            #btn-extra { display: none !important; } /* Ocultamos el botón original del template */
+
+            /* Logo Mobile */
             .logo-main, .logo-scroll { display: none !important; }
             .logo-mobile { 
                 display: block !important;
@@ -26,55 +29,77 @@
                 width: auto !important;
             }
 
-            /* 3. Menú (Lista de links) */
+            /* El Menú Desplegable */
             #mainmenu {
                 display: none; /* Oculto por defecto */
                 width: 100%;
-                float: none;
                 margin: 20px 0 0 0;
                 padding: 0;
                 list-style: none;
-                background: #111; /* Fondo oscuro para el dropdown */
+                background: #111;
                 border-top: 1px solid #333;
+                float: none !important;
             }
 
             #mainmenu li {
                 display: block;
                 width: 100%;
                 border-bottom: 1px solid #222;
+                margin: 0 !important;
             }
 
             #mainmenu li a {
                 display: block;
-                padding: 12px 0;
+                padding: 15px 0;
                 color: #fff !important;
-                text-align: center; /* Centrado para estilo app */
+                text-align: center;
+                font-size: 16px;
+                text-decoration: none;
+            }
+            
+            /* Submenús en móvil (Opcional: mostrarlos siempre o simplificar) */
+            #mainmenu ul {
+                display: block !important; /* Mostrar submenús abiertos por defecto en móvil para facilitar */
+                position: static !important;
+                background: #1a1a1a;
+                box-shadow: none !important;
+                width: 100% !important;
+                padding: 0;
+                opacity: 1 !important;
+                visibility: visible !important;
+                border: none;
+            }
+            
+            #mainmenu ul li {
+                border-bottom: 1px solid #333;
+            }
+            
+            #mainmenu ul li a {
+                padding: 10px 0;
+                font-size: 14px;
+                opacity: 0.8;
             }
 
-            /* 4. Botón Hamburguesa Visible y Clickable */
-            #btn-extra {
+            /* NUESTRO BOTÓN HAMBURGUESA CUSTOM */
+            #btn-mobile-custom {
                 display: block !important;
                 cursor: pointer;
-                width: 28px;
-                height: 20px;
+                width: 30px;
+                height: 25px;
                 position: relative;
-                z-index: 9999; /* ¡Muy importante! Encima de todo */
+                z-index: 9999;
+                background: transparent;
+                border: none;
             }
 
-            #btn-extra span {
+            #btn-mobile-custom span {
                 display: block;
                 width: 100%;
                 height: 2px;
                 background-color: #fff;
                 margin-bottom: 6px;
+                border-radius: 2px;
                 transition: all 0.3s;
-            }
-            
-            /* Separación extrema para evitar toques fantasma */
-            .de-flex {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
             }
         }
     </style>
@@ -82,27 +107,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="de-flex sm-pt10">
+                <div class="de-flex sm-pt10 justify-content-between align-items-center">
                     
                     <div class="de-flex-col">
                         <div id="logo">
                             <a href="index.php">
-                                <img class="logo-main" 
-                                     src="images/IMA_logo_white.png" 
-                                     style="max-height: 85px; width: auto;" 
-                                     alt="IMA Express">
-                                
-                                <img class="logo-scroll" 
-                                     src="images/IMA_logo_white.png" 
-                                     style="max-height: 50px; width: auto;" 
-                                     alt="">
-                                
-                                <img class="logo-mobile" 
-                                     src="images/IMA_logo_white.png" 
-                                     alt="IMA Express">
+                                <img class="logo-main" src="images/IMA_logo_white.png" style="max-height: 85px; width: auto;" alt="IMA Express">
+                                <img class="logo-scroll" src="images/IMA_logo_white.png" style="max-height: 50px; width: auto;" alt="">
+                                <img class="logo-mobile" src="images/IMA_logo_white.png" alt="IMA Express">
                             </a>
                         </div>
-                        </div>
+                    </div>
                     
                     <div class="de-flex-col header-col-mid">
                         <ul id="mainmenu">
@@ -121,11 +136,11 @@
                     </div>
                     
                     <div class="de-flex-col">
-                        <div id="btn-extra" onclick="toggleMobileMenu()">
+                        <button id="btn-mobile-custom" onclick="toggleCustomMenu()">
                             <span></span>
                             <span></span>
                             <span></span>
-                        </div>
+                        </button>
                     </div>
 
                 </div>
@@ -134,19 +149,14 @@
     </div>
 
     <script>
-        function toggleMobileMenu() {
+        function toggleCustomMenu() {
             var menu = document.getElementById("mainmenu");
-            var btn = document.getElementById("btn-extra");
             
-            // Lógica simple: Si está oculto o no tiene estilo display, muéstralo.
+            // Usamos una lógica simple y forzosa
             if (menu.style.display === "block") {
                 menu.style.display = "none";
-                // Opcional: Volver a estado original el icono
-                btn.style.opacity = "1"; 
             } else {
                 menu.style.display = "block";
-                // Opcional: Efecto visual de "activo"
-                btn.style.opacity = "0.7";
             }
         }
     </script>
