@@ -59,8 +59,8 @@
                         </div>
                         <div class="col-lg-6 wow fadeInRight">
                             <div class="ps-lg-4">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark">
+                                <div class="d-flex align-items-center mb-3" style="white-space: normal;">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
                                         <i class="fa-solid fa-truck-moving fs-24"></i>
                                     </div>
                                     <h3 class="mb-0">Transporte en Caja Seca de 53'</h3>
@@ -80,8 +80,8 @@
                     <div class="row g-5 align-items-center mb-5">
                         <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
                             <div class="pe-lg-4">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark">
+                                <div class="d-flex align-items-center mb-3" style="white-space: normal;">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
                                         <i class="fa-solid fa-globe-americas fs-24"></i>
                                     </div>
                                     <h3 class="mb-0">Transporte Internacional</h3>
@@ -115,8 +115,8 @@
                         </div>
                         <div class="col-lg-6 wow fadeInRight">
                             <div class="ps-lg-4">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark">
+                                <div class="d-flex align-items-center mb-3" style="white-space: normal;">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
                                         <i class="fa-solid fa-stopwatch fs-24"></i>
                                     </div>
                                     <h3 class="mb-0">Envíos Urgentes y Programados</h3>
@@ -136,8 +136,8 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
                             <div class="pe-lg-4">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark">
+                                <div class="d-flex align-items-center mb-3" style="white-space: normal;">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
                                         <i class="fa-solid fa-headset fs-24"></i>
                                     </div>
                                     <h3 class="mb-0">Seguimiento y Atención</h3>
