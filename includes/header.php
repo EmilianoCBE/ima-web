@@ -17,12 +17,12 @@
                         <ul id="mainmenu">
                             <li><a class="menu-item" href="index.php">Inicio</a></li>
                             <li><a class="menu-item" href="sectores.php">Sectores</a></li>
+                            <li><a class="menu-item" href="cobertura.php">Cobertura</a></li>
                             <li>
                                 <a class="menu-item" href="#">Quiénes somos</a>
                                 <ul>
                                     <li><a href="servicios.php">Servicios</a></li>
                                     <li><a href="about.php">Nuestra historia</a></li>
-                                    <li><a href="cobertura.php">Cobertura</a></li>
                                 </ul>
                             </li>
                             <li><a class="menu-item" href="contact.php">Contacto</a></li>
@@ -53,56 +53,59 @@
 </div>
 
 <div id="fullscreen-menu-overlay" class="fullscreen-menu">
-    <div class="menu-inner">
-        <button class="close-menu-btn" onclick="toggleFullScreenMenu()">
-            <i class="fa fa-times"></i>
-        </button>
+    <button class="close-menu-btn" onclick="toggleFullScreenMenu()">
+        <i class="fa fa-times"></i>
+    </button>
 
+    <div class="menu-inner">
+        
         <div class="menu-logo-container">
-            <img src="images/IMA_logo_white.png" alt="IMA Logo" style="max-width: 150px;">
+            <img src="images/IMA_logo_white.png" alt="IMA Logo" style="max-width: 140px;">
         </div>
 
         <nav class="mobile-nav-links">
             <ul>
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="sectores.php">Sectores</a></li>
+                <li><a href="cobertura.php">Cobertura</a></li>
                 
-                <li class="has-children">
-                    <span>Quiénes Somos</span>
+                <li class="has-children" onclick="toggleMobileSubmenu(this)">
+                    <div class="d-flex justify-content-between align-items-center" style="cursor: pointer;">
+                        <span>Quiénes Somos</span>
+                        <i class="fa fa-chevron-down arrow-indicator"></i>
+                    </div>
+                    
                     <ul class="sub-nav">
                         <li><a href="servicios.php">Servicios</a></li>
                         <li><a href="about.php">Nuestra Historia</a></li>
-                        <li><a href="cobertura.php">Cobertura</a></li>
                     </ul>
                 </li>
                 
                 <li><a href="contact.php" class="btn-highlight">Contacto</a></li>
             </ul>
         </nav>
-        
-        <div class="menu-footer-info">
-            <p>Laredo, TX | México</p>
-        </div>
+    </div>
+
+    <div class="menu-footer-info">
+        <p>Laredo, TX | México</p>
     </div>
 </div>
 
 
 <style>
-    /* 1. LOGICA DE VISUALIZACIÓN */
     .header-desktop { display: none !important; }
     .header-mobile-bar { display: block !important; }
     
     @media (min-width: 992px) {
         .header-desktop { display: block !important; }
         .header-mobile-bar { display: none !important; }
-        .fullscreen-menu { display: none !important; } /* Aseguramos que no moleste en PC */
+        .fullscreen-menu { display: none !important; } 
     }
 
-    /* 2. BARRA MÓVIL SUPERIOR (Siempre visible) */
     .header-mobile-bar {
         background-color: #111;
         height: 70px;
-        position: relative; /* OJO: relative para que empuje contenido */
+        position: relative;
         z-index: 999;
         border-bottom: 1px solid #222;
     }
@@ -127,17 +130,15 @@
         border-radius: 2px;
     }
 
-    /* 3. MENÚ PANTALLA COMPLETA (El Overlay) */
     .fullscreen-menu {
-        position: fixed; /* FIJO: Rompe cualquier restricción del template */
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: #000; /* Fondo negro sólido */
-        z-index: 999999; /* Z-Index extremo para estar encima de todo */
+        background-color: #000;
+        z-index: 999999;
         
-        /* Animación de entrada: Viene de arriba */
         transform: translateY(-100%); 
         opacity: 0;
         visibility: hidden;
@@ -145,38 +146,40 @@
         
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start; 
         align-items: center;
-        overflow-y: auto; /* Permite scroll si el celular es pequeño */
+        overflow-y: auto; 
+        padding-top: 80px; 
+        padding-bottom: 60px; 
     }
 
-    /* Estado ABIERTO */
     .fullscreen-menu.active {
         transform: translateY(0);
         opacity: 1;
         visibility: visible;
     }
 
-    /* Contenido interno */
     .menu-inner {
         width: 100%;
+        max-width: 400px;
         text-align: center;
-        padding: 20px;
+        padding: 0 20px;
     }
 
     .close-menu-btn {
         position: absolute;
         top: 20px;
-        right: 20px;
+        right: 25px;
         background: none;
         border: none;
         color: #fff;
-        font-size: 30px;
+        font-size: 32px;
         cursor: pointer;
+        z-index: 1000000;
     }
 
     .menu-logo-container {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .mobile-nav-links ul {
@@ -186,15 +189,22 @@
     }
 
     .mobile-nav-links ul li {
-        margin-bottom: 15px;
+        margin-bottom: 0;
+        border-bottom: 1px solid #222;
+    }
+    
+    .mobile-nav-links ul li:last-child {
+        border-bottom: none;
     }
 
-    .mobile-nav-links ul li a {
+    .mobile-nav-links ul li a, 
+    .mobile-nav-links ul li span {
         color: #fff;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         font-weight: 600;
         display: block;
+        padding: 15px 0;
         transition: color 0.3s;
     }
     
@@ -202,7 +212,6 @@
         color: #FFC107;
     }
 
-    /* Estilos del Submenú visual */
     .has-children span {
         display: block;
         font-size: 14px;
@@ -214,57 +223,80 @@
     }
 
     .sub-nav {
-        background: #111;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 20px;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #111;
+        border-radius: 5px;
+        transition: max-height 0.4s ease, opacity 0.4s ease;
+        opacity: 0;
+        margin: 0;
+    }
+    
+    .has-children.open .sub-nav {
+        max-height: 500px;
+        opacity: 1;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
     }
 
     .sub-nav li {
-        margin-bottom: 10px !important;
-        border-bottom: 1px solid #222;
-        padding-bottom: 10px;
-    }
-    
-    .sub-nav li:last-child {
-        border-bottom: none;
-        margin-bottom: 0 !important;
-        padding-bottom: 0;
+        border-bottom: none !important;
     }
 
     .sub-nav li a {
         font-size: 16px !important;
+        padding: 8px 0 !important;
+        color: #aaa !important;
         font-weight: normal !important;
-        color: #ccc !important;
+    }
+
+    .arrow-indicator {
+        color: #666;
+        font-size: 14px;
+        transition: transform 0.3s;
+    }
+    
+    .has-children.open .arrow-indicator {
+        transform: rotate(180deg);
+        color: #FFC107;
     }
 
     .btn-highlight {
         color: #FFC107 !important;
-        border: 2px solid #FFC107;
-        padding: 10px 30px !important;
+        border: 1px solid #FFC107;
+        padding: 12px 30px !important;
         display: inline-block !important;
-        border-radius: 5px;
-        margin-top: 20px;
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
     
     .menu-footer-info {
-        margin-top: 40px;
-        color: #555;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: #444;
         font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 </style>
 
 <script>
     function toggleFullScreenMenu() {
         var menu = document.getElementById("fullscreen-menu-overlay");
-        // Simple toggle de clase 'active'
         menu.classList.toggle("active");
         
-        // Bloquear scroll del body cuando el menú está abierto para mejor experiencia
         if(menu.classList.contains("active")) {
             document.body.style.overflow = "hidden";
         } else {
             document.body.style.overflow = "auto";
         }
+    }
+
+    function toggleMobileSubmenu(element) {
+        element.classList.toggle("open");
     }
 </script>
