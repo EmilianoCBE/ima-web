@@ -17,7 +17,9 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/background/4.webp) center">
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/servicios.jpeg) center"
+            style="background-size: cover !important; image-rendering: -webkit-optimize-contrast;"
+            >
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
@@ -100,7 +102,7 @@
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs top-0 end-0 m-4 p-3 bg-white rounded-circle shadow-sm z-2 fw-bold id-color fs-18">02</div>
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/services/2.webp" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
+                                <img src="images/border-crossing-truck.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
                             </div>
                         </div>
                     </div>
@@ -110,7 +112,7 @@
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs top-0 start-0 m-4 p-3 bg-white rounded-circle shadow-sm z-2 fw-bold id-color fs-18">03</div>
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/services/3.webp" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Envíos Urgentes" style="min-height: 300px;">
+                                <img src="images/truck-urgent.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Envíos Urgentes" style="min-height: 300px;">
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeInRight">
@@ -156,7 +158,7 @@
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs top-0 end-0 m-4 p-3 bg-white rounded-circle shadow-sm z-2 fw-bold id-color fs-18">04</div>
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/services/4.webp" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Atención al Cliente" style="min-height: 300px;">
+                                <img src="images/atencion.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Atención al Cliente" style="min-height: 300px;">
                             </div>
                         </div>
                     </div>

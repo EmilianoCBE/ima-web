@@ -17,7 +17,7 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/background/4.webp) center">
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/sectores.jpeg) center">
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
@@ -37,10 +37,10 @@
                 <div class="container">
                     <div class="row justify-content-center text-center">
                         <div class="col-lg-8 wow fadeInUp">
-                            <div class="subtitle id-color">Nuestra Cobertura</div>
+                            <div class="subtitle id-color">Nuestros Sectores</div>
                             <h2 class="mb-3">Soluciones para cada Industria</h2>
                             <p class="lead">
-                                Hemos diseñado una estrategia logística flexible que se adapta al ritmo (2-3-2) de las industrias modernas, cubriendo desde manufactura pesada hasta envíos especializados.
+                                Hemos diseñado una estrategia logística flexible que se adapta al ritmo de las industrias modernas, cubriendo desde manufactura pesada hasta envíos especializados.
                             </p>
                         </div>
                     </div>
