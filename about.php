@@ -38,7 +38,7 @@
                         <div class="col-lg-6 wow scaleIn">
                             <div class="relative">
                                 <div class="w-100 pe-5 pb-5">
-                                    <img src="images/misc/l1.webp" class="w-100 rounded-1 shadow-lg" alt="Logística IMA Express">
+                                    <img src="images/foundation.jpg" class="w-100 rounded-1 shadow-lg" alt="Logística IMA Express">
                                 </div>
                                 <div class="abs end-0 bottom-0 z-2 mb-5 me-5 p-4 bg-color text-light rounded-1 text-center shadow-lg wow fadeInUp" data-wow-delay=".2s">
                                     <h4 class="mb-0 text-white">Est. 2021</h4>
@@ -136,7 +136,7 @@
             </section>
 
             <section class="bg-dark text-light mx-3 rounded-1 overflow-hidden relative">
-                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/background/1.webp') center/cover; opacity: 0.2;"></div>
+                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/partnership.jpg') center/cover; opacity: 0.2;"></div>
                 
                 <div class="container relative z-2">
                     <div class="row align-items-center">
@@ -170,49 +170,49 @@
                     <div class="row g-4 align-items-center justify-content-center">
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 1" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/palos-garza-logo.avif" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 1" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
                         
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".1s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 2" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/route-logo.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 2" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
 
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".2s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 3" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/tql-logo.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 3" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
 
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".3s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 4" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/axle-logo.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 4" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
 
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".4s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 5" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/arrive-logo.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 5" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
 
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".5s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 6" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/armstrong-logo.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 6" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
 
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".6s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 7" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/ch-robinson-logo.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 7" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
 
                         <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay=".7s">
                             <div class="p-3 border rounded-1 hover-shadow-sm bg-white">
-                                <img src="images/logo/logo-placeholder.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 8" style="max-height: 80px; object-fit: contain;">
+                                <img src="images/socios/bronco-transport-logo.png" class="w-100 opacity-75 hover-opacity-100 transition-all" alt="Socio Comercial 8" style="max-height: 80px; object-fit: contain;">
                             </div>
                         </div>
                     </div>
