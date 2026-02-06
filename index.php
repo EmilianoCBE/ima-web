@@ -115,7 +115,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 wow fadeInLeft">
                             <div class="relative">
-                                <img src="images/misc/s1.webp" class="w-100 rounded-1 shadow-lg relative z-2" alt="Equipo IMA Express">
+                                <img src="images/business.jpg" class="w-100 rounded-1 shadow-lg relative z-2" alt="Equipo IMA Express">
                                 
                                 <div class="abs bottom-0 start-0 m-4 p-3 bg-white rounded-1 shadow z-3">
                                     <div class="d-flex align-items-center">
@@ -159,8 +159,8 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
                             <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
                                 <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
-                                    <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div>
-                                    <img src="images/services/1.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Caja Seca">
+                                    <!-- <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div> -->
+                                    <img src="images/card-1.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Caja Seca">
                                 </div>
                                 <h4 class="mb-2 group-hover-color transition-all">Caja Seca 53'</h4>
                                 <p class="text-muted mb-0">Transporte FTL y LTL optimizado para maximizar su carga y reducir costos.</p>
@@ -170,8 +170,8 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                             <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
                                 <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
-                                    <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div>
-                                    <img src="images/services/2.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Internacional">
+                                    <!-- <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div> -->
+                                    <img src="images/card-2.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Internacional">
                                 </div>
                                 <h4 class="mb-2 group-hover-color transition-all">Internacional (MX-USA)</h4>
                                 <p class="text-muted mb-0">Servicio Door-to-Door sin transbordos. Gestión aduanera y cruce ágil.</p>
@@ -181,8 +181,8 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
                                 <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
-                                    <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div>
-                                    <img src="images/services/3.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Urgentes">
+                                    <!-- <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div> -->
+                                    <img src="images/card-3.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Urgentes">
                                 </div>
                                 <h4 class="mb-2 group-hover-color transition-all">Envíos Urgentes</h4>
                                 <p class="text-muted mb-0">Soluciones Just-in-Time y Expedited para cuando el tiempo es crítico.</p>
