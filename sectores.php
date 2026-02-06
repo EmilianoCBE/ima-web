@@ -56,9 +56,9 @@
                                 <div class="row g-0 h-100">
                                     <div class="col-md-5 relative overflow-hidden h-min-200">
                                         <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
-                                        <img src="images/misc/s1.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Industria">
+                                        <img src="images/sector-1.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Industria">
                                     </div>
-                                    <div class="col-md-7 d-flex align-items-center">
+                                    <div class="col-md-7 d-flex align-items-center" style="white-space: normal;">
                                         <div class="p-4">
                                             <div class="d-flex align-items-center mb-3">
                                                 <i class="fa-solid fa-industry fs-30 id-color me-3"></i>
@@ -79,9 +79,9 @@
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
                                 <div class="row g-0 h-100">
                                     <div class="col-md-5 relative overflow-hidden h-min-200 order-md-2"> <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
-                                        <img src="images/misc/s2.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Agroalimentario">
+                                        <img src="images/sector-2.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Agroalimentario">
                                     </div>
-                                    <div class="col-md-7 d-flex align-items-center order-md-1">
+                                    <div class="col-md-7 d-flex align-items-center order-md-1" style="white-space: normal;">
                                         <div class="p-4">
                                             <div class="d-flex align-items-center mb-3">
                                                 <i class="fa-solid fa-wheat-awn fs-30 id-color me-3"></i>
@@ -102,7 +102,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
                                 <div class="relative overflow-hidden" style="height: 200px;">
-                                    <img src="images/misc/s3.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Construcción">
+                                    <img src="images/sector-3.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Construcción">
                                     <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
                                         <i class="fa-solid fa-helmet-safety fs-20 id-color"></i>
                                     </div>
@@ -117,7 +117,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
                                 <div class="relative overflow-hidden" style="height: 200px;">
-                                    <img src="images/misc/s4.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Comercio">
+                                    <img src="images/sector-4.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Comercio">
                                     <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
                                         <i class="fa-solid fa-cart-shopping fs-20 id-color"></i>
                                     </div>
@@ -132,7 +132,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
                                 <div class="relative overflow-hidden" style="height: 200px;">
-                                    <img src="images/misc/s5.webp" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Salud">
+                                    <img src="images/sector-5.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Salud">
                                     <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
                                         <i class="fa-solid fa-heart-pulse fs-20 id-color"></i>
                                     </div>
@@ -147,7 +147,7 @@
 
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
-                                <div class="d-flex align-items-center h-100 p-4 border-start border-4 border-success">
+                                <div class="d-flex align-items-center h-100 p-4 border-start border-4 border-success" style="white-space: normal;">
                                     <div class="me-4">
                                         <div class="p-3 bg-light rounded-circle text-success">
                                             <i class="fa-solid fa-recycle fs-32"></i>
@@ -163,9 +163,9 @@
 
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-dark text-light relative group">
-                                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/background/2.webp') center/cover; opacity: 0.2;"></div>
+                                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/sector-7.jpg') center/cover; opacity: 0.2;"></div>
                                 
-                                <div class="d-flex align-items-center h-100 p-4 relative z-2 border-start border-4 border-warning">
+                                <div class="d-flex align-items-center h-100 p-4 relative z-2 border-start border-4 border-warning" style="white-space: normal;">
                                     <div class="me-4">
                                         <div class="p-3 bg-white-10 rounded-circle text-warning">
                                             <i class="fa-solid fa-boxes-packing fs-32"></i>
