@@ -53,7 +53,7 @@
                         <div class="col-lg-6 wow fadeInLeft">
                             <div class="pe-lg-4">
                                 <div class="d-flex align-items-center mb-3">
-                                    <img src="images/flags/usa.png" alt="USA" class="w-40px me-3 shadow-sm rounded">
+                                    <img src="images/icons-color/estados-unidos.png" alt="USA" class="w-40px me-3 shadow-sm rounded">
                                     <h2 class="mb-0">Estados Unidos</h2>
                                 </div>
                                 
@@ -79,7 +79,7 @@
 
                         <div class="col-lg-6 wow fadeInRight">
                             <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
-                                <img src="images/misc/map-usa-placeholder.jpg" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total USA" 
+                                <img src="images/usa-map.png" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total USA" 
                                      style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 end-0 m-4">
@@ -123,7 +123,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
                             <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
-                                <img src="images/misc/map-mex-placeholder.jpg" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total México" 
+                                <img src="images/mexico-map.png" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total México" 
                                      style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 start-0 m-4">
@@ -140,7 +140,7 @@
                         <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight">
                             <div class="ps-lg-4">
                                 <div class="d-flex align-items-center mb-3">
-                                    <img src="images/flags/mexico.png" alt="México" class="w-40px me-3 shadow-sm rounded">
+                                    <img src="images/icons-color/mexico.png" alt="México" class="w-40px me-3 shadow-sm rounded">
                                     <h2 class="mb-0">México</h2>
                                 </div>
 
