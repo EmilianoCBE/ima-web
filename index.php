@@ -19,28 +19,36 @@
 
             <section class="text-light no-top no-bottom relative rounded-1 overflow-hidden m-3">
                 <div class="mh-800 position-relative">
-                    <div class="static-content-layer">
-                        <div class="sw-caption">
+                    
+                    <div class="static-content-layer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; pointer-events: none;">
+                        <div class="sw-caption" style="height: 100%;">
                             <div class="container h-100">
                                 <div class="row h-100 align-items-center justify-content-center">
                                     <div class="col-lg-10 text-center">
-                                        <div class="sw-text-wrapper">
-                                            <img src="images/IMA_logo_white.png" alt="IMA Express" width="300" class="mb-4 wow fadeInUp">
-                                            <h2 class="animated text-uppercase fadeInUp display-4 fw-bold mb-4">
+                                        
+                                        <div class="sw-text-wrapper mx-auto" style="pointer-events: auto;">
+                                            
+                                            <img src="images/IMA_logo_white.png" alt="IMA Express" width="300" class="mb-4 wow fadeInUp mx-auto">
+                                            
+                                            <h2 class="animated fadeInUp display-4 fw-bold mb-4">
                                                 Conectando distancias,<br> acercando oportunidades
                                             </h2>
+                                            
                                             <div class="d-flex justify-content-center gap-3 wow fadeInUp" data-wow-delay=".2s">
-                                                <a href="contact.php" class="btn-main">Cotizar Ahora</a>
-                                                <a href="servicios.php" class="btn-main btn-line-white">Nuestros Servicios</a>
+                                                <a href="contact.php"  class="btn-main btn-custom-dark-hover">
+                                                    Cotizar Ahora
+                                                </a>
+                                                <a href="servicios.php" class="btn-main btn-custom-dark-hover">Nuestros Servicios</a>
                                             </div>
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="swiper">
+                    <div class="swiper" style="z-index: 1;">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="swiper-inner" style="background-image: url('images/slider/slider_1.jpeg'); background-position: center; background-size: cover;">
@@ -68,44 +76,46 @@
             <section class="mx-3 p-0 relative mt-n50 sm-mt-0 z-3">
                 <div class="container">
                     <div class="row g-4 justify-content-center">
+                        
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
-                            <div class="bg-dark text-light p-4 rounded-1 h-100 shadow-lg border-top border-warning border-4 hover-scale-effect">
+                            <div class="bg-color text-light p-4 rounded-1 h-100 shadow-lg border-top border-white border-4 hover-scale-effect">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-white-10 rounded-circle me-3">
-                                        <i class="fa-solid fa-map-location-dot fs-24 text-warning"></i>
+                                    <div class="p-3 bg-white rounded-circle me-3">
+                                        <i class="fa-solid fa-map-location-dot fs-24 id-color"></i>
                                     </div>
-                                    <h4 class="mb-0">Cobertura Total</h4>
+                                    <h4 class="mb-0 text-white">Cobertura Total</h4>
                                 </div>
-                                <p class="op-8 mb-3">Operamos en todo México y Estados Unidos con servicio puerta a puerta sin interrupciones.</p>
-                                <a href="cobertura.php" class="text-warning fw-bold hover-underline">Ver Mapa <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                                <p class="op-9 mb-3">Operamos en todo México y Estados Unidos con servicio puerta a puerta sin interrupciones.</p>
+                                <a href="cobertura.php" class="text-white fw-bold hover-underline">Ver Mapa <i class="fa-solid fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                            <div class="bg-color text-light p-4 rounded-1 h-100 shadow-lg border-top border-white border-4 hover-scale-effect">
+                            <div class="bg-white text-dark p-4 rounded-1 h-100 shadow-lg border-top border-color border-4 hover-scale-effect">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-white-10 rounded-circle me-3">
+                                    <div class="p-3 bg-color rounded-circle me-3">
                                         <i class="fa-solid fa-right-left fs-24 text-white"></i>
                                     </div>
-                                    <h4 class="mb-0">Expertos en Cruce</h4>
+                                    <h4 class="mb-0 text-dark">Expertos en Cruce</h4>
                                 </div>
-                                <p class="op-8 mb-3">Especialistas en la frontera de Laredo, Texas. Agilizamos sus importaciones y exportaciones.</p>
-                                <a href="servicios.php" class="text-white fw-bold hover-underline">Nuestros Servicios <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                                <p class="text-muted mb-3">Especialistas en la frontera de Laredo, Texas. Agilizamos sus importaciones y exportaciones.</p>
+                                <a href="servicios.php" class="id-color fw-bold hover-underline">Nuestros Servicios <i class="fa-solid fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="bg-white text-dark p-4 rounded-1 h-100 shadow-lg border-top border-dark border-4 hover-scale-effect">
+                            <div class="bg-color text-light p-4 rounded-1 h-100 shadow-lg border-top border-white border-4 hover-scale-effect">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-light rounded-circle me-3">
+                                    <div class="p-3 bg-white rounded-circle me-3">
                                         <i class="fa-solid fa-headset fs-24 id-color"></i>
                                     </div>
-                                    <h4 class="mb-0">Atención Personal</h4>
+                                    <h4 class="mb-0 text-white">Atención Personal</h4>
                                 </div>
-                                <p class="text-muted mb-3">Sin sistemas automatizados complicados. Comunicación directa con expertos que conocen su cuenta.</p>
-                                <a href="contact.php" class="id-color fw-bold hover-underline">Contactar <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                                <p class="op-9 mb-3">Sin sistemas automatizados complicados. Comunicación directa con expertos que conocen su cuenta.</p>
+                                <a href="contact.php" class="text-white fw-bold hover-underline">Contactar <i class="fa-solid fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -121,8 +131,8 @@
                                     <div class="d-flex align-items-center">
                                         <h2 class="mb-0 me-3 id-color display-4 fw-bold">2021</h2>
                                         <div class="lh-sm">
-                                            <span class="d-block fw-bold">Año de</span>
-                                            Fundación
+                                            <span class="d-block fw-bold text-dark">Año de</span>
+                                            <span class="text-dark">Fundación</span>
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +149,7 @@
                                 <p class="mb-4">
                                     Entendemos que cada envío es una promesa de negocio. Por eso, combinamos una flota moderna y un equipo apasionado para apoyar el crecimiento de las empresas que confían en nosotros, brindando siempre un trato directo y humano.
                                 </p>
-                                <a href="about.php" class="btn-main">Conoce Nuestra Historia</a>
+                                <a href="about.php" class="btn-main btn-custom-dark-hover">Conoce Nuestra Historia</a>
                             </div>
                         </div>
                     </div>
@@ -159,7 +169,6 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
                             <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
                                 <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
-                                    <!-- <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div> -->
                                     <img src="images/card-1.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Caja Seca">
                                 </div>
                                 <h4 class="mb-2 group-hover-color transition-all">Caja Seca 53'</h4>
@@ -170,7 +179,6 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                             <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
                                 <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
-                                    <!-- <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div> -->
                                     <img src="images/card-2.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Internacional">
                                 </div>
                                 <h4 class="mb-2 group-hover-color transition-all">Internacional (MX-USA)</h4>
@@ -181,7 +189,6 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <a href="servicios.php" class="d-block h-100 p-4 bg-white rounded-1 shadow-sm hover-shadow-lg transition-all text-dark group">
                                 <div class="mb-4 overflow-hidden rounded-1 relative" style="height: 200px;">
-                                    <!-- <div class="abs w-100 h-100 bg-color op-0 group-hover-op-2 transition-all z-2"></div> -->
                                     <img src="images/card-3.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Urgentes">
                                 </div>
                                 <h4 class="mb-2 group-hover-color transition-all">Envíos Urgentes</h4>
@@ -190,8 +197,16 @@
                         </div>
                     </div>
                     
+                    <style>
+                        .btn-custom-dark-hover:hover {
+                            background-color: #111 !important;
+                            border-color: #111 !important;
+                            color: #fff !important;
+                        }
+                    </style>
+
                     <div class="text-center mt-5">
-                        <a href="servicios.php" class="btn-main btn-line">Ver Todos los Servicios</a>
+                        <a href="servicios.php" class="btn-main btn-custom-dark-hover">Ver Todos los Servicios</a>
                     </div>
                 </div>
             </section>
@@ -233,12 +248,12 @@
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".4s">
                             <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
                                 <i class="fa-solid fa-recycle fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0">Medio Ambiente</h5>
+                                <h5 class="fs-16 mb-0">Med. Ambiente</h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".5s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
-                                <i class="fa-solid fa-plus fs-40 id-color mb-3"></i>
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100 relative group">
+                                <i class="fa-solid fa-plus fs-40 id-color mb-3 group-hover-scale transition-all"></i>
                                 <h5 class="fs-16 mb-0">Ver Más</h5>
                                 <a href="sectores.php" class="stretched-link"></a>
                             </div>
@@ -247,12 +262,12 @@
                 </div>
             </section>
 
-            <section class="bg-dark text-light mx-3 rounded-1 mb-5 p-4 p-lg-5">
+            <section class="text-light mx-3 rounded-1 mb-5 p-4 p-lg-5" style="background-color: #0F172A;">
                 <div class="container">
                     <div class="row g-4 justify-content-center">
                         <div class="col-lg-8 text-center mb-4">
-                            <div class="subtitle text-warning wow fadeInUp">Nuestros Valores</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".1s">¿Por qué elegir IMA Express?</h2>
+                            <div class="subtitle text-white-50 wow fadeInUp">Nuestros Valores</div>
+                            <h2 class="wow fadeInUp text-white" data-wow-delay=".1s">¿Por qué elegir IMA Express LLC?</h2>
                         </div>
                     </div>
                     
@@ -260,13 +275,13 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
                                 <div class="me-4 mt-1 flex-shrink-0">
-                                    <div class="p-3 bg-warning rounded-circle text-dark">
+                                    <div class="p-3 bg-color rounded-circle text-white shadow-sm">
                                         <i class="fa-solid fa-comments fs-24"></i>
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
                                     <h4 class="mb-2 text-white">Comunicación Directa</h4>
-                                    <p class="mb-0 op-8 fs-15">Sin call centers. Hablará con personas reales que conocen su cuenta y entienden sus necesidades específicas.</p>
+                                    <p class="mb-0 op-8 fs-15 text-light">Sin call centers. Hablará con personas reales que conocen su cuenta y entienden sus necesidades específicas.</p>
                                 </div>
                             </div>
                         </div>
@@ -274,13 +289,13 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                             <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
                                 <div class="me-4 mt-1 flex-shrink-0">
-                                    <div class="p-3 bg-warning rounded-circle text-dark">
+                                    <div class="p-3 bg-color rounded-circle text-white shadow-sm">
                                         <i class="fa-solid fa-route fs-24"></i>
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
                                     <h4 class="mb-2 text-white">Rutas Optimizadas</h4>
-                                    <p class="mb-0 op-8 fs-15">Planificación inteligente para evitar retrasos, reducir costos operativos y mejorar los tiempos de entrega.</p>
+                                    <p class="mb-0 op-8 fs-15 text-light">Planificación inteligente para evitar retrasos, reducir costos operativos y mejorar los tiempos de entrega.</p>
                                 </div>
                             </div>
                         </div>
@@ -288,13 +303,13 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
                                 <div class="me-4 mt-1 flex-shrink-0">
-                                    <div class="p-3 bg-warning rounded-circle text-dark">
+                                    <div class="p-3 bg-color rounded-circle text-white shadow-sm">
                                         <i class="fa-solid fa-shield-halved fs-24"></i>
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
                                     <h4 class="mb-2 text-white">Seguridad Primero</h4>
-                                    <p class="mb-0 op-8 fs-15">Protocolos estrictos de manejo y monitoreo constante para garantizar la integridad de su carga en todo momento.</p>
+                                    <p class="mb-0 op-8 fs-15 text-light">Protocolos estrictos de manejo y monitoreo constante para garantizar la integridad de su carga en todo momento.</p>
                                 </div>
                             </div>
                         </div>

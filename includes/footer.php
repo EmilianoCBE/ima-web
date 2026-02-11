@@ -1,4 +1,16 @@
 <footer class="text-light section-dark">
+    
+    <style>
+        .footer-link-hover {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer-link-hover:hover {
+            color: #3C48E1 !important; /* Tu color azul principal */
+        }
+    </style>
+
     <div class="container">
         <div class="row g-4 justify-content-between">
             
@@ -26,6 +38,7 @@
                     <a href="https://www.facebook.com/p/IMA-Express-LLC-61574402533065/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://www.linkedin.com/company/ima-express-llc/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="https://www.instagram.com/imaexpressllc?igsh=MWt5dzh6d3N5dDBncA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/19567719884" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
 
@@ -37,13 +50,25 @@
 
                 <div class="widget">
                     <div class="op-5 fs-15">Email</div>
-                    <h3>admin@imaexpressllc.com</h3>
+                    <h3>
+                        <a href="mailto:admin@imaexpressllc.com" class="footer-link-hover">
+                            admin@imaexpressllc.com
+                        </a>
+                    </h3>
 
                     <div class="spacer-20"></div>      
 
                     <div class="op-5 fs-15">Teléfonos</div>
-                    <h3 class="mb-0">+1 (956) 771-9884</h3>
-                    <h3>+1 (956) 757-2302</h3>
+                    <h3 class="mb-0">
+                        <a href="https://wa.me/19567719884" target="_blank" class="footer-link-hover">
+                            +1 (956) 771-9884
+                        </a>
+                    </h3>
+                    <h3>
+                        <a href="https://wa.me/19567572302" target="_blank" class="footer-link-hover">
+                            +1 (956) 757-2302
+                        </a>
+                    </h3>
 
                     <div class="spacer-20"></div>
 
