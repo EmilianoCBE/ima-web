@@ -78,7 +78,8 @@
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
                                 <div class="row g-0 h-100">
-                                    <div class="col-md-5 relative overflow-hidden h-min-200 order-md-2"> <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
+                                    <div class="col-md-5 relative overflow-hidden h-min-200 order-md-2"> 
+                                        <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
                                         <img src="images/sector-2.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Agroalimentario">
                                     </div>
                                     <div class="col-md-7 d-flex align-items-center order-md-1" style="white-space: normal;">
@@ -100,46 +101,61 @@
 
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
                                 <div class="relative overflow-hidden" style="height: 200px;">
+                                    <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
                                     <img src="images/sector-3.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Construcción">
-                                    <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
-                                        <i class="fa-solid fa-helmet-safety fs-20 id-color"></i>
-                                    </div>
                                 </div>
-                                <div class="p-4">
-                                    <h5 class="mb-2">Construcción</h5>
-                                    <p class="fs-14 text-muted mb-0">Transporte de materiales voluminosos y soporte a grandes obras.</p>
+                                <div class="p-4" style="white-space: normal;">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fa-solid fa-helmet-safety fs-24 id-color me-3"></i>
+                                        <h4 class="mb-0 fs-20">Construcción</h4>
+                                    </div>
+                                    <p class="fs-14 text-muted mb-3">Transporte de materiales voluminosos y soporte a grandes obras.</p>
+                                    <ul class="list-unstyled fw-bold text-dark op-8 fs-13 mb-0">
+                                        <li><i class="fa-solid fa-check text-success me-2"></i>Materiales Pesados</li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i>Maquinaria de Obra</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
                                 <div class="relative overflow-hidden" style="height: 200px;">
+                                    <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
                                     <img src="images/sector-4.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Comercio">
-                                    <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
-                                        <i class="fa-solid fa-cart-shopping fs-20 id-color"></i>
-                                    </div>
                                 </div>
-                                <div class="p-4">
-                                    <h5 class="mb-2">Retail y Consumo</h5>
-                                    <p class="fs-14 text-muted mb-0">Velocidad para E-commerce, retail y distribución final.</p>
+                                <div class="p-4" style="white-space: normal;">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fa-solid fa-cart-shopping fs-24 id-color me-3"></i>
+                                        <h4 class="mb-0 fs-20">Retail y Consumo</h4>
+                                    </div>
+                                    <p class="fs-14 text-muted mb-3">Velocidad para E-commerce, retail y distribución final a gran escala.</p>
+                                    <ul class="list-unstyled fw-bold text-dark op-8 fs-13 mb-0">
+                                        <li><i class="fa-solid fa-check text-success me-2"></i>Alta Rotación</li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i>Envíos B2B y B2C</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light">
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
                                 <div class="relative overflow-hidden" style="height: 200px;">
+                                    <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
                                     <img src="images/sector-5.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Salud">
-                                    <div class="abs top-0 end-0 m-3 p-2 bg-white rounded-circle shadow-sm z-2">
-                                        <i class="fa-solid fa-heart-pulse fs-20 id-color"></i>
-                                    </div>
                                 </div>
-                                <div class="p-4">
-                                    <h5 class="mb-2">Salud y Farmacia</h5>
-                                    <p class="fs-14 text-muted mb-0">Seguridad máxima para suministros médicos y farmacéuticos.</p>
+                                <div class="p-4" style="white-space: normal;">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fa-solid fa-heart-pulse fs-24 id-color me-3"></i>
+                                        <h4 class="mb-0 fs-20">Salud y Farmacia</h4>
+                                    </div>
+                                    <p class="fs-14 text-muted mb-3">Seguridad máxima para suministros médicos y farmacéuticos.</p>
+                                    <ul class="list-unstyled fw-bold text-dark op-8 fs-13 mb-0">
+                                        <li><i class="fa-solid fa-check text-success me-2"></i>Insumos Médicos</li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i>Cumplimiento Sanitario</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -147,33 +163,47 @@
 
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
-                                <div class="d-flex align-items-center h-100 p-4 border-start border-4 border-success" style="white-space: normal;">
-                                    <div class="me-4">
-                                        <div class="p-3 bg-light rounded-circle text-success">
-                                            <i class="fa-solid fa-recycle fs-32"></i>
-                                        </div>
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-5 relative overflow-hidden h-min-200">
+                                        <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
+                                        <img src="images/sector-6.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Medio Ambiente">
                                     </div>
-                                    <div>
-                                        <h4 class="mb-2">Medio Ambiente</h4>
-                                        <p class="mb-0 fs-15 text-muted">Gestión responsable de residuos, reciclaje industrial y cumplimiento de normativas ecológicas estrictas.</p>
+                                    <div class="col-md-7 d-flex align-items-center" style="white-space: normal;">
+                                        <div class="p-4">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <i class="fa-solid fa-recycle fs-30 id-color me-3"></i>
+                                                <h4 class="mb-0">Medio Ambiente</h4>
+                                            </div>
+                                            <p class="fs-14 text-muted mb-3">Gestión responsable de residuos, reciclaje y cumplimiento de normativas ecológicas estrictas.</p>
+                                            <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Reciclaje Industrial</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Gestión de Residuos</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
-                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-dark text-light relative group">
-                                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/sector-7.jpg') center/cover; opacity: 0.2;"></div>
-                                
-                                <div class="d-flex align-items-center h-100 p-4 relative z-2 border-start border-4 border-warning" style="white-space: normal;">
-                                    <div class="me-4">
-                                        <div class="p-3 bg-white-10 rounded-circle text-warning">
-                                            <i class="fa-solid fa-boxes-packing fs-32"></i>
-                                        </div>
+                            <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
+                                <div class="row g-0 h-100">
+                                    <div class="col-md-5 relative overflow-hidden h-min-200 order-md-2"> 
+                                        <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
+                                        <img src="images/sector-7.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Logística Especializada">
                                     </div>
-                                    <div>
-                                        <h4 class="mb-2 text-white">Logística Especializada</h4>
-                                        <p class="mb-0 fs-15 op-8">Gestión de proyectos complejos: Arte, Eventos, Cargas Sobredimensionadas y necesidades críticas.</p>
+                                    <div class="col-md-7 d-flex align-items-center order-md-1" style="white-space: normal;">
+                                        <div class="p-4">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <i class="fa-solid fa-boxes-packing fs-30 id-color me-3"></i>
+                                                <h4 class="mb-0">Log. Especializada</h4>
+                                            </div>
+                                            <p class="fs-14 text-muted mb-3">Gestión de proyectos complejos, cargas valiosas y necesidades logísticas críticas.</p>
+                                            <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Arte y Eventos</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i>Sobredimensionados</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -267,7 +267,7 @@
                     <div class="row g-4 justify-content-center">
                         <div class="col-lg-8 text-center mb-4">
                             <div class="subtitle text-white-50 wow fadeInUp">Nuestros Valores</div>
-                            <h2 class="wow fadeInUp text-white" data-wow-delay=".1s">¿Por qué elegir IMA Express LLC?</h2>
+                            <h2 class="wow fadeInUp text-white" data-wow-delay=".1s" >¿Por qué elegir IMA EXPRESS LLC?</h2>
                         </div>
                     </div>
                     

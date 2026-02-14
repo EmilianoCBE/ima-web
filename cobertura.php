@@ -17,7 +17,7 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/background/4.webp) center">
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/cobertura.jpeg) center 65%">
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
@@ -59,15 +59,31 @@
                                 
                                 <h4 class="mb-3 id-color">De Costa a Costa (Coast-to-Coast)</h4>
                                 <p class="lead mb-4">
-                                    Nuestra cobertura abarca la totalidad del territorio estadounidense. No importa si el destino es un puerto en California, una fábrica en el Medio Oeste o un centro de distribución en la Costa Este.
+                                    Nuestra cobertura va de costa a costa, cubriendo cualquier área terrestre del país. Llegamos a cualquier punto por carretera sin excepciones ni restricciones geográficas.
                                 </p>
                                 
-                                <div class="d-flex flex-wrap gap-3 mb-4">
-                                    <div class="px-3 py-2 bg-light rounded-1 border fw-bold text-dark">
-                                        <i class="fa-solid fa-map id-color me-2"></i>48 Estados Contiguos
+                                <div class="row g-3 mb-4">
+                                    <div class="col-12">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
+                                            <div class="me-3 p-2 bg-white rounded-circle shadow-sm">
+                                                <i class="fa-solid fa-map fs-18 id-color"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">48 Estados Contiguos</h5>
+                                                <small class="text-muted">Servicio directo en todo el territorio continental.</small>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="px-3 py-2 bg-light rounded-1 border fw-bold text-dark">
-                                        <i class="fa-solid fa-road id-color me-2"></i>Rutas Interestatales
+                                    <div class="col-12">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
+                                            <div class="me-3 p-2 bg-white rounded-circle shadow-sm">
+                                                <i class="fa-solid fa-road fs-18 id-color"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Red de Autopistas (Highways)</h5>
+                                                <small class="text-muted">Rutas optimizadas (I-35, I-10, I-5) para entregas puntuales.</small>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -79,8 +95,8 @@
 
                         <div class="col-lg-6 wow fadeInRight">
                             <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
-                                <img src="images/usa-map.png" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total USA" 
-                                     style="min-height: 350px; background-color: #e9ecef;">
+                                <img src="images/usa-map.png" class="w-100 h-100 object-cover group-hover-color transition-all" alt="Cobertura Total USA" 
+                                    style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 end-0 m-4">
                                     <div class="p-3 bg-color text-white rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
@@ -97,7 +113,7 @@
             </section>
 
             <section class="bg-dark text-light py-5 mx-3 rounded-1 relative overflow-hidden">
-                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/background/1.webp') center/cover; opacity: 0.1;"></div>
+                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/transfronteriza.jpg') center/cover; opacity: 0.3;"></div>
                 
                 <div class="container relative z-2">
                     <div class="row align-items-center">
@@ -106,12 +122,16 @@
                         </div>
                         <div class="col-lg-7 text-center text-lg-start mb-4 mb-lg-0">
                             <h3 class="mb-1 text-white">Conexión Transfronteriza Fluida</h3>
-                            <p class="mb-0 op-8 fs-18">Expertos en cruces vía <strong>Laredo, Texas</strong>, conectando ambas naciones sin fricción.</p>
+                            <p class="mb-0 op-8 fs-18">Expertos en cruces <strong>fronterizos</strong>, conectando ambas naciones sin fricción.</p>
                         </div>
-                        <div class="col-lg-3 text-center text-lg-end">
-                            <div class="px-4 py-2 border border-light rounded-1 d-inline-block">
-                                <span class="text-uppercase ls-1 fs-12 op-7">Hub Principal</span>
-                                <div class="fw-bold fs-20">Laredo / N. Laredo</div>
+                        <div class="col-lg-3 text-end text-lg-end">
+                            <div class="px-4 py-2 border border-light rounded-1 d-inline-block text-end">
+                                <span class="text-uppercase ls-1 fs-12 op-7 d-block mb-1">Hub Principal</span>
+                                
+                                <div class="fw-bold fs-16 lh-sm">
+                                    Laredo, Texas<br>
+                                    Nuevo Laredo, Tamps.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -123,7 +143,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
                             <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
-                                <img src="images/mexico-map.png" class="w-100 h-100 object-cover grayscale group-hover-color transition-all" alt="Cobertura Total México" 
+                                <img src="images/mexico-map.png" class="w-100 h-100 object-cover group-hover-color transition-all" alt="Cobertura Total México" 
                                      style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 start-0 m-4">
@@ -153,7 +173,7 @@
                                     <div class="col-12">
                                         <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
                                             <div class="me-3 p-2 bg-white rounded-circle text-success shadow-sm">
-                                                <i class="fa-solid fa-check fs-18"></i>
+                                                <i class="fa-solid fa-check fs-18 id-color"></i>
                                             </div>
                                             <div>
                                                 <h5 class="mb-0">Cobertura Completa</h5>
@@ -164,7 +184,7 @@
                                     <div class="col-12">
                                         <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
                                             <div class="me-3 p-2 bg-white rounded-circle text-success shadow-sm">
-                                                <i class="fa-solid fa-city fs-18"></i>
+                                                <i class="fa-solid fa-city fs-18 id-color"></i>
                                             </div>
                                             <div>
                                                 <h5 class="mb-0">Entregas Urbanas e Industriales</h5>
