@@ -2,7 +2,7 @@
 <html lang="es">
 
 <?php 
-    $page_title = "Inicio - IMA Express";
+    $page_title = "Inicio - IMA EXPRESS";
     include 'includes/head.php'; 
 ?>
 
@@ -28,9 +28,9 @@
                                         
                                         <div class="sw-text-wrapper mx-auto" style="pointer-events: auto;">
                                             
-                                            <img src="images/IMA_logo_white.png" alt="IMA Express" width="300" class="mb-4 wow fadeInUp mx-auto">
+                                            <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" width="300" class="mb-4 wow fadeInUp mx-auto">
                                             
-                                            <h2 class="animated fadeInUp display-4 fw-bold mb-4">
+                                            <h2 class="animated fadeInUp display-5 fw-bold mb-4">
                                                 Conectando distancias,<br> acercando oportunidades
                                             </h2>
                                             
@@ -51,12 +51,12 @@
                     <div class="swiper" style="z-index: 1;">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="swiper-inner" style="background-image: url('images/slider/slider_1.jpeg'); background-position: center; background-size: cover;">
+                                <div class="swiper-inner" style="background-image: url('images/slider/slider_1.jpeg'); background-position: center 30%; background-size: cover;">
                                     <div class="sw-overlay op-4"></div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="swiper-inner" style="background-image: url('images/slider/slider_2.jpeg'); background-position: center; background-size: cover;">
+                                <div class="swiper-inner" style="background-image: url('images/slider/slider_2.jpeg'); background-position: center 70%; background-size: cover;">
                                     <div class="sw-overlay op-4"></div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 wow fadeInLeft">
                             <div class="relative">
-                                <img src="images/business.jpg" class="w-100 rounded-1 shadow-lg relative z-2" alt="Equipo IMA Express">
+                                <img src="images/business.jpg" class="w-100 rounded-1 shadow-lg relative z-2" alt="Equipo IMA EXPRESS">
                                 
                                 <div class="abs bottom-0 start-0 m-4 p-3 bg-white rounded-1 shadow z-3">
                                     <div class="d-flex align-items-center">
@@ -144,7 +144,7 @@
                                 <div class="subtitle id-color">Sobre Nosotros</div>
                                 <h2 class="mb-3">Su Socio Estratégico en Logística Binacional</h2>
                                 <p class="lead text-dark">
-                                    IMA Express LLC nació con una misión clara: ofrecer soluciones de transporte seguras y confiables entre México y Estados Unidos.
+                                    IMA EXPRESS LLC nació con una misión clara: ofrecer soluciones de transporte seguras y confiables entre México y Estados Unidos.
                                 </p>
                                 <p class="mb-4">
                                     Entendemos que cada envío es una promesa de negocio. Por eso, combinamos una flota moderna y un equipo apasionado para apoyar el crecimiento de las empresas que confían en nosotros, brindando siempre un trato directo y humano.

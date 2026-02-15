@@ -2,7 +2,7 @@
 <html lang="es">
 
 <?php 
-    $page_title = "Sectores - IMA Express";
+    $page_title = "Sectores - IMA EXPRESS";
     include 'includes/head.php'; 
 ?>
 

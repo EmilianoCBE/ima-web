@@ -2,7 +2,7 @@
 <html lang="es">
 
 <?php 
-    $page_title = "Nuestra Historia - IMA Express";
+    $page_title = "Nuestra Historia - IMA EXPRESS";
     include 'includes/head.php'; 
 ?>
 
@@ -16,7 +16,7 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/our-story.jpeg) center 65%">
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/story.jpeg) center">
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
@@ -38,7 +38,7 @@
                         <div class="col-lg-6 wow scaleIn">
                             <div class="relative">
                                 <div class="w-100 pe-5 pb-5">
-                                    <img src="images/foundation.jpg" class="w-100 rounded-1 shadow-lg" alt="Logística IMA Express">
+                                    <img src="images/foundation.jpg" class="w-100 rounded-1 shadow-lg" alt="Logística IMA EXPRESS">
                                 </div>
                                 <div class="abs end-0 bottom-0 z-2 mb-5 me-5 p-4 bg-color text-light rounded-1 text-center shadow-lg wow fadeInUp" data-wow-delay=".2s">
                                     <h4 class="mb-0 text-white">Est. 2021</h4>
@@ -52,7 +52,7 @@
                                 <div class="subtitle id-color wow fadeInUp">¿Quiénes Somos?</div>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">Conectando México y Estados Unidos</h2>
                                 <p class="lead wow fadeInUp" data-wow-delay=".4s">
-                                    IMA Express LLC es una empresa fundada en 2021, con el objetivo de ofrecer soluciones integrales para el transporte de mercancías entre México y Estados Unidos.
+                                    IMA EXPRESS LLC es una empresa fundada en 2021, con el objetivo de ofrecer soluciones integrales para el transporte de mercancías entre México y Estados Unidos.
                                 </p>
                                 <p class="wow fadeInUp" data-wow-delay=".6s">
                                     Nos hemos consolidado como un puente estratégico para el comercio internacional, entendiendo las necesidades específicas de la cadena de suministro binacional y adaptándonos a los retos de la logística moderna.
@@ -63,14 +63,21 @@
                 </div>
             </section>
 
-            <section class="bg-light rounded-1 mx-3 overflow-hidden">
+            <section class="rounded-1 mx-3 overflow-hidden" style="background-color: rgb(30, 58, 138);">
                 <div class="container">
                     <div class="row g-4">
+                        
                         <div class="col-lg-6 wow fadeInLeft">
                             <div class="p-5 bg-white rounded-1 h-100 border-hover shadow-sm-hover transition-all">
-                                <i class="fa-solid fa-bullseye fs-40 id-color mb-4"></i>
-                                <h3>Misión</h3>
-                                <p class="mb-0">
+                                
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="p-3 bg-light rounded-circle me-3 flex-shrink-0">
+                                        <i class="fa-solid fa-bullseye fs-32 id-color"></i>
+                                    </div>
+                                    <h3 class="mb-0 text-dark">Misión</h3>
+                                </div>
+                                
+                                <p class="mb-0 text-muted fs-18">
                                     Queremos brindar un servicio seguro y confiable, optimizando cada envío con eficiencia y responsabilidad, con el objetivo de apoyar el crecimiento de los negocios que confían en nosotros.
                                 </p>
                             </div>
@@ -78,13 +85,20 @@
 
                         <div class="col-lg-6 wow fadeInRight" data-wow-delay=".2s">
                             <div class="p-5 bg-white rounded-1 h-100 border-hover shadow-sm-hover transition-all">
-                                <i class="fa-solid fa-eye fs-40 id-color mb-4"></i>
-                                <h3>Visión</h3>
-                                <p class="mb-0">
+                                
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="p-3 bg-light rounded-circle me-3 flex-shrink-0">
+                                        <i class="fa-solid fa-eye fs-32 id-color"></i>
+                                    </div>
+                                    <h3 class="mb-0 text-dark">Visión</h3>
+                                </div>
+                                
+                                <p class="mb-0 text-muted fs-18">
                                     Aspiramos a ser la empresa líder en transporte de mercancías entre México y Estados Unidos, destacar por nuestro compromiso y crear nuevas oportunidades en el comercio internacional.
                                 </p>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </section>
@@ -136,7 +150,7 @@
             </section>
 
             <section class="bg-dark text-light mx-3 rounded-1 overflow-hidden relative">
-                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/partnership.jpg') center/cover; opacity: 0.2;"></div>
+                <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/partnership.jpg') center/cover; opacity: 0.3;"></div>
                 
                 <div class="container relative z-2">
                     <div class="row align-items-center">

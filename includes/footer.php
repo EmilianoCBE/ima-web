@@ -15,7 +15,7 @@
         <div class="row g-4 justify-content-between">
             
             <div class="col-md-6">
-                <img src="images/IMA_logo_white.png" class="w-170px mb-4" alt="IMA Express">
+                <img src="images/IMA_logo_white.png" class="w-170px mb-4" alt="IMA EXPRESS">
                 
                 <div class="row g-4">
                     <div class="col-md-12">
@@ -60,12 +60,12 @@
 
                     <div class="op-5 fs-15">Teléfonos</div>
                     <h3 class="mb-0">
-                        <a href="https://wa.me/19567719884" target="_blank" class="footer-link-hover">
+                        <a href="tel:+19567719884" class="footer-link-hover">
                             +1 (956) 771-9884
                         </a>
                     </h3>
                     <h3>
-                        <a href="https://wa.me/19567572302" target="_blank" class="footer-link-hover">
+                        <a href="tel:+19567572302" class="footer-link-hover">
                             +1 (956) 757-2302
                         </a>
                     </h3>
@@ -85,7 +85,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    Copyright <?php echo date('Y'); ?> IMA Express LLC
+                    Copyright <?php echo date('Y'); ?> IMA EXPRESS LLC
                 </div>
             </div>
         </div>

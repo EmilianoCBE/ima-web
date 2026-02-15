@@ -2,7 +2,7 @@
 <html lang="es">
 
 <?php 
-    $page_title = "Servicios - IMA Express";
+    $page_title = "Servicios - IMA EXPRESS";
     include 'includes/head.php'; 
 ?>
 
@@ -17,7 +17,7 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/servicios.jpeg) center"
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/servicios.jpeg) center 55%"
             style="background-size: cover !important; image-rendering: -webkit-optimize-contrast;"
             >
                 <div class="container relative z-2">
@@ -53,22 +53,22 @@
                 <div class="container">
                     
                     <div class="row g-5 align-items-center mb-5">
-                        <div class="col-lg-6 wow fadeInLeft"> <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
-                                <div class="abs top-0 start-0 m-4 p-3 bg-white rounded-circle shadow-sm z-2 fw-bold id-color fs-18">01</div>
+                        <div class="col-lg-6 wow fadeInLeft"> 
+                            <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/services/1.webp" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Caja Seca 53 pies" style="min-height: 300px;">
+                                <img src="images/servicios-1.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Caja Seca 53 pies" style="min-height: 300px;">
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeInRight">
                             <div class="ps-lg-4">
                                 <div class="d-flex align-items-center mb-3" style="white-space: normal;">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-primary flex-shrink-0">
                                         <i class="fa-solid fa-truck-moving fs-24"></i>
                                     </div>
                                     <h3 class="mb-0">Transporte en Caja Seca de 53'</h3>
                                 </div>
                                 <p class="mb-4">
-                                    Nuestra especialidad. Transportamos mercancía paletizada o suelta maximizando la capacidad de carga.
+                                    Nuestra especialidad. Transportamos mercancía paletizada maximizando la capacidad de carga.
                                 </p>
                                 <ul class="list-unstyled">
                                     <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>FTL (Full Truck Load):</strong> Camión completo para grandes volúmenes.</li>
@@ -83,7 +83,7 @@
                         <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
                             <div class="pe-lg-4">
                                 <div class="d-flex align-items-center mb-3" style="white-space: normal;">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-primary flex-shrink-0">
                                         <i class="fa-solid fa-globe-americas fs-24"></i>
                                     </div>
                                     <h3 class="mb-0">Transporte Internacional</h3>
@@ -100,46 +100,22 @@
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight">
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
-                                <div class="abs top-0 end-0 m-4 p-3 bg-white rounded-circle shadow-sm z-2 fw-bold id-color fs-18">02</div>
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/border-crossing-truck.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
+                                <img src="images/servicios-3.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
                             </div>
                         </div>
                     </div>
 
-                    <div class="row g-5 align-items-center mb-5">
-                        <div class="col-lg-6 wow fadeInLeft">
+                    <div class="row g-5 align-items-center mb-5"> <div class="col-lg-6 wow fadeInLeft"> 
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
-                                <div class="abs top-0 start-0 m-4 p-3 bg-white rounded-circle shadow-sm z-2 fw-bold id-color fs-18">03</div>
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/truck-urgent.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Envíos Urgentes" style="min-height: 300px;">
+                                <img src="images/atencion.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Atención al Cliente" style="min-height: 300px;">
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeInRight">
                             <div class="ps-lg-4">
                                 <div class="d-flex align-items-center mb-3" style="white-space: normal;">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
-                                        <i class="fa-solid fa-stopwatch fs-24"></i>
-                                    </div>
-                                    <h3 class="mb-0">Envíos Urgentes y Programados</h3>
-                                </div>
-                                <p class="mb-4">
-                                    El tiempo es dinero. Adaptamos nuestra velocidad a la urgencia de su negocio.
-                                </p>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>Expedite Shipping:</strong> Prioridad máxima para entregas críticas.</li>
-                                    <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>Just-in-Time:</strong> Sincronización perfecta con su producción.</li>
-                                    <li><i class="fa-solid fa-check id-color me-2"></i>Disponibilidad 24/7 para emergencias.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
-                            <div class="pe-lg-4">
-                                <div class="d-flex align-items-center mb-3" style="white-space: normal;">
-                                    <div class="p-3 bg-light rounded-circle me-3 text-dark flex-shrink-0">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-primary flex-shrink-0">
                                         <i class="fa-solid fa-headset fs-24"></i>
                                     </div>
                                     <h3 class="mb-0">Seguimiento y Atención</h3>
@@ -154,11 +130,31 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
+                            <div class="pe-lg-4">
+                                <div class="d-flex align-items-center mb-3" style="white-space: normal;">
+                                    <div class="p-3 bg-light rounded-circle me-3 text-primary flex-shrink-0">
+                                        <i class="fa-solid fa-stopwatch fs-24"></i>
+                                    </div>
+                                    <h3 class="mb-0">Envíos Urgentes y Programados</h3>
+                                </div>
+                                <p class="mb-4">
+                                    El tiempo es dinero. Adaptamos nuestra velocidad a la urgencia de su negocio.
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>Expedite Shipping:</strong> Prioridad máxima para entregas críticas.</li>
+                                    <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>Just-in-Time:</strong> Sincronización perfecta con su producción.</li>
+                                    <li><i class="fa-solid fa-check id-color me-2"></i>Disponibilidad 24/7 para emergencias.</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight">
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
-                                <div class="abs top-0 end-0 m-4 p-3 bg-white rounded-circle shadow-sm z-2 fw-bold id-color fs-18">04</div>
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/atencion.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Atención al Cliente" style="min-height: 300px;">
+                                <img src="images/servicios-4.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Envíos Urgentes" style="min-height: 300px;">
                             </div>
                         </div>
                     </div>

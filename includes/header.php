@@ -7,7 +7,7 @@
                     <div class="de-flex-col">
                         <div id="logo">
                             <a href="index.php">
-                                <img class="logo-main" src="images/IMA_logo_white.png" style="max-height: 85px; width: auto;" alt="IMA Express">
+                                <img class="logo-main" src="images/IMA_logo_white.png" style="max-height: 85px; width: auto;" alt="IMA EXPRESS">
                                 <img class="logo-scroll" src="images/IMA_logo_white.png" style="max-height: 50px; width: auto;" alt="">
                             </a>
                         </div>
@@ -40,7 +40,7 @@
     <div class="container h-100">
         <div class="d-flex justify-content-between align-items-center h-100">
             <a href="index.php" class="mobile-logo-link">
-                <img src="images/IMA_logo_white.png" alt="IMA Express" style="max-height: 40px;">
+                <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" style="max-height: 40px;">
             </a>
 
             <button class="mobile-burger-btn" onclick="toggleFullScreenMenu()">

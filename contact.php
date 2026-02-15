@@ -2,7 +2,7 @@
 <html lang="es">
 
 <?php 
-    $page_title = "Contacto - IMA Express";
+    $page_title = "Contacto - IMA EXPRESS";
     include 'includes/head.php'; 
 ?>
 
@@ -16,7 +16,7 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/contact-banner.jpg) center">
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/contacto.jpg) center">
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
