@@ -17,7 +17,7 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/servicios.jpeg) center 55%"
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/servicios.jpg) center"
             style="background-size: cover !important; image-rendering: -webkit-optimize-contrast;"
             >
                 <div class="container relative z-2">
@@ -56,7 +56,10 @@
                         <div class="col-lg-6 wow fadeInLeft"> 
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/servicios-1.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Caja Seca 53 pies" style="min-height: 300px;">
+                                <img src="images/servicios-1.jpeg" 
+                                    class="w-100 h-100 object-cover hover-scale-1-1 transition-all" 
+                                    alt="Atención al Cliente" 
+                                    style="aspect-ratio: 1 / 1; object-fit: cover; object-position: 0% center;">
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeInRight">
@@ -101,15 +104,18 @@
                         <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight">
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/servicios-3.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
+                                <img src="images/servicios-2.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
                             </div>
                         </div>
                     </div>
 
-                    <div class="row g-5 align-items-center mb-5"> <div class="col-lg-6 wow fadeInLeft"> 
+                        <div class="row g-5 align-items-center mb-5"> <div class="col-lg-6 wow fadeInLeft"> 
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/atencion.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Atención al Cliente" style="min-height: 300px;">
+                                <img src="images/servicios-3.jpg" 
+                                    class="w-100 h-100 object-cover hover-scale-1-1 transition-all" 
+                                    alt="Atención al Cliente" 
+                                    style="aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% center;">
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeInRight">

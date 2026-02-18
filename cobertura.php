@@ -17,7 +17,7 @@
 
             <div id="top"></div>
 
-            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/cobertura2.jpeg) center">
+            <section id="subheader" class="text-light sm-mt-90 relative rounded-1 overflow-hidden m-3" data-bgimage="url(images/cobertura.jpeg) center 55%">
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
@@ -65,7 +65,7 @@
                                 <div class="row g-3 mb-4">
                                     <div class="col-12">
                                         <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 p-2 bg-white rounded-circle shadow-sm">
+                                            <div class="me-3 icon-circle-box bg-white shadow-sm">
                                                 <i class="fa-solid fa-map fs-18 id-color"></i>
                                             </div>
                                             <div>
@@ -76,7 +76,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 p-2 bg-white rounded-circle shadow-sm">
+                                            <div class="me-3 icon-circle-box bg-white shadow-sm">
                                                 <i class="fa-solid fa-road fs-18 id-color"></i>
                                             </div>
                                             <div>
@@ -99,7 +99,7 @@
                                     style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 end-0 m-4">
-                                    <div class="p-3 bg-color text-white rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                                    <div class="p-3 bg-white id-color rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
                                         <div style="line-height: 1.1;">
                                             <span class="d-block fw-bold fs-18">100%</span>
                                             <span class="fs-10">USA</span>
@@ -147,7 +147,7 @@
                                      style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 start-0 m-4">
-                                    <div class="p-3 bg-color text-white rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                                    <div class="p-3 bg-white id-color rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
                                         <div style="line-height: 1.1;">
                                             <span class="d-block fw-bold fs-18">32</span>
                                             <span class="fs-10">Estados</span>
@@ -172,7 +172,7 @@
                                 <div class="row g-3">
                                     <div class="col-12">
                                         <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 p-2 bg-white rounded-circle text-success shadow-sm">
+                                            <div class="me-3 icon-circle-box bg-white text-success shadow-sm">
                                                 <i class="fa-solid fa-check fs-18 id-color"></i>
                                             </div>
                                             <div>
@@ -183,7 +183,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 p-2 bg-white rounded-circle text-success shadow-sm">
+                                            <div class="me-3 icon-circle-box bg-white text-success shadow-sm">
                                                 <i class="fa-solid fa-city fs-18 id-color"></i>
                                             </div>
                                             <div>

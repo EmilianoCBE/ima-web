@@ -40,9 +40,9 @@
                                 <div class="w-100 pe-5 pb-5">
                                     <img src="images/foundation.jpg" class="w-100 rounded-1 shadow-lg" alt="Logística IMA EXPRESS">
                                 </div>
-                                <div class="abs end-0 bottom-0 z-2 mb-5 me-5 p-4 bg-color text-light rounded-1 text-center shadow-lg wow fadeInUp" data-wow-delay=".2s">
-                                    <h4 class="mb-0 text-white">Est. 2021</h4>
-                                    <span class="fs-14">Fundada</span>
+                                <div class="abs end-0 bottom-0 z-2 mb-5 me-5 p-4 bg-white text-light rounded-1 text-center shadow-lg wow fadeInUp" data-wow-delay=".2s">
+                                    <h4 class="mb-0 id-color">Est. 2021</h4>
+                                    <span class="fs-14 id-color">Fundada</span>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                 </div>
             </section>
 
-            <section class="rounded-1 mx-3 overflow-hidden" style="background-color: rgb(30, 58, 138);">
+            <section class="rounded-1 mx-3 overflow-hidden" style="background-color: #3C48E1;">
                 <div class="container">
                     <div class="row g-4">
                         
