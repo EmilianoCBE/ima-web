@@ -28,9 +28,9 @@
                                         
                                         <div class="sw-text-wrapper mx-auto" style="pointer-events: auto;">
                                             
-                                            <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" width="300" class="mb-4 wow fadeInUp mx-auto">
+                                            <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" width="250" class="mb-4 wow fadeInUp mx-auto">
                                             
-                                            <h2 class="animated fadeInUp display-5 fw-bold mb-4">
+                                            <h2 class="animated fadeInUp fw-bold mb-4" style="font-size: 36px;">
                                                 Conectando distancias,<br> acercando oportunidades
                                             </h2>
                                             
@@ -80,7 +80,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0s">
                             <div class="bg-color text-light p-4 rounded-1 h-100 shadow-lg border-top border-white border-4 hover-scale-effect">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-white rounded-circle me-3">
+                                    <div class="icon-circle-box bg-white me-3">
                                         <i class="fa-solid fa-map-location-dot fs-24 id-color"></i>
                                     </div>
                                     <h4 class="mb-0 text-white">Cobertura Total</h4>
@@ -93,7 +93,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div class="bg-white text-dark p-4 rounded-1 h-100 shadow-lg border-top border-color border-4 hover-scale-effect">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-color rounded-circle me-3">
+                                    <div class="icon-circle-box bg-color me-3">
                                         <i class="fa-solid fa-right-left fs-24 text-white"></i>
                                     </div>
                                     <h4 class="mb-0 text-dark">Expertos en Cruce</h4>
@@ -106,7 +106,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="bg-color text-light p-4 rounded-1 h-100 shadow-lg border-top border-white border-4 hover-scale-effect">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="p-3 bg-white rounded-circle me-3">
+                                    <div class="icon-circle-box bg-white me-3">
                                         <i class="fa-solid fa-headset fs-24 id-color"></i>
                                     </div>
                                     <h4 class="mb-0 text-white">Atención Personal</h4>
@@ -275,7 +275,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
                                 <div class="me-4 mt-1 flex-shrink-0">
-                                    <div class="p-3 bg-color rounded-circle text-white shadow-sm">
+                                    <div class="icon-circle-box bg-color text-white shadow-sm">
                                         <i class="fa-solid fa-comments fs-24"></i>
                                     </div>
                                 </div>
@@ -289,7 +289,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                             <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
                                 <div class="me-4 mt-1 flex-shrink-0">
-                                    <div class="p-3 bg-color rounded-circle text-white shadow-sm">
+                                    <div class="icon-circle-box bg-color text-white shadow-sm">
                                         <i class="fa-solid fa-route fs-24"></i>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="d-flex h-100 p-3 rounded-1 border border-secondary bg-white-5 hover-bg-dark-2 transition-all" style="white-space: normal;">
                                 <div class="me-4 mt-1 flex-shrink-0">
-                                    <div class="p-3 bg-color rounded-circle text-white shadow-sm">
+                                    <div class="icon-circle-box bg-color text-white shadow-sm">
                                         <i class="fa-solid fa-shield-halved fs-24"></i>
                                     </div>
                                 </div>
