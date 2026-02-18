@@ -51,12 +51,12 @@
                     <div class="swiper" style="z-index: 1;">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="swiper-inner" style="background-image: url('images/slider/slider_1.jpeg'); background-position: center 30%; background-size: cover;">
+                                <div class="swiper-inner" style="background-image: url('images/slider/slider_1_new.jpg'); background-position: center 30%; background-size: cover;">
                                     <div class="sw-overlay op-4"></div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="swiper-inner" style="background-image: url('images/slider/slider_2.jpeg'); background-position: center 70%; background-size: cover;">
+                                <div class="swiper-inner" style="background-image: url('images/slider/slider_2_new.jpg'); background-position: center 70%; background-size: cover;">
                                     <div class="sw-overlay op-4"></div>
                                 </div>
                             </div>

@@ -104,7 +104,7 @@
                         <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight">
                             <div class="relative rounded-1 overflow-hidden shadow-lg border-light group">
                                 <div class="abs w-100 h-100 bg-color op-1 z-1 group-hover-op-0 transition-all"></div>
-                                <img src="images/servicios-2.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
+                                <img src="images/servicios-2_v2.jpg" class="w-100 object-cover hover-scale-1-1 transition-all" alt="Transporte Internacional" style="min-height: 300px;">
                             </div>
                         </div>
                     </div>
