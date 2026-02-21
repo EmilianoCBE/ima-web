@@ -53,7 +53,7 @@
                         <div class="col-lg-6 wow fadeInLeft">
                             <div class="pe-lg-4">
                                 <div class="d-flex align-items-center mb-3">
-                                    <img src="images/icons-color/estados-unidos.png" alt="USA" class="w-40px me-3 shadow-sm rounded">
+                                    <img src="images/icons-color/estados-unidos.png" alt="USA" class="w-50px me-3 shadow-sm rounded">
                                     <h2 class="mb-0">Estados Unidos</h2>
                                 </div>
                                 
@@ -99,10 +99,13 @@
                                     style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 end-0 m-4">
-                                    <div class="p-3 bg-white id-color rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
-                                        <div style="line-height: 1.1;">
-                                            <span class="d-block fw-bold fs-18">100%</span>
-                                            <span class="fs-10">USA</span>
+                                    <div class="abs top-0 end-0 m-4">
+                                        <div class="p-3 id-color rounded-circle shadow-lg text-center" 
+                                            style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border: 1px solid #dee2e6;">
+                                            <div style="line-height: 1.1;">
+                                                <span class="d-block fw-bold fs-18">100%</span>
+                                                <span class="fs-10">USA</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +150,8 @@
                                      style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 start-0 m-4">
-                                    <div class="p-3 bg-white id-color rounded-circle shadow-lg text-center" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                                    <div class="p-3 id-color rounded-circle shadow-lg text-center" 
+                                            style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border: 1px solid #dee2e6;">
                                         <div style="line-height: 1.1;">
                                             <span class="d-block fw-bold fs-18">32</span>
                                             <span class="fs-10">Estados</span>
@@ -160,7 +164,7 @@
                         <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight">
                             <div class="ps-lg-4">
                                 <div class="d-flex align-items-center mb-3">
-                                    <img src="images/icons-color/mexico.png" alt="México" class="w-40px me-3 shadow-sm rounded">
+                                    <img src="images/icons-color/mexico.png" alt="México" class="w-50px me-3 shadow-sm rounded">
                                     <h2 class="mb-0">México</h2>
                                 </div>
 

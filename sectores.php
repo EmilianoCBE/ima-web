@@ -166,7 +166,10 @@
                                 <div class="row g-0 h-100">
                                     <div class="col-md-5 relative overflow-hidden h-min-200">
                                         <div class="abs w-100 h-100 bg-color op-1 z-2"></div>
-                                        <img src="images/sector-6.jpg" class="w-100 h-100 object-cover hover-scale-1-1 transition-all" alt="Medio Ambiente">
+                                        <img src="images/sector-6.jpg" 
+                                            class="w-100 h-100 object-cover hover-scale-1-1 transition-all" 
+                                            alt="Medio Ambiente"
+                                            style="object-fit: cover; object-position: center;">
                                     </div>
                                     <div class="col-md-7 d-flex align-items-center" style="white-space: normal;">
                                         <div class="p-4">

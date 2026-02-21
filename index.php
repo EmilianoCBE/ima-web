@@ -27,14 +27,16 @@
                                     <div class="col-lg-10 text-center">
                                         
                                         <div class="sw-text-wrapper mx-auto" style="pointer-events: auto;">
+    
+                                            <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" width="250" class="mb-4 wow fadeInUp mx-auto" 
+                                                style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));">
                                             
-                                            <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" width="250" class="mb-4 wow fadeInUp mx-auto">
-                                            
-                                            <h2 class="animated fadeInUp fw-bold mb-4" style="font-size: 36px;">
+                                            <h2 class="animated fadeInUp fw-bold mb-4" 
+                                                style="font-size: clamp(30px, 3.5vw, 48px); text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);">
                                                 Conectando distancias,<br> acercando oportunidades
                                             </h2>
                                             
-                                            <div class="d-flex justify-content-center gap-3 wow fadeInUp" data-wow-delay=".2s">
+                                            <div class="d-flex justify-content-center gap-3 wow fadeInUp" data-wow-delay=".2s" style="filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.3));">
                                                 <a href="contact.php"  class="btn-main btn-custom-dark-hover">
                                                     Cotizar Ahora
                                                 </a>

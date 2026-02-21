@@ -38,7 +38,7 @@
                         <div class="col-lg-6 wow scaleIn">
                             <div class="relative">
                                 <div class="w-100 pe-5 pb-5">
-                                    <img src="images/found_v2.jpg" class="w-100 rounded-1 shadow-lg" alt="Logística IMA EXPRESS">
+                                    <img src="images/story.jpg" class="w-100 rounded-1 shadow-lg" alt="Logística IMA EXPRESS">
                                 </div>
                                 <div class="abs end-0 bottom-0 z-2 mb-5 me-5 p-4 bg-white text-light rounded-1 text-center shadow-lg wow fadeInUp" data-wow-delay=".2s">
                                     <h4 class="mb-0 id-color">Est. 2021</h4>
