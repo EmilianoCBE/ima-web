@@ -28,11 +28,11 @@
                                         
                                         <div class="sw-text-wrapper mx-auto" style="pointer-events: auto;">
     
-                                            <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" width="250" class="mb-4 wow fadeInUp mx-auto" 
+                                            <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" width="200" class="mb-4 wow fadeInUp mx-auto" 
                                                 style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));">
                                             
                                             <h2 class="animated fadeInUp fw-bold mb-4" 
-                                                style="font-size: clamp(30px, 3.5vw, 48px); text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);">
+                                                style="font-size: 25px; text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);">
                                                 Conectando distancias,<br> acercando oportunidades
                                             </h2>
                                             
