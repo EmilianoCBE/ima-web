@@ -341,5 +341,79 @@
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
 
+    <style>
+    @media (max-width: 991px) {
+        .mh-800 {
+            min-height: 500px !important;
+            height: 500px !important;
+        }
+        .sw-caption {
+            padding-top: 40px; 
+            display: flex;
+            align-items: center;
+        }
+        .sw-text-wrapper img {
+            width: 130px !important; 
+            margin-bottom: 1rem !important;
+        }
+        .sw-text-wrapper h2 {
+            font-size: 20px !important;
+            line-height: 1.3 !important;
+            margin-bottom: 1.5rem !important;
+        }
+        .sw-text-wrapper .d-flex {
+            flex-direction: column;
+            gap: 10px !important;
+            align-items: center;
+        }
+        
+        .sw-text-wrapper .btn-main {
+            padding: 10px 20px !important;
+            width: 100%;
+            max-width: 250px; 
+            font-size: 14px;
+        }
+        .mh-800 {
+            min-height: 500px !important;
+            height: 500px !important;
+        }
+        .sw-caption {
+            padding-top: 60px; 
+            display: flex;
+            align-items: center; 
+        }
+        .sw-text-wrapper {
+            margin-top: 0 !important;
+            padding-bottom: 0 !important;
+            width: 100% !important; 
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .sw-text-wrapper img {
+            width: 110px !important; 
+            margin-bottom: 1rem !important;
+        }
+        .sw-text-wrapper h2 {
+            font-size: 18px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 1.5rem !important;
+        }
+        .sw-text-wrapper .d-flex {
+            flex-direction: row !important; 
+            gap: 8px !important;           
+            justify-content: center !important;
+            flex-wrap: nowrap;             
+        }
+        .sw-text-wrapper .btn-main {
+            width: auto !important;          
+            display: inline-block !important;
+            padding: 8px 16px !important;   
+            font-size: 12px !important;      
+            min-width: 0 !important;         
+            line-height: normal !important;
+            border-radius: 4px !important;  
+        }
+    }
+</style>
 </body>
 </html>

@@ -290,7 +290,7 @@
 
     .mobile-header-spacer {
         display: none;
-        height: 70px; 
+        height: 10px; 
         width: 100%;
         background: transparent;
     }

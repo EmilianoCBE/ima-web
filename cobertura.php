@@ -64,22 +64,23 @@
                                 
                                 <div class="row g-3 mb-4">
                                     <div class="col-12">
-                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 icon-circle-box bg-white shadow-sm">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center" style="white-space: normal;">
+                                            <div class="me-3 icon-circle-box bg-white shadow-sm flex-shrink-0">
                                                 <i class="fa-solid fa-map fs-18 id-color"></i>
                                             </div>
-                                            <div>
+                                            <div class="flex-grow-1">
                                                 <h5 class="mb-0">48 Estados Contiguos</h5>
                                                 <small class="text-muted">Servicio directo en todo el territorio continental.</small>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                     <div class="col-12">
-                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 icon-circle-box bg-white shadow-sm">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center" style="white-space: normal;">
+                                            <div class="me-3 icon-circle-box bg-white shadow-sm flex-shrink-0">
                                                 <i class="fa-solid fa-road fs-18 id-color"></i>
                                             </div>
-                                            <div>
+                                            <div class="flex-grow-1">
                                                 <h5 class="mb-0">Red de Autopistas (Highways)</h5>
                                                 <small class="text-muted">Rutas optimizadas (I-35, I-10, I-5) para entregas puntuales.</small>
                                             </div>
@@ -173,22 +174,22 @@
 
                                 <div class="row g-3">
                                     <div class="col-12">
-                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 icon-circle-box bg-white text-success shadow-sm">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center" style="white-space: normal;">
+                                            <div class="me-3 icon-circle-box bg-white text-success shadow-sm flex-shrink-0">
                                                 <i class="fa-solid fa-check fs-18 id-color"></i>
                                             </div>
-                                            <div>
+                                            <div class="flex-grow-1">
                                                 <h5 class="mb-0">Cobertura Completa</h5>
                                                 <small class="text-muted">Norte, Centro, Bajío, Sur y Penínsulas.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center">
-                                            <div class="me-3 icon-circle-box bg-white text-success shadow-sm">
+                                        <div class="p-3 bg-light rounded-1 border d-flex align-items-center" style="white-space: normal;">
+                                            <div class="me-3 icon-circle-box bg-white text-success shadow-sm flex-shrink-0">
                                                 <i class="fa-solid fa-city fs-18 id-color"></i>
                                             </div>
-                                            <div>
+                                            <div class="flex-grow-1">
                                                 <h5 class="mb-0">Entregas Urbanas e Industriales</h5>
                                                 <small class="text-muted">Acceso a zonas federales y urbanas complejas.</small>
                                             </div>
