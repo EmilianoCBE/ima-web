@@ -242,5 +242,39 @@
     <script src="js/swiper.js"></script>
     <script src="js/custom-swiper-1.js"></script>
 
+    <style>
+    @media (max-width: 991px) {
+        #subheader h1 {
+            font-size: 32px !important; 
+            line-height: 1.2 !important;
+        }
+        .col-lg-6 .relative .w-100.pe-5.pb-5 {
+            padding-right: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .col-lg-6 .relative .w-100.pe-5.pb-5 {
+            padding-right: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .col-lg-6 .relative .abs {
+            margin-right: 0 !important;
+            margin-bottom: 0 !important;
+            right: 15px !important;
+            bottom: 15px !important;
+            padding: 12px 15px !important;
+        }
+        .col-lg-6 .relative .abs h2 {
+            font-size: 20px !important;
+            line-height: 1.1 !important;
+            margin-bottom: 3px !important;
+        }
+        .col-lg-6 .relative .abs small {
+            font-size: 11px !important;
+            display: block; 
+        }
+    }
+</style>
+</body>
+</html>
 </body>
 </html>
