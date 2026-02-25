@@ -94,21 +94,21 @@
                         </div>
 
                         <div class="col-lg-6 wow fadeInRight">
-    <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
-        <img src="images/usa-map.png" class="w-100 h-100 object-cover group-hover-color transition-all" alt="Cobertura Total USA" 
-            style="min-height: 350px; background-color: #e9ecef;">
-        
-        <div class="abs top-0 end-0 m-4">
-            <div class="p-3 id-color rounded-circle shadow-lg text-center" 
-                style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border: 1px solid #dee2e6;">
-                <div style="line-height: 1.1;">
-                    <span class="d-block fw-bold fs-18">100%</span>
-                    <span class="fs-10">USA</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                            <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
+                                <img src="images/usa-map.png" class="w-100 h-100 object-cover group-hover-color transition-all" alt="Cobertura Total USA" 
+                                    style="min-height: 350px; background-color: #e9ecef;">
+                                
+                                <div class="abs top-0 end-0 m-4">
+                                    <div class="p-3 id-color rounded-circle shadow-lg text-center" 
+                                        style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border: 1px solid #dee2e6;">
+                                        <div style="line-height: 1.1;">
+                                            <span class="d-block fw-bold fs-18">100%</span>
+                                            <span class="fs-10">USA</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

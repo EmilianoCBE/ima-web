@@ -105,7 +105,10 @@
     .header-mobile-bar {
         background-color: #111;
         height: 70px;
-        position: relative;
+        position: fixed;
+        top: 0;          
+        left: 0;         
+        width: 100%;    
         z-index: 999;
         border-bottom: 1px solid #222;
     }
