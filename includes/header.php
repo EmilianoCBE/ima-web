@@ -52,6 +52,8 @@
     </div>
 </div>
 
+<div class="mobile-header-spacer"></div> 
+
 <div id="fullscreen-menu-overlay" class="fullscreen-menu">
     <button class="close-menu-btn" onclick="toggleFullScreenMenu()">
         <i class="fa fa-times"></i>
@@ -284,6 +286,19 @@
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 2px;
+    }
+
+    .mobile-header-spacer {
+        display: none;
+        height: 70px; 
+        width: 100%;
+        background: transparent;
+    }
+
+    @media (max-width: 991px) {
+        .mobile-header-spacer {
+            display: block !important;
+        }
     }
 </style>
 
