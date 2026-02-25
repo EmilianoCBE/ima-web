@@ -146,7 +146,7 @@
                         <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft">
                             <div class="relative rounded-1 overflow-hidden shadow-lg bg-light border group" style="min-height: 350px;">
                                 <img src="images/mexico-map.png" class="w-100 h-100 object-cover group-hover-color transition-all" alt="Cobertura Total México" 
-                                     style="min-height: 350px; background-color: #e9ecef;">
+                                    style="min-height: 350px; background-color: #e9ecef;">
                                 
                                 <div class="abs top-0 start-0 m-4">
                                     <div class="p-3 id-color rounded-circle shadow-lg text-center" 
@@ -223,5 +223,26 @@
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
 
+    <style>
+    @media (max-width: 720px) {
+        .group[style*="min-height: 350px"] {
+            min-height: 220px !important; 
+            height: 220px !important;
+        }
+        .group[style*="min-height: 350px"] img {
+            min-height: 220px !important;
+            object-fit: contain !important;
+            object-position: center !important;
+        }
+        .group[style*="min-height: 350px"] .abs {
+            margin: 10px !important; 
+            transform: scale(0.8);   
+            transform-origin: top right; 
+        }
+        .col-lg-6.order-2 .abs {
+            transform-origin: top left !important;
+        }
+    }
+</style>
 </body>
 </html>
