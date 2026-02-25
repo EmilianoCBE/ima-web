@@ -1,12 +1,12 @@
 <head>
     <title><?php echo isset($page_title) ? $page_title : 'IMA EXPRESS'; ?></title>
     
-    <link
-      rel="icon"
-      href="images/IMA_logo_white.png"
-      type="image/gif"
-      sizes="16x16"
-    />
+    <link rel="icon" href="images/IMA_logo_white.png" type="image/png" media="(prefers-color-scheme: dark)">
+    
+    <link rel="icon" href="images/IMA_logo_black.png" type="image/png" media="(prefers-color-scheme: light)">
+    
+    <link rel="shortcut icon" href="images/IMA_logo_white.png" type="image/png">
+
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
