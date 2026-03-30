@@ -24,9 +24,14 @@
                             <ul class="list-unstyled">                                        
                                 <li><a href="index.php">Inicio</a></li>
                                 <li><a href="sectores.php">Sectores</a></li>
-                                <li><a href="servicios.php">Servicios</a></li>
-                                <li><a href="about.php">Quiénes somos</a></li>
-                                <li><a href="contact.php">Contacto</a></li>
+                                <li><a href="cobertura.php">Cobertura</a></li>
+                                
+                                <li class="mt-3 mb-1 op-5" style="font-size: 13px; text-transform: uppercase; letter-spacing: 1px;">Quiénes somos</li>
+                                
+                                <li><a href="servicios.php" class="ms-3 d-inline-block mb-1">Servicios</a></li>
+                                <li><a href="about.php" class="ms-3 d-inline-block mb-1">Nuestra historia</a></li>
+                                
+                                <li class="mt-3"><a href="contact.php">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
@@ -44,7 +49,7 @@
 
             <div class="col-md-6">
                 <div class="d-flex align-items-center justify-content-between">
-                    <h2>Contáctanos</h2>
+                    <h3>Nuestro contacto</h3>
                     <img src="images/ui/up-right-arrow.webp" class="w-60px op-5" alt="">
                 </div>
 

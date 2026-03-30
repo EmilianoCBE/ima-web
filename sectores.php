@@ -177,7 +177,7 @@
                                                 <i class="fa-solid fa-recycle fs-30 id-color me-3"></i>
                                                 <h4 class="mb-0">Medio Ambiente</h4>
                                             </div>
-                                            <p class="fs-14 text-muted mb-3">Gestión responsable de residuos, reciclaje y cumplimiento de normativas ecológicas estrictas.</p>
+                                            <p class="fs-14 text-muted mb-3">Gestión responsable de residuos, reciclaje y cumplimiento de normativas ecológicas.</p>
                                             <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
                                                 <li><i class="fa-solid fa-check text-success me-2"></i>Reciclaje Industrial</li>
                                                 <li><i class="fa-solid fa-check text-success me-2"></i>Gestión de Residuos</li>
@@ -220,8 +220,8 @@
                 <div class="container">
                     <div class="row g-4 align-items-center">
                         <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">¿Tu sector requiere atención especial?</h3>
-                            <p class="mb-0 mt-2 op-8">Nuestra flexibilidad es nuestra fortaleza. Hablemos de tu proyecto.</p>
+                            <h3 class="mb-0 fs-32 split">¿Su sector requiere atención especial?</h3>
+                            <p class="mb-0 mt-2 op-8">Nuestra flexibilidad es nuestra fortaleza. Hablemos de su proyecto.</p>
                         </div>
                         <div class="col-lg-3 text-lg-end">
                             <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span>Contactar Ahora</span></a>

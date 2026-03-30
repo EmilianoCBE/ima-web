@@ -15,18 +15,26 @@
                     
                     <div class="de-flex-col header-col-mid">
                         <ul id="mainmenu">
-                            <li><a class="menu-item" href="index.php">Inicio</a></li>
-                            <li><a class="menu-item" href="sectores.php">Sectores</a></li>
-                            <li><a class="menu-item" href="cobertura.php">Cobertura</a></li>
+                            <li><a class="menu-item" href="index.php"><?php echo $lang['nav_home']; ?></a></li>
+                            <li><a class="menu-item" href="sectores.php"><?php echo $lang['nav_sectors']; ?></a></li>
+                            <li><a class="menu-item" href="cobertura.php"><?php echo $lang['nav_coverage']; ?></a></li>
                             <li>
-                                <a class="menu-item" href="#">Quiénes somos</a>
+                                <a class="menu-item" href="#"><?php echo $lang['nav_about']; ?></a>
                                 <ul>
-                                    <li><a href="servicios.php">Servicios</a></li>
-                                    <li><a href="about.php">Nuestra historia</a></li>
+                                    <li><a href="servicios.php"><?php echo $lang['nav_services']; ?></a></li>
+                                    <li><a href="about.php"><?php echo $lang['nav_history']; ?></a></li>
                                 </ul>
                             </li>
-                            <li><a class="menu-item" href="contact.php">Contacto</a></li>
+                            <li><a class="menu-item" href="contact.php"><?php echo $lang['nav_contact']; ?></a></li>
                         </ul>
+                    </div>
+                    
+                    <div class="de-flex-col d-flex align-items-center">
+                        <div class="lang-selector-desktop" style="font-weight: 600; font-size: 14px;">
+                            <a href="?lang=en" style="padding: 5px; color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
+                            <span style="color: #fff; opacity: 0.5;">|</span>
+                            <a href="?lang=es" style="padding: 5px; color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
+                        </div>
                     </div>
                     <div class="de-flex-col"></div>
                 </div>
@@ -43,11 +51,21 @@
                 <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" style="max-height: 40px;">
             </a>
 
-            <button class="mobile-burger-btn" onclick="toggleFullScreenMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="d-flex align-items-center">
+                <div class="lang-selector-mobile me-3" style="font-weight: 600; font-size: 14px;">
+                    <a href="?lang=en" style="color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
+                    <span style="color: #fff; margin: 0 4px; opacity: 0.5;">|</span>
+                    <a href="?lang=es" style="color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
+                </div>
+                
+
+                <button class="mobile-burger-btn" onclick="toggleFullScreenMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
         </div>
     </div>
 </div>
@@ -67,23 +85,29 @@
 
         <nav class="mobile-nav-links">
             <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="sectores.php">Sectores</a></li>
-                <li><a href="cobertura.php">Cobertura</a></li>
+                <li><a href="index.php"><?php echo $lang['nav_home']; ?></a></li>
+                <li><a href="sectores.php"><?php echo $lang['nav_sectors']; ?></a></li>
+                <li><a href="cobertura.php"><?php echo $lang['nav_coverage']; ?></a></li>
                 
                 <li class="has-children" onclick="toggleMobileSubmenu(this)">
-                    <div class="d-flex justify-content-between align-items-center" style="cursor: pointer;">
-                        <span>Quiénes Somos</span>
+                    <div class="d-flex justify-content-center align-items-center" style="cursor: pointer;">
+                        <span style="padding: 15px 0; margin-right: 8px;"><?php echo $lang['nav_about']; ?></span>
                         <i class="fa fa-chevron-down arrow-indicator"></i>
                     </div>
                     
                     <ul class="sub-nav">
-                        <li><a href="servicios.php">Servicios</a></li>
-                        <li><a href="about.php">Nuestra Historia</a></li>
+                        <li><a href="servicios.php"><?php echo $lang['nav_services']; ?></a></li>
+                        <li><a href="about.php"><?php echo $lang['nav_history']; ?></a></li>
                     </ul>
                 </li>
                 
-                <li><a href="contact.php" class="btn-highlight">Contacto</a></li>
+                <li><a href="contact.php" class="btn-highlight"><?php echo $lang['nav_contact']; ?></a></li>
+
+                <li class="d-flex justify-content-center align-items-center mt-3 pb-3" style="border-bottom: none;">
+                    <a href="?lang=en" style="display:inline; padding: 10px; font-size: 16px; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
+                    <span style="color: white; font-size: 16px; margin: 0 10px;">|</span>
+                    <a href="?lang=es" style="display:inline; padding: 10px; font-size: 16px; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -105,14 +129,15 @@
     }
 
     .header-mobile-bar {
-        background-color: #111;
+        background-color: var(--primary-color, #3C48E1);
         height: 70px;
         position: fixed;
         top: 0;          
         left: 0;         
         width: 100%;    
         z-index: 999;
-        border-bottom: 1px solid #222;
+        /* border-bottom: 1px solid #222; */
+        border-bottom: none;
     }
 
     .mobile-burger-btn {
@@ -141,7 +166,7 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: #000;
+        background-color: var(--primary-color, #3C48E1);
         z-index: 999999;
         
         transform: translateY(-100%); 
@@ -195,7 +220,8 @@
 
     .mobile-nav-links ul li {
         margin-bottom: 0;
-        border-bottom: 1px solid #222;
+        /* border-bottom: 1px solid #222; */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
     
     .mobile-nav-links ul li:last-child {
@@ -217,7 +243,7 @@
         color: #FFC107;
     }
 
-    .has-children span {
+    /* .has-children span {
         display: block;
         font-size: 14px;
         color: #666;
@@ -225,12 +251,13 @@
         margin-bottom: 10px;
         margin-top: 20px;
         letter-spacing: 2px;
-    }
+    } */
 
     .sub-nav {
         max-height: 0;
         overflow: hidden;
-        background-color: #111;
+        /* background-color: #111; */
+        background-color: rgba(0, 0, 0, 0.15);
         border-radius: 5px;
         transition: max-height 0.4s ease, opacity 0.4s ease;
         opacity: 0;
@@ -248,32 +275,35 @@
         border-bottom: none !important;
     }
 
-    .sub-nav li a {
-        font-size: 16px !important;
-        padding: 8px 0 !important;
-        color: #aaa !important;
-        font-weight: normal !important;
-    }
-
     .arrow-indicator {
-        color: #666;
+        color: #fff; 
         font-size: 14px;
         transition: transform 0.3s;
     }
     
     .has-children.open .arrow-indicator {
         transform: rotate(180deg);
-        color: #FFC107;
+        color: #fff;
+    }
+
+    .sub-nav li a {
+        font-size: 16px !important;
+        padding: 8px 0 !important;
+        color: rgba(255, 255, 255, 0.75) !important;
+        font-weight: normal !important;
     }
 
     .btn-highlight {
-        color: #FFC107 !important;
-        border: 1px solid #FFC107;
-        padding: 12px 30px !important;
+        color: var(--primary-color, #3C48E1) !important;
+        background-color: #ffffff !important;
+        border: none !important;
+        padding: 12px 35px !important;
         display: inline-block !important;
         border-radius: 50px;
         margin-top: 30px;
         margin-bottom: 20px;
+        font-weight: 700 !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
     
     .menu-footer-info {

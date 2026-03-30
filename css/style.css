@@ -12674,7 +12674,7 @@ img {
   }
 
   #back-to-top {
-    display: none;
+    display: block !important;
   }
 
   header.header-mobile {

@@ -122,7 +122,7 @@
                                     <i class="fa-solid fa-location-crosshairs fs-36 id-color"></i>
                                 </div>
                                 <h4>Seguimiento en Tiempo Real</h4>
-                                <p>Visibilidad total de tu carga en cada etapa del trayecto para tu tranquilidad.</p>
+                                <p>Visibilidad total de su carga en cada etapa del trayecto para tu tranquilidad.</p>
                             </div>
                         </div>
 
@@ -149,7 +149,7 @@
                 </div>
             </section>
 
-            <section class="bg-dark text-light mx-3 rounded-1 overflow-hidden relative">
+            <section class="bg-dark text-light mx-3 rounded-1 overflow-hidden relative mb-5">
                 <div class="abs w-100 h-100 top-0 start-0" style="background: url('images/partnership.jpg') center/cover; opacity: 0.3;"></div>
                 
                 <div class="container relative z-2">
@@ -166,13 +166,13 @@
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end mt-4 mt-lg-0 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="contact.php" class="btn-main btn-line"><span>Contáctanos Hoy</span></a>
+                            <a href="contact.php" class="btn-main btn-line"><span>Contacte Hoy</span></a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section>
+            <!-- <section>
                 <div class="container">
                     <div class="row justify-content-center mb-4">
                         <div class="col-lg-8 text-center">
@@ -231,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
         </div>
         <?php include 'includes/footer.php'; ?>

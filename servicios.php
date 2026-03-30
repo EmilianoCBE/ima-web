@@ -76,7 +76,7 @@
                                 <ul class="list-unstyled">
                                     <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>FTL (Full Truck Load):</strong> Camión completo para grandes volúmenes.</li>
                                     <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>LTL (Less Than Truckload):</strong> Carga consolidada para optimizar costos.</li>
-                                    <li><i class="fa-solid fa-check id-color me-2"></i>Unidades modernas y seguras.</li>
+                                    <li><i class="fa-solid fa-check id-color me-2"></i>Flota segura y con mantenimiento constante.</li>
                                 </ul>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                                     <h3 class="mb-0">Transporte Internacional</h3>
                                 </div>
                                 <p class="mb-4">
-                                    Conectamos México y Estados Unidos sin fricciones. Gestionamos el cruce fronterizo para que su carga no se detenga.
+                                    Conectamos México y Estados Unidos con eficiencia. Gestionamos el cruce fronterizo para que su carga no se detenga.
                                 </p>
                                 <ul class="list-unstyled">
                                     <li class="mb-2 border-bottom pb-2"><i class="fa-solid fa-check id-color me-2"></i><strong>Servicio Door-to-Door:</strong> Recolección y entrega directa.</li>
@@ -172,7 +172,7 @@
                 <div class="container">
                     <div class="row g-4 align-items-center">
                         <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">¿Listo para mover su carga con los expertos?</h3>
+                            <h3 class="mb-0 fs-32 split">¿Listo para mover su carga con nosotros?</h3>
                         </div>
                         <div class="col-lg-3 text-lg-end">
                             <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span>Cotizar Ahora</span></a>
