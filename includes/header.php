@@ -11,7 +11,7 @@
                                 <img class="logo-scroll" src="images/IMA_logo_white.png" style="max-height: 50px; width: auto;" alt="">
                             </a>
                         </div>
-                        </div>
+                    </div>
                     
                     <div class="de-flex-col header-col-mid">
                         <ul id="mainmenu">
@@ -29,14 +29,7 @@
                         </ul>
                     </div>
                     
-                    <div class="de-flex-col d-flex align-items-center">
-                        <div class="lang-selector-desktop" style="font-weight: 600; font-size: 14px;">
-                            <a href="?lang=en" style="padding: 5px; color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
-                            <span style="color: #fff; opacity: 0.5;">|</span>
-                            <a href="?lang=es" style="padding: 5px; color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
-                        </div>
-                    </div>
-                    <div class="de-flex-col"></div>
+                    <div class="de-flex-col d-flex align-items-center"></div>
                 </div>
             </div>
         </div>
@@ -48,17 +41,10 @@
     <div class="container h-100">
         <div class="d-flex justify-content-between align-items-center h-100">
             <a href="index.php" class="mobile-logo-link">
-                <img src="images/IMA_logo_white.png" alt="IMA EXPRESS" style="max-height: 40px;">
+                <img src="images/IMA_logo.png" alt="IMA EXPRESS" style="max-height: 40px;">
             </a>
 
             <div class="d-flex align-items-center">
-                <div class="lang-selector-mobile me-3" style="font-weight: 600; font-size: 14px;">
-                    <a href="?lang=en" style="color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
-                    <span style="color: #fff; margin: 0 4px; opacity: 0.5;">|</span>
-                    <a href="?lang=es" style="color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
-                </div>
-                
-
                 <button class="mobile-burger-btn" onclick="toggleFullScreenMenu()">
                     <span></span>
                     <span></span>
@@ -80,7 +66,7 @@
     <div class="menu-inner">
         
         <div class="menu-logo-container">
-            <img src="images/IMA_logo_white.png" alt="IMA Logo" style="max-width: 140px;">
+            <img src="images/IMA_logo.png" alt="IMA Logo" style="max-width: 140px;">
         </div>
 
         <nav class="mobile-nav-links">
@@ -102,12 +88,6 @@
                 </li>
                 
                 <li><a href="contact.php" class="btn-highlight"><?php echo $lang['nav_contact']; ?></a></li>
-
-                <li class="d-flex justify-content-center align-items-center mt-3 pb-3" style="border-bottom: none;">
-                    <a href="?lang=en" style="display:inline; padding: 10px; font-size: 16px; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
-                    <span style="color: white; font-size: 16px; margin: 0 10px;">|</span>
-                    <a href="?lang=es" style="display:inline; padding: 10px; font-size: 16px; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
-                </li>
             </ul>
         </nav>
     </div>
@@ -116,7 +96,6 @@
         <p>Laredo, TX | México</p>
     </div>
 </div>
-
 
 <style>
     .header-desktop { display: none !important; }
@@ -128,18 +107,19 @@
         .fullscreen-menu { display: none !important; } 
     }
 
+    /* BARRA SUPERIOR BLANCA */
     .header-mobile-bar {
-        background-color: var(--primary-color, #3C48E1);
+        background-color: #ffffff;
         height: 70px;
         position: fixed;
         top: 0;          
         left: 0;         
         width: 100%;    
         z-index: 999;
-        /* border-bottom: 1px solid #222; */
-        border-bottom: none;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
     }
 
+    /* BOTÓN HAMBURGUESA AZUL */
     .mobile-burger-btn {
         background: transparent;
         border: none;
@@ -156,17 +136,18 @@
         display: block;
         width: 100%;
         height: 2px;
-        background: #fff;
+        background: var(--primary-color, #3C48E1);
         border-radius: 2px;
     }
 
+    /* FONDO DEL MENÚ BLANCO */
     .fullscreen-menu {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: var(--primary-color, #3C48E1);
+        background-color: #ffffff;
         z-index: 999999;
         
         transform: translateY(-100%); 
@@ -196,13 +177,14 @@
         padding: 0 20px;
     }
 
+    /* TACHITA AZUL */
     .close-menu-btn {
         position: absolute;
         top: 20px;
         right: 25px;
         background: none;
         border: none;
-        color: #fff;
+        color: var(--primary-color, #3C48E1);
         font-size: 32px;
         cursor: pointer;
         z-index: 1000000;
@@ -218,19 +200,20 @@
         margin: 0;
     }
 
+    /* BORDES AZULES CLAROS */
     .mobile-nav-links ul li {
         margin-bottom: 0;
-        /* border-bottom: 1px solid #222; */
-        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        border-bottom: 1px solid rgba(60, 72, 225, 0.15);
     }
     
     .mobile-nav-links ul li:last-child {
         border-bottom: none;
     }
 
+    /* LETRAS AZULES */
     .mobile-nav-links ul li a, 
     .mobile-nav-links ul li span {
-        color: #fff;
+        color: var(--primary-color, #3C48E1);
         font-size: 20px;
         text-decoration: none;
         font-weight: 600;
@@ -243,21 +226,11 @@
         color: #FFC107;
     }
 
-    /* .has-children span {
-        display: block;
-        font-size: 14px;
-        color: #666;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-        margin-top: 20px;
-        letter-spacing: 2px;
-    } */
-
+    /* SUBMENÚ AZUL CLARITO */
     .sub-nav {
         max-height: 0;
         overflow: hidden;
-        /* background-color: #111; */
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: rgba(60, 72, 225, 0.05);
         border-radius: 5px;
         transition: max-height 0.4s ease, opacity 0.4s ease;
         opacity: 0;
@@ -275,27 +248,30 @@
         border-bottom: none !important;
     }
 
+    /* FLECHA AZUL */
     .arrow-indicator {
-        color: #fff; 
+        color: var(--primary-color, #3C48E1); 
         font-size: 14px;
         transition: transform 0.3s;
     }
     
     .has-children.open .arrow-indicator {
         transform: rotate(180deg);
-        color: #fff;
+        color: var(--primary-color, #3C48E1);
     }
 
+    /* TEXTO DEL SUBMENÚ AZUL CON OPACIDAD */
     .sub-nav li a {
         font-size: 16px !important;
         padding: 8px 0 !important;
-        color: rgba(255, 255, 255, 0.75) !important;
+        color: rgba(60, 72, 225, 0.8) !important;
         font-weight: normal !important;
     }
 
+    /* BOTÓN INVERTIDO: FONDO AZUL, LETRA BLANCA */
     .btn-highlight {
-        color: var(--primary-color, #3C48E1) !important;
-        background-color: #ffffff !important;
+        color: #ffffff !important;
+        background-color: var(--primary-color, #3C48E1) !important;
         border: none !important;
         padding: 12px 35px !important;
         display: inline-block !important;
@@ -303,7 +279,7 @@
         margin-top: 30px;
         margin-bottom: 20px;
         font-weight: 700 !important;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        box-shadow: 0 4px 10px rgba(60, 72, 225, 0.2);
     }
     
     .menu-footer-info {
@@ -312,7 +288,7 @@
         left: 0;
         width: 100%;
         text-align: center;
-        color: #444;
+        color: #888;
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 2px;
