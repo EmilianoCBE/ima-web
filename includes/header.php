@@ -29,7 +29,13 @@
                         </ul>
                     </div>
                     
-                    <div class="de-flex-col d-flex align-items-center"></div>
+                    <div class="de-flex-col d-flex align-items-center">
+                        <div class="lang-selector-desktop" style="font-weight: 600; font-size: 14px;">
+                            <a href="?lang=en" style="padding: 5px; color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
+                            <span style="color: #fff; opacity: 0.5;">|</span>
+                            <a href="?lang=es" style="padding: 5px; color: #fff; text-decoration: none; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,6 +51,12 @@
             </a>
 
             <div class="d-flex align-items-center">
+                <div class="lang-selector-mobile me-3" style="font-weight: 600; font-size: 14px;">
+                    <a href="?lang=en" style="color: var(--primary-color, #3C48E1); text-decoration: none; opacity: <?php echo $active_lang == 'en' ? '1' : '0.5'; ?>;">EN</a>
+                    <span style="color: var(--primary-color, #3C48E1); margin: 0 4px; opacity: 0.5;">|</span>
+                    <a href="?lang=es" style="color: var(--primary-color, #3C48E1); text-decoration: none; opacity: <?php echo $active_lang == 'es' ? '1' : '0.5'; ?>;">ES</a>
+                </div>
+
                 <button class="mobile-burger-btn" onclick="toggleFullScreenMenu()">
                     <span></span>
                     <span></span>
