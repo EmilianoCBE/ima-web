@@ -216,46 +216,46 @@
                 <div class="container">
                     <div class="row justify-content-center text-center mb-5">
                         <div class="col-lg-8">
-                            <div class="subtitle id-color">Sectores</div>
-                            <h2>Experiencia en su Industria</h2>
+                            <div class="subtitle id-color"><?php echo $lang['idx_sec_subtitle']; ?></div>
+                            <h2><?php echo $lang['idx_sec_title']; ?></h2>
                         </div>
                     </div>
                     
                     <div class="row g-4 justify-content-center">
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay="0s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
                                 <i class="fa-solid fa-industry fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0">Manufactura</h5>
+                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_manuf']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".1s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
                                 <i class="fa-solid fa-wheat-awn fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0">Agro</h5>
+                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_agro']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".2s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
                                 <i class="fa-solid fa-helmet-safety fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0">Construcción</h5>
+                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_const']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".3s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
                                 <i class="fa-solid fa-cart-shopping fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0">Retail</h5>
+                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_retail']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".4s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
                                 <i class="fa-solid fa-recycle fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0">Med. Ambiente</h5>
+                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_env']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".5s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100 relative group">
+                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100 relative group" style="white-space: normal;">
                                 <i class="fa-solid fa-plus fs-40 id-color mb-3 group-hover-scale transition-all"></i>
-                                <h5 class="fs-16 mb-0">Ver Más</h5>
+                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_more']; ?></h5>
                                 <a href="sectores.php" class="stretched-link"></a>
                             </div>
                         </div>
@@ -267,8 +267,8 @@
                 <div class="container">
                     <div class="row g-4 justify-content-center">
                         <div class="col-lg-8 text-center mb-4">
-                            <div class="subtitle text-white-50 wow fadeInUp">Nuestros Valores</div>
-                            <h2 class="wow fadeInUp text-white display-5" data-wow-delay=".1s" >¿Por qué elegir <br>IMA EXPRESS LLC?</h2>
+                            <div class="subtitle text-white-50 wow fadeInUp"><?php echo $lang['idx_val_subtitle']; ?></div>
+                            <h2 class="wow fadeInUp text-white display-5" data-wow-delay=".1s" ><?php echo $lang['idx_val_title']; ?></h2>
                         </div>
                     </div>
                     
@@ -281,8 +281,8 @@
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h4 class="mb-2 text-white">Comunicación Directa</h4>
-                                    <p class="mb-0 op-8 fs-15 text-light">Sin call centers. Hablará con personas reales que conocen su cuenta y entienden sus necesidades específicas.</p>
+                                    <h4 class="mb-2 text-white"><?php echo $lang['idx_val_v1_title']; ?></h4>
+                                    <p class="mb-0 op-8 fs-15 text-light"><?php echo $lang['idx_val_v1_desc']; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -295,8 +295,8 @@
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h4 class="mb-2 text-white">Rutas Optimizadas</h4>
-                                    <p class="mb-0 op-8 fs-15 text-light">Planificación inteligente para evitar retrasos, reducir costos operativos y mejorar los tiempos de entrega.</p>
+                                    <h4 class="mb-2 text-white"><?php echo $lang['idx_val_v2_title']; ?></h4>
+                                    <p class="mb-0 op-8 fs-15 text-light"><?php echo $lang['idx_val_v2_desc']; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -309,8 +309,8 @@
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h4 class="mb-2 text-white">Seguridad Primero</h4>
-                                    <p class="mb-0 op-8 fs-15 text-light">Protocolos estrictos de manejo y monitoreo constante para garantizar la integridad de su carga en todo momento.</p>
+                                    <h4 class="mb-2 text-white"><?php echo $lang['idx_val_v3_title']; ?></h4>
+                                    <p class="mb-0 op-8 fs-15 text-light"><?php echo $lang['idx_val_v3_desc']; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -318,14 +318,14 @@
                 </div>
             </section>
 
-            <section class="bg-color text-light pt-50 pb-50">
+            <section class="bg-color text-light pt-50 pb-50" style="white-space: normal;">
                 <div class="container">
                     <div class="row g-4 align-items-center">
-                        <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">¿Listo para mover su carga por Norteamérica?</h3>
+                        <div class="col-md-9 text-center text-md-start">
+                            <h3 class="mb-0 fs-32 split"><?php echo $lang['idx_cta_title']; ?></h3>
                         </div>
-                        <div class="col-lg-3 text-lg-end">
-                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span>Contactar Ahora</span></a>
+                        <div class="col-lg-3 text-center text-lg-end">
+                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span><?php echo $lang['idx_cta_btn']; ?></span></a>
                         </div>
                     </div>
                 </div>

@@ -48,6 +48,37 @@ $lang = [
     'idx_srv_c3_title' => 'Envíos Urgentes',
     'idx_srv_c3_desc' => 'Soluciones Just-in-Time y Expedited para cuando el tiempo es crítico.',
     
-    'idx_srv_btn' => 'Ver Todos los Servicios'
+    'idx_srv_btn' => 'Ver Todos los Servicios',
+
+    // Index - Sectores
+    'idx_sec_subtitle' => 'Sectores',
+    'idx_sec_title' => 'Experiencia en su Industria',
+    'idx_sec_manuf' => 'Manufactura',
+    'idx_sec_agro' => 'Agro',
+    'idx_sec_const' => 'Construcción',
+    'idx_sec_retail' => 'Retail',
+    'idx_sec_env' => 'Med. Ambiente',
+    'idx_sec_more' => 'Ver Más',
+
+    // Index - Valores
+    'idx_val_subtitle' => 'Nuestros Valores',
+    'idx_val_title' => '¿Por qué elegir <br>IMA EXPRESS LLC?',
+    'idx_val_v1_title' => 'Comunicación Directa',
+    'idx_val_v1_desc' => 'Sin call centers. Hablará con personas reales que conocen su cuenta y entienden sus necesidades específicas.',
+    'idx_val_v2_title' => 'Rutas Optimizadas',
+    'idx_val_v2_desc' => 'Planificación inteligente para evitar retrasos, reducir costos operativos y mejorar los tiempos de entrega.',
+    'idx_val_v3_title' => 'Seguridad Primero',
+    'idx_val_v3_desc' => 'Protocolos estrictos de manejo y monitoreo constante para garantizar la integridad de su carga en todo momento.',
+
+    // Index - Cintillo CTA
+    'idx_cta_title' => '¿Listo para mover su carga por Norteamérica?',
+    'idx_cta_btn' => 'Contactar Ahora',
+
+    // Footer
+    'ftr_nav_title' => 'Navegación',
+    'ftr_contact_title' => 'Nuestro contacto',
+    'ftr_email' => 'Email',
+    'ftr_phones' => 'Teléfonos',
+    'ftr_location' => 'Ubicación'
 ];
 ?>

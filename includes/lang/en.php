@@ -48,6 +48,37 @@ $lang = [
     'idx_srv_c3_title' => 'Urgent Shipments',
     'idx_srv_c3_desc' => 'Just-in-Time and Expedited solutions for when time is critical.',
     
-    'idx_srv_btn' => 'View All Services'
+    'idx_srv_btn' => 'View All Services',
+
+    // Index - Sectores
+    'idx_sec_subtitle' => 'Industries',
+    'idx_sec_title' => 'Experience in Your Industry',
+    'idx_sec_manuf' => 'Manufacturing',
+    'idx_sec_agro' => 'Agri-Food',
+    'idx_sec_const' => 'Construction',
+    'idx_sec_retail' => 'Retail',
+    'idx_sec_env' => 'Environmental',
+    'idx_sec_more' => 'View More',
+
+    // Index - Valores
+    'idx_val_subtitle' => 'Our Values',
+    'idx_val_title' => 'Why Choose <br>IMA EXPRESS LLC?',
+    'idx_val_v1_title' => 'Direct Communication',
+    'idx_val_v1_desc' => 'No call centers. You will speak with real people who know your account and understand your specific needs.',
+    'idx_val_v2_title' => 'Optimized Routes',
+    'idx_val_v2_desc' => 'Smart planning to avoid delays, reduce operational costs, and improve delivery times.',
+    'idx_val_v3_title' => 'Safety First',
+    'idx_val_v3_desc' => 'Strict handling protocols and constant monitoring to ensure the integrity of your cargo at all times.',
+
+    // Index - Cintillo CTA
+    'idx_cta_title' => 'Ready to move your freight across North America?',
+    'idx_cta_btn' => 'Contact now',
+
+    // Footer
+    'ftr_nav_title' => 'Navigation',
+    'ftr_contact_title' => 'Our Contact',
+    'ftr_email' => 'Email',
+    'ftr_phones' => 'Phone Numbers',
+    'ftr_location' => 'Location'
 ];
 ?>

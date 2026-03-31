@@ -7,7 +7,7 @@
             transition: color 0.3s ease;
         }
         .footer-link-hover:hover {
-            color: #3C48E1 !important; /* Tu color azul principal */
+            color: #3C48E1 !important; 
         }
     </style>
 
@@ -20,18 +20,18 @@
                 <div class="row g-4">
                     <div class="col-md-12">
                         <div class="widget">
-                            <h5>Navegación</h5>
+                            <h5><?php echo $lang['ftr_nav_title']; ?></h5>
                             <ul class="list-unstyled">                                        
-                                <li><a href="index.php">Inicio</a></li>
-                                <li><a href="sectores.php">Sectores</a></li>
-                                <li><a href="cobertura.php">Cobertura</a></li>
+                                <li><a href="index.php"><?php echo $lang['nav_home']; ?></a></li>
+                                <li><a href="sectores.php"><?php echo $lang['nav_sectors']; ?></a></li>
+                                <li><a href="cobertura.php"><?php echo $lang['nav_coverage']; ?></a></li>
                                 
-                                <li class="mt-3 mb-1 op-5" style="font-size: 13px; text-transform: uppercase; letter-spacing: 1px;">Quiénes somos</li>
+                                <li class="mt-3 mb-1 op-5" style="font-size: 13px; text-transform: uppercase; letter-spacing: 1px;"><?php echo $lang['nav_about']; ?></li>
                                 
-                                <li><a href="servicios.php" class="ms-3 d-inline-block mb-1">Servicios</a></li>
-                                <li><a href="about.php" class="ms-3 d-inline-block mb-1">Nuestra historia</a></li>
+                                <li><a href="servicios.php" class="ms-3 d-inline-block mb-1"><?php echo $lang['nav_services']; ?></a></li>
+                                <li><a href="about.php" class="ms-3 d-inline-block mb-1"><?php echo $lang['nav_history']; ?></a></li>
                                 
-                                <li class="mt-3"><a href="contact.php">Contacto</a></li>
+                                <li class="mt-3"><a href="contact.php"><?php echo $lang['nav_contact']; ?></a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,12 +49,12 @@
 
             <div class="col-md-6">
                 <div class="d-flex align-items-center justify-content-between">
-                    <h3>Nuestro contacto</h3>
+                    <h3><?php echo $lang['ftr_contact_title']; ?></h3>
                     <img src="images/ui/up-right-arrow.webp" class="w-60px op-5" alt="">
                 </div>
 
                 <div class="widget">
-                    <div class="op-5 fs-15">Email</div>
+                    <div class="op-5 fs-15"><?php echo $lang['ftr_email']; ?></div>
                     <h3>
                         <a href="mailto:admin@imaexpressllc.com" class="footer-link-hover">
                             admin@imaexpressllc.com
@@ -63,7 +63,7 @@
 
                     <div class="spacer-20"></div>      
 
-                    <div class="op-5 fs-15">Teléfonos</div>
+                    <div class="op-5 fs-15"><?php echo $lang['ftr_phones']; ?></div>
                     <h3 class="mb-0">
                         <a href="tel:+19567719884" class="footer-link-hover">
                             +1 (956) 771-9884
@@ -77,7 +77,7 @@
 
                     <div class="spacer-20"></div>
 
-                    <div class="op-5 fs-15">Ubicación</div>
+                    <div class="op-5 fs-15"><?php echo $lang['ftr_location']; ?></div>
                     <h3>Laredo, Texas</h3>
 
                     <div class="spacer-20"></div>

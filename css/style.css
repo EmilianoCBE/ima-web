@@ -124,6 +124,12 @@ Table of content:
   --btn-text-transform: none;
 }
 
+p, h1, h2, h3, h4, h5, h6, span, div {
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
 /* base background color */
 .bg-color{background: var(--primary-color)}
 .bg-light{background: var(--bg-light) !important}
