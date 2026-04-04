@@ -79,6 +79,85 @@ $lang = [
     'ftr_contact_title' => 'Nuestro contacto',
     'ftr_email' => 'Email',
     'ftr_phones' => 'Teléfonos',
-    'ftr_location' => 'Ubicación'
+    'ftr_location' => 'Ubicación',
+
+    // Sectores Page
+    'sec_header_title' => 'Sectores',
+    'sec_subtitle' => 'Nuestros Sectores',
+    'sec_title' => 'Soluciones para cada Industria',
+    'sec_desc' => 'Hemos diseñado una estrategia logística flexible que se adapta al ritmo de las industrias modernas, cubriendo desde manufactura pesada hasta envíos especializados.',
+
+    'sec_1_title' => 'Industria y Manufactura',
+    'sec_1_desc' => 'Soporte integral para cadenas de producción continua y maquinaria pesada.',
+    'sec_1_li1' => 'Automoción y Aeroespacial',
+    'sec_1_li2' => 'Maquinaria Pesada',
+
+    'sec_2_title' => 'Agroalimentario',
+    'sec_2_desc' => 'Logística sensible al tiempo para productos perecederos y cadena de frío.',
+    'sec_2_li1' => 'Agricultura y Bebidas',
+    'sec_2_li2' => 'Control de Temperatura',
+
+    'sec_3_title' => 'Construcción',
+    'sec_3_desc' => 'Transporte de materiales voluminosos y soporte a grandes obras.',
+    'sec_3_li1' => 'Materiales Pesados',
+    'sec_3_li2' => 'Maquinaria de Obra',
+
+    'sec_4_title' => 'Retail y Consumo',
+    'sec_4_desc' => 'Velocidad para E-commerce, retail y distribución final a gran escala.',
+    'sec_4_li1' => 'Alta Rotación',
+    'sec_4_li2' => 'Envíos B2B y B2C',
+
+    'sec_5_title' => 'Salud y Farmacia',
+    'sec_5_desc' => 'Seguridad máxima para suministros médicos y farmacéuticos.',
+    'sec_5_li1' => 'Insumos Médicos',
+    'sec_5_li2' => 'Cumplimiento Sanitario',
+
+    'sec_6_title' => 'Medio Ambiente',
+    'sec_6_desc' => 'Gestión responsable de residuos, reciclaje y cumplimiento de normativas ecológicas.',
+    'sec_6_li1' => 'Reciclaje Industrial',
+    'sec_6_li2' => 'Gestión de Residuos',
+
+    'sec_7_title' => 'Log. Especializada',
+    'sec_7_desc' => 'Gestión de proyectos complejos, cargas valiosas y necesidades logísticas críticas.',
+    'sec_7_li1' => 'Arte y Eventos',
+    'sec_7_li2' => 'Sobredimensionados',
+
+    'sec_cta_title' => '¿Su sector requiere atención especial?',
+    'sec_cta_desc' => 'Nuestra flexibilidad es nuestra fortaleza. Hablemos de su proyecto.',
+    'sec_cta_btn' => 'Contactar Ahora',
+
+    // Cobertura Page
+    'cob_header_title' => 'Cobertura',
+    'cob_header_breadcrumb' => 'Cobertura Global',
+    
+    'cob_subtitle' => 'Dos Países, Un Solo Servicio',
+    'cob_title' => 'Infraestructura Sin Límites Geográficos',
+    'cob_desc' => 'Nuestra red logística no tiene fronteras ni restricciones regionales. Operamos con capacidad total a lo largo y ancho de Norteamérica, garantizando que su carga llegue a cualquier código postal de México y Estados Unidos.',
+    
+    'cob_usa_title' => 'Estados Unidos',
+    'cob_usa_subtitle' => 'De Costa a Costa (Coast-to-Coast)',
+    'cob_usa_desc' => 'Nuestra cobertura va de costa a costa, cubriendo cualquier área terrestre del país. Llegamos a cualquier punto por carretera sin excepciones ni restricciones geográficas.',
+    'cob_usa_li1_title' => '48 Estados Contiguos',
+    'cob_usa_li1_desc' => 'Servicio directo en todo el territorio continental.',
+    'cob_usa_li2_title' => 'Red de Autopistas (Highways)',
+    'cob_usa_li2_desc' => 'Rutas optimizadas (I-35, I-10, I-5) para entregas puntuales.',
+    'cob_usa_note' => '*Gestionamos la logística compleja de larga distancia (Long-Haul) y distribución regional con la misma eficiencia.',
+    
+    'cob_border_title' => 'Conexión Transfronteriza Fluida',
+    'cob_border_desc' => 'Expertos en cruces fronterizos, conectando ambas naciones sin fricción.',
+    'cob_border_hub' => 'Hub Principal',
+    
+    'cob_mex_title' => 'México',
+    'cob_mex_subtitle' => 'Todo el Territorio Nacional',
+    'cob_mex_desc' => 'Llegamos a cada rincón de la República Mexicana. Desde los parques industriales del Bajío y el Norte, hasta los puertos del Sur y centros de consumo en el Centro.',
+    'cob_mex_li1_title' => 'Cobertura Completa',
+    'cob_mex_li1_desc' => 'Norte, Centro, Bajío, Sur y Penínsulas.',
+    'cob_mex_li2_title' => 'Entregas Urbanas e Industriales',
+    'cob_mex_li2_desc' => 'Acceso a zonas federales y urbanas complejas.',
+    'cob_mex_badge' => 'Estados',
+    
+    'cob_cta_title' => 'Su carga no tiene límites con nosotros',
+    'cob_cta_desc' => 'Cotice su envío a cualquier punto de Norteamérica hoy mismo.',
+    'cob_cta_btn' => 'Cotizar Envío'
 ];
 ?>

@@ -1,8 +1,10 @@
+<?php include 'includes/idioma.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 
 <?php 
-    $page_title = "Sectores - IMA EXPRESS";
+    // Usamos la variable para que el título de la pestaña también se traduzca
+    $page_title = $lang['sec_header_title'] . " - IMA EXPRESS";
     include 'includes/head.php'; 
 ?>
 
@@ -21,10 +23,10 @@
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
-                            <h1 class="split">Sectores</h1>
+                            <h1 class="split"><?php echo $lang['sec_header_title']; ?></h1>
                             <ul class="crumb wow fadeInUp">
-                                <li><a href="index.php">Inicio</a></li>
-                                <li class="active">Sectores</li>
+                                <li><a href="index.php"><?php echo $lang['nav_home']; ?></a></li>
+                                <li class="active"><?php echo $lang['sec_header_title']; ?></li>
                             </ul>   
                         </div>
                     </div>
@@ -37,10 +39,10 @@
                 <div class="container">
                     <div class="row justify-content-center text-center">
                         <div class="col-lg-8 wow fadeInUp">
-                            <div class="subtitle id-color">Nuestros Sectores</div>
-                            <h2 class="mb-3">Soluciones para cada Industria</h2>
+                            <div class="subtitle id-color"><?php echo $lang['sec_subtitle']; ?></div>
+                            <h2 class="mb-3"><?php echo $lang['sec_title']; ?></h2>
                             <p class="lead">
-                                Hemos diseñado una estrategia logística flexible que se adapta al ritmo de las industrias modernas, cubriendo desde manufactura pesada hasta envíos especializados.
+                                <?php echo $lang['sec_desc']; ?>
                             </p>
                         </div>
                     </div>
@@ -62,12 +64,12 @@
                                         <div class="p-4">
                                             <div class="d-flex align-items-center mb-3">
                                                 <i class="fa-solid fa-industry fs-30 id-color me-3"></i>
-                                                <h4 class="mb-0">Industria y Manufactura</h4>
+                                                <h4 class="mb-0"><?php echo $lang['sec_1_title']; ?></h4>
                                             </div>
-                                            <p class="fs-14 text-muted mb-3">Soporte integral para cadenas de producción continua y maquinaria pesada.</p>
+                                            <p class="fs-14 text-muted mb-3"><?php echo $lang['sec_1_desc']; ?></p>
                                             <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Automoción y Aeroespacial</li>
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Maquinaria Pesada</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_1_li1']; ?></li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_1_li2']; ?></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -86,19 +88,18 @@
                                         <div class="p-4">
                                             <div class="d-flex align-items-center mb-3">
                                                 <i class="fa-solid fa-wheat-awn fs-30 id-color me-3"></i>
-                                                <h4 class="mb-0">Agroalimentario</h4>
+                                                <h4 class="mb-0"><?php echo $lang['sec_2_title']; ?></h4>
                                             </div>
-                                            <p class="fs-14 text-muted mb-3">Logística sensible al tiempo para productos perecederos y cadena de frío.</p>
+                                            <p class="fs-14 text-muted mb-3"><?php echo $lang['sec_2_desc']; ?></p>
                                             <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Agricultura y Bebidas</li>
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Control de Temperatura</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_2_li1']; ?></li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_2_li2']; ?></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
@@ -109,12 +110,12 @@
                                 <div class="p-4" style="white-space: normal;">
                                     <div class="d-flex align-items-center mb-3">
                                         <i class="fa-solid fa-helmet-safety fs-24 id-color me-3"></i>
-                                        <h4 class="mb-0 fs-20">Construcción</h4>
+                                        <h4 class="mb-0 fs-20"><?php echo $lang['sec_3_title']; ?></h4>
                                     </div>
-                                    <p class="fs-14 text-muted mb-3">Transporte de materiales voluminosos y soporte a grandes obras.</p>
+                                    <p class="fs-14 text-muted mb-3"><?php echo $lang['sec_3_desc']; ?></p>
                                     <ul class="list-unstyled fw-bold text-dark op-8 fs-13 mb-0">
-                                        <li><i class="fa-solid fa-check text-success me-2"></i>Materiales Pesados</li>
-                                        <li><i class="fa-solid fa-check text-success me-2"></i>Maquinaria de Obra</li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_3_li1']; ?></li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_3_li2']; ?></li>
                                     </ul>
                                 </div>
                             </div>
@@ -129,12 +130,12 @@
                                 <div class="p-4" style="white-space: normal;">
                                     <div class="d-flex align-items-center mb-3">
                                         <i class="fa-solid fa-cart-shopping fs-24 id-color me-3"></i>
-                                        <h4 class="mb-0 fs-20">Retail y Consumo</h4>
+                                        <h4 class="mb-0 fs-20"><?php echo $lang['sec_4_title']; ?></h4>
                                     </div>
-                                    <p class="fs-14 text-muted mb-3">Velocidad para E-commerce, retail y distribución final a gran escala.</p>
+                                    <p class="fs-14 text-muted mb-3"><?php echo $lang['sec_4_desc']; ?></p>
                                     <ul class="list-unstyled fw-bold text-dark op-8 fs-13 mb-0">
-                                        <li><i class="fa-solid fa-check text-success me-2"></i>Alta Rotación</li>
-                                        <li><i class="fa-solid fa-check text-success me-2"></i>Envíos B2B y B2C</li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_4_li1']; ?></li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_4_li2']; ?></li>
                                     </ul>
                                 </div>
                             </div>
@@ -149,17 +150,16 @@
                                 <div class="p-4" style="white-space: normal;">
                                     <div class="d-flex align-items-center mb-3">
                                         <i class="fa-solid fa-heart-pulse fs-24 id-color me-3"></i>
-                                        <h4 class="mb-0 fs-20">Salud y Farmacia</h4>
+                                        <h4 class="mb-0 fs-20"><?php echo $lang['sec_5_title']; ?></h4>
                                     </div>
-                                    <p class="fs-14 text-muted mb-3">Seguridad máxima para suministros médicos y farmacéuticos.</p>
+                                    <p class="fs-14 text-muted mb-3"><?php echo $lang['sec_5_desc']; ?></p>
                                     <ul class="list-unstyled fw-bold text-dark op-8 fs-13 mb-0">
-                                        <li><i class="fa-solid fa-check text-success me-2"></i>Insumos Médicos</li>
-                                        <li><i class="fa-solid fa-check text-success me-2"></i>Cumplimiento Sanitario</li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_5_li1']; ?></li>
+                                        <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_5_li2']; ?></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
 
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                             <div class="rounded-1 overflow-hidden shadow-sm hover-shadow-lg transition-all h-100 bg-white border-light group">
@@ -175,12 +175,12 @@
                                         <div class="p-4">
                                             <div class="d-flex align-items-center mb-3">
                                                 <i class="fa-solid fa-recycle fs-30 id-color me-3"></i>
-                                                <h4 class="mb-0">Medio Ambiente</h4>
+                                                <h4 class="mb-0"><?php echo $lang['sec_6_title']; ?></h4>
                                             </div>
-                                            <p class="fs-14 text-muted mb-3">Gestión responsable de residuos, reciclaje y cumplimiento de normativas ecológicas.</p>
+                                            <p class="fs-14 text-muted mb-3"><?php echo $lang['sec_6_desc']; ?></p>
                                             <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Reciclaje Industrial</li>
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Gestión de Residuos</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_6_li1']; ?></li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_6_li2']; ?></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -199,12 +199,12 @@
                                         <div class="p-4">
                                             <div class="d-flex align-items-center mb-3">
                                                 <i class="fa-solid fa-boxes-packing fs-30 id-color me-3"></i>
-                                                <h4 class="mb-0">Log. Especializada</h4>
+                                                <h4 class="mb-0"><?php echo $lang['sec_7_title']; ?></h4>
                                             </div>
-                                            <p class="fs-14 text-muted mb-3">Gestión de proyectos complejos, cargas valiosas y necesidades logísticas críticas.</p>
+                                            <p class="fs-14 text-muted mb-3"><?php echo $lang['sec_7_desc']; ?></p>
                                             <ul class="list-unstyled fw-bold text-dark op-8 fs-13">
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Arte y Eventos</li>
-                                                <li><i class="fa-solid fa-check text-success me-2"></i>Sobredimensionados</li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_7_li1']; ?></li>
+                                                <li><i class="fa-solid fa-check text-success me-2"></i><?php echo $lang['sec_7_li2']; ?></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -218,13 +218,13 @@
 
             <section class="bg-color text-light pt-50 pb-50">
                 <div class="container">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">¿Su sector requiere atención especial?</h3>
-                            <p class="mb-0 mt-2 op-8">Nuestra flexibilidad es nuestra fortaleza. Hablemos de su proyecto.</p>
+                    <div class="row g-4 align-items-center" style="white-space: normal;">
+                        <div class="col-md-9 text-center text-md-start">
+                            <h3 class="mb-0 fs-32 split"><?php echo $lang['sec_cta_title']; ?></h3>
+                            <p class="mb-0 mt-2 op-8"><?php echo $lang['sec_cta_desc']; ?></p>
                         </div>
-                        <div class="col-lg-3 text-lg-end">
-                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span>Contactar Ahora</span></a>
+                        <div class="col-lg-3 text-center text-lg-end">
+                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span><?php echo $lang['sec_cta_btn']; ?></span></a>
                         </div>
                     </div>
                 </div>
