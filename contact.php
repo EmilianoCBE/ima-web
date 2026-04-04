@@ -1,3 +1,4 @@
+<?php include 'includes/idioma.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 
