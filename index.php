@@ -221,41 +221,41 @@
                         </div>
                     </div>
                     
-                    <div class="row g-4 justify-content-center">
+                    <div class="row g-3 justify-content-center">
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay="0s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
+                            <div class="p-3 p-lg-4 rounded-1 border hover-shadow-sm transition-all h-100 d-flex flex-column justify-content-center" style="white-space: normal;">
                                 <i class="fa-solid fa-industry fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_manuf']; ?></h5>
+                                <h5 class="fs-16 mb-0 prevent-word-break"><?php echo $lang['idx_sec_manuf']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".1s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
+                            <div class="p-3 p-lg-4 rounded-1 border hover-shadow-sm transition-all h-100 d-flex flex-column justify-content-center" style="white-space: normal;">
                                 <i class="fa-solid fa-wheat-awn fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_agro']; ?></h5>
+                                <h5 class="fs-16 mb-0 prevent-word-break"><?php echo $lang['idx_sec_agro']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".2s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
+                            <div class="p-3 p-lg-4 rounded-1 border hover-shadow-sm transition-all h-100 d-flex flex-column justify-content-center" style="white-space: normal;">
                                 <i class="fa-solid fa-helmet-safety fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_const']; ?></h5>
+                                <h5 class="fs-16 mb-0 prevent-word-break"><?php echo $lang['idx_sec_const']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".3s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
+                            <div class="p-3 p-lg-4 rounded-1 border hover-shadow-sm transition-all h-100 d-flex flex-column justify-content-center" style="white-space: normal;">
                                 <i class="fa-solid fa-cart-shopping fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_retail']; ?></h5>
+                                <h5 class="fs-16 mb-0 prevent-word-break"><?php echo $lang['idx_sec_retail']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".4s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100" style="white-space: normal;">
+                            <div class="p-3 p-lg-4 rounded-1 border hover-shadow-sm transition-all h-100 d-flex flex-column justify-content-center" style="white-space: normal;">
                                 <i class="fa-solid fa-recycle fs-40 id-color mb-3"></i>
-                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_env']; ?></h5>
+                                <h5 class="fs-16 mb-0 prevent-word-break"><?php echo $lang['idx_sec_env']; ?></h5>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-2 text-center wow fadeInUp" data-wow-delay=".5s">
-                            <div class="p-4 rounded-1 border hover-shadow-sm transition-all h-100 relative group" style="white-space: normal;">
+                            <div class="p-3 p-lg-4 rounded-1 border hover-shadow-sm transition-all h-100 relative group d-flex flex-column justify-content-center" style="white-space: normal;">
                                 <i class="fa-solid fa-plus fs-40 id-color mb-3 group-hover-scale transition-all"></i>
-                                <h5 class="fs-16 mb-0"><?php echo $lang['idx_sec_more']; ?></h5>
+                                <h5 class="fs-16 mb-0 prevent-word-break"><?php echo $lang['idx_sec_more']; ?></h5>
                                 <a href="sectores.php" class="stretched-link"></a>
                             </div>
                         </div>
@@ -341,6 +341,15 @@
     <script src="js/custom-swiper-1.js"></script>
 
     <style>
+
+        @media (max-width: 767px) {
+            .prevent-word-break {
+                font-size: 13px !important; 
+                word-break: normal !important;
+                overflow-wrap: normal !important;
+                hyphens: none !important;
+            }
+        }
         @media (max-width: 991px) {
 
             #content > section:first-of-type {
