@@ -11,7 +11,7 @@
     <div id="wrapper">
         <a href="#" id="back-to-top"></a>
         
-        <div id="de-loader"></div>
+        
         <?php include 'includes/header.php'; ?>
         <div class="no-bottom no-top" id="content">
 

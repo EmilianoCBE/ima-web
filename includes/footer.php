@@ -1,15 +1,4 @@
 <footer class="text-light section-dark">
-    
-    <style>
-        .footer-link-hover {
-            color: inherit;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        .footer-link-hover:hover {
-            color: #3C48E1 !important; 
-        }
-    </style>
 
     <div class="container">
         <div class="row g-4 justify-content-between">
@@ -96,3 +85,62 @@
         </div>
     </div>
 </footer>
+
+<style>
+    .footer-link-hover {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    .footer-link-hover:hover {
+        color: #3C48E1 !important; 
+    }
+
+    body {
+        animation: smoothFadeIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    }
+
+    @keyframes smoothFadeIn {
+        from { 
+            opacity: 0; 
+            transform: translateY(10px); 
+        }
+        to { 
+            opacity: 1; 
+            transform: translateY(0); 
+        }
+    }
+
+    body.fade-out-active {
+        opacity: 0;
+        transform: translateY(-5px); 
+        transition: all 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const links = document.querySelectorAll('a[href]:not([target="_blank"]):not([href^="#"]):not([href^="mailto"]):not([href^="tel"])');
+
+        links.forEach(link => {
+            link.addEventListener('click', function(e) {
+                if(!this.hasAttribute('onclick')) {
+                    e.preventDefault(); 
+                    const targetUrl = this.href;
+
+                    document.body.classList.add('fade-out-active');
+
+                    setTimeout(() => {
+                        window.location.href = targetUrl;
+                    }, 150);
+                }
+            });
+        });
+    });
+
+    window.addEventListener('pageshow', function (event) {
+        if (event.persisted) {
+            document.body.classList.remove('fade-out-active');
+        }
+    });
+</script>
