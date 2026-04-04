@@ -1,4 +1,3 @@
-<?php include 'includes/idioma.php'; ?>
 <footer class="text-light section-dark">
     
     <style>
