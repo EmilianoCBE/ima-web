@@ -158,6 +158,41 @@ $lang = [
     
     'cob_cta_title' => 'Su carga no tiene límites con nosotros',
     'cob_cta_desc' => 'Cotice su envío a cualquier punto de Norteamérica hoy mismo.',
-    'cob_cta_btn' => 'Cotizar Envío'
+    'cob_cta_btn' => 'Cotizar Envío',
+
+    // Servicios Page
+    'srv_page_header_title' => 'Servicios',
+    'srv_page_header_breadcrumb' => 'Nuestros Servicios',
+    
+    'srv_page_subtitle' => 'Excelencia Operativa',
+    'srv_page_title' => 'Logística Integral a su Medida',
+    'srv_page_desc' => 'Más que mover carga, movemos su negocio. Diseñamos soluciones de transporte flexibles y eficientes para optimizar su cadena de suministro.',
+    
+    'srv_page_s1_title' => "Transporte en Caja Seca de 53'",
+    'srv_page_s1_desc' => 'Nuestra especialidad. Transportamos mercancía paletizada maximizando la capacidad de carga.',
+    'srv_page_s1_li1' => '<strong>FTL (Full Truck Load):</strong> Camión completo para grandes volúmenes.',
+    'srv_page_s1_li2' => '<strong>LTL (Less Than Truckload):</strong> Carga consolidada para optimizar costos.',
+    'srv_page_s1_li3' => 'Flota segura y con mantenimiento constante.',
+    
+    'srv_page_s2_title' => 'Transporte Internacional',
+    'srv_page_s2_desc' => 'Conectamos México y Estados Unidos con eficiencia. Gestionamos el cruce fronterizo para que su carga no se detenga.',
+    'srv_page_s2_li1' => '<strong>Servicio Door-to-Door:</strong> Recolección y entrega directa.',
+    'srv_page_s2_li2' => '<strong>Sin Transbordos:</strong> Reducimos riesgos de manipulación.',
+    'srv_page_s2_li3' => 'Coordinación aduanera integral.',
+    
+    'srv_page_s3_title' => 'Seguimiento y Atención',
+    'srv_page_s3_desc' => 'Tranquilidad total. Nuestro equipo de monitoreo vigila su carga cada kilómetro del trayecto.',
+    'srv_page_s3_li1' => '<strong>Tracking 24/7:</strong> Visibilidad constante de la unidad.',
+    'srv_page_s3_li2' => '<strong>Comunicación Directa:</strong> Sin sistemas automatizados frustrantes.',
+    'srv_page_s3_li3' => 'Reportes de estado proactivos.',
+    
+    'srv_page_s4_title' => 'Envíos Urgentes y Programados',
+    'srv_page_s4_desc' => 'El tiempo es dinero. Adaptamos nuestra velocidad a la urgencia de su negocio.',
+    'srv_page_s4_li1' => '<strong>Expedite Shipping:</strong> Prioridad máxima para entregas críticas.',
+    'srv_page_s4_li2' => '<strong>Just-in-Time:</strong> Sincronización perfecta con su producción.',
+    'srv_page_s4_li3' => 'Disponibilidad 24/7 para emergencias.',
+    
+    'srv_page_cta_title' => '¿Listo para mover su carga con nosotros?',
+    'srv_page_cta_btn' => 'Cotizar Ahora'
 ];
 ?>

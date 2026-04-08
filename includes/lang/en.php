@@ -158,6 +158,41 @@ $lang = [
     
     'cob_cta_title' => 'Your freight has no limits with us',
     'cob_cta_desc' => 'Get a quote for your shipment to any point in North America today.',
-    'cob_cta_btn' => 'Get a Quote'
+    'cob_cta_btn' => 'Get a Quote',
+
+    // Servicios Page
+    'srv_page_header_title' => 'Services',
+    'srv_page_header_breadcrumb' => 'Our Services',
+    
+    'srv_page_subtitle' => 'Operational Excellence',
+    'srv_page_title' => 'Tailored End-to-End Logistics',
+    'srv_page_desc' => 'More than moving freight, we move your business. We design flexible and efficient transportation solutions to optimize your supply chain.',
+    
+    'srv_page_s1_title' => "53' Dry Van Transportation",
+    'srv_page_s1_desc' => 'Our specialty. We transport palletized freight, maximizing load capacity.',
+    'srv_page_s1_li1' => '<strong>FTL (Full Truckload):</strong> Full truck for large volumes.',
+    'srv_page_s1_li2' => '<strong>LTL (Less Than Truckload):</strong> Consolidated freight to optimize costs.',
+    'srv_page_s1_li3' => 'Safe fleet with ongoing maintenance.',
+    
+    'srv_page_s2_title' => 'International Transportation',
+    'srv_page_s2_desc' => 'We connect Mexico and the United States efficiently. We manage the border crossing so your freight doesn’t stop.',
+    'srv_page_s2_li1' => '<strong>Door-to-Door Service:</strong> Direct pickup and delivery.',
+    'srv_page_s2_li2' => '<strong>No Transloading:</strong> We reduce handling risks.',
+    'srv_page_s2_li3' => 'Comprehensive customs coordination.',
+    
+    'srv_page_s3_title' => 'Tracking and Support',
+    'srv_page_s3_desc' => 'Total peace of mind. Our monitoring team tracks your freight every mile of the journey.',
+    'srv_page_s3_li1' => '<strong>24/7 Tracking:</strong> Continuous visibility of the unit.',
+    'srv_page_s3_li2' => '<strong>Direct Communication:</strong> No frustrating automated systems.',
+    'srv_page_s3_li3' => 'Proactive status updates.',
+    
+    'srv_page_s4_title' => 'Urgent and Scheduled Shipments',
+    'srv_page_s4_desc' => 'Time is money. We adjust our speed to your business urgency.',
+    'srv_page_s4_li1' => '<strong>Expedited Shipping:</strong> Maximum priority for critical deliveries.',
+    'srv_page_s4_li2' => '<strong>Just-in-Time:</strong> Perfect synchronization with your production.',
+    'srv_page_s4_li3' => '24/7 availability for emergencies.',
+    
+    'srv_page_cta_title' => 'Ready to move your freight with us?',
+    'srv_page_cta_btn' => 'Get a Quote Now'
 ];
 ?>
