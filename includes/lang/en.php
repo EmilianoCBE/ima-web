@@ -193,6 +193,71 @@ $lang = [
     'srv_page_s4_li3' => '24/7 availability for emergencies.',
     
     'srv_page_cta_title' => 'Ready to move your freight with us?',
-    'srv_page_cta_btn' => 'Get a Quote Now'
+    'srv_page_cta_btn' => 'Get a Quote Now',
+
+    // About Page (Nuestra Historia)
+    'abt_header_title' => 'Our History',
+    'abt_header_breadcrumb' => 'Our History',
+
+    'abt_badge_year' => 'Est. 2021',
+    'abt_badge_text' => 'Founded',
+
+    'abt_subtitle' => 'Who We Are',
+    'abt_title' => 'Connecting Mexico and the United States',
+    'abt_p1' => 'IMA EXPRESS LLC is a company founded in 2021, with the goal of providing comprehensive solutions for freight transportation between Mexico and the United States.',
+    'abt_p2' => 'We have established ourselves as a strategic bridge for international trade, understanding the specific needs of the cross-border supply chain and adapting to the challenges of modern logistics.',
+
+    'abt_mission_title' => 'Mission',
+    'abt_mission_desc' => 'We aim to provide a safe and reliable service, optimizing each shipment with efficiency and responsibility, with the goal of supporting the growth of the businesses that trust us.',
+
+    'abt_vision_title' => 'Vision',
+    'abt_vision_desc' => 'We aspire to be a leading company in freight transportation between Mexico and the United States, standing out for our commitment and creating new opportunities in international trade.',
+
+    'abt_srv_subtitle' => 'Our Services',
+    'abt_srv_title' => 'What Do We Offer?',
+    'abt_srv_desc' => 'We provide logistics services tailored to our clients’ needs, working with an efficient team available 24/7. To ensure high-quality service, we offer:',
+
+    'abt_srv_1_title' => 'Real-Time Tracking',
+    'abt_srv_1_desc' => 'Full visibility of your freight at every stage of the journey for your peace of mind.',
+
+    'abt_srv_2_title' => 'Efficient Planning',
+    'abt_srv_2_desc' => 'Route optimization to ensure on-time deliveries and reduce costs.',
+
+    'abt_srv_3_title' => 'Direct Communication',
+    'abt_srv_3_desc' => 'Close support and immediate response to any inquiry or issue.',
+
+    'abt_prom_subtitle' => 'Our Promise',
+    'abt_prom_title' => 'Why work with us?',
+    'abt_prom_desc' => 'We offer a personalized service with continuous improvement, designed to support companies that require international transportation with maximum safety and efficiency.',
+    'abt_prom_li1' => 'We stand out for our commitment and responsibility.',
+    'abt_prom_li2' => 'We provide direct, honest, and close communication.',
+    'abt_prom_btn' => 'Contact Today',
+
+    // Contact Page
+    'cnt_header_title' => 'Contact',
+    'cnt_header_breadcrumb' => 'Contact',
+    
+    'cnt_subtitle' => 'Contact Us Now',
+    'cnt_title' => 'We are here to answer your questions.',
+    'cnt_desc' => 'Do you have a question about your freight or a quote? We are ready to assist you!',
+    
+    'cnt_loc_title' => 'Location',
+    'cnt_msg_title' => 'Send Us a Message',
+    'cnt_call_title' => 'Call Us',
+    
+    'cnt_form_title' => 'Get in Touch',
+    'cnt_form_desc' => 'Fill out the form below and we will contact you as soon as possible.',
+    
+    'cnt_ph_name' => 'Name',
+    'cnt_ph_email' => 'Email',
+    'cnt_ph_phone' => 'Phone',
+    'cnt_ph_msg' => 'Message',
+    'cnt_btn_send' => 'Send Message',
+    
+    'cnt_alert_success' => 'Thank you for contacting us! Your message has been sent successfully. We will get back to you shortly.',
+    'cnt_alert_error' => 'Sorry, there was a problem sending your message. Please check your details or try again later.',
+    
+    'cnt_cta_title' => 'Ready to move your freight worldwide?',
+    'cnt_cta_btn' => 'Get a Quote Now'
 ];
 ?>

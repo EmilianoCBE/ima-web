@@ -3,7 +3,7 @@
 <html lang="es">
 
 <?php 
-    $page_title = "Contacto - IMA EXPRESS";
+    $page_title = $lang['cnt_header_title'] . " - IMA EXPRESS";
     include 'includes/head.php'; 
 ?>
 
@@ -11,8 +11,8 @@
     <div id="wrapper">
         <a href="#" id="back-to-top"></a>
         
-        
         <?php include 'includes/header.php'; ?>
+        
         <div class="no-bottom no-top" id="content">
 
             <div id="top"></div>
@@ -21,10 +21,10 @@
                 <div class="container relative z-2">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-12">
-                            <h1 class="split">Contacto</h1>
+                            <h1 class="split"><?php echo $lang['cnt_header_title']; ?></h1>
                             <ul class="crumb wow fadeInUp">
-                                <li><a href="index.php">Inicio</a></li>
-                                <li class="active">Contacto</li>
+                                <li><a href="index.php"><?php echo $lang['nav_home']; ?></a></li>
+                                <li class="active"><?php echo $lang['cnt_header_breadcrumb']; ?></li>
                             </ul>   
                         </div>
                     </div>
@@ -38,10 +38,10 @@
                   <div class="row align-items-center justify-content-center">
                     
                     <div class="col-lg-6">
-                        <div class="subtitle">Contáctenos ahora</div>
-                        <h2 class="wow fadeInUp">Estamos aquí para responder sus dudas.</h2>
+                        <div class="subtitle"><?php echo $lang['cnt_subtitle']; ?></div>
+                        <h2 class="wow fadeInUp"><?php echo $lang['cnt_title']; ?></h2>
 
-                        <p class="col-lg-8">¿Tiene una pregunta sobre su carga o una cotización? ¡Estamos listos para responderle!</p>
+                        <p class="col-lg-8"><?php echo $lang['cnt_desc']; ?></p>
 
                         <div class="spacer-single"></div>
 
@@ -51,7 +51,7 @@
                                 <div class="relative mb-4">
                                     <i class="abs fs-28 p-3 bg-color text-light rounded-1 icofont-location-pin"></i>
                                     <div class="ms-80px">
-                                        <h4 class="mb-0">Ubicación</h4>
+                                        <h4 class="mb-0"><?php echo $lang['cnt_loc_title']; ?></h4>
                                         Laredo, Texas
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
                                 <div class="relative mb-4">
                                     <i class="abs fs-28 p-3 bg-color text-light rounded-1 icofont-envelope"></i>
                                     <div class="ms-80px">
-                                        <h4 class="mb-0">Envíenos un mensaje</h4>
+                                        <h4 class="mb-0"><?php echo $lang['cnt_msg_title']; ?></h4>
                                         admin@imaexpressllc.com
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@
                                 <div class="relative mb-4">
                                     <i class="abs fs-28 p-3 bg-color text-light rounded-1 icofont-phone"></i>
                                     <div class="ms-80px">
-                                        <h4 class="mb-0">Llámenos</h4>
+                                        <h4 class="mb-0"><?php echo $lang['cnt_call_title']; ?></h4>
                                         +1 (956) 771-9884<br>
                                         +1 (956) 757-2302
                                     </div>
@@ -83,40 +83,40 @@
                             <form name="contactForm" id="mi_formulario_real" method="post" action="enviar_correo.php">
                             <div class="row g-4">
                                 <div class="col-lg-12">
-                                    <h3>Póngase en contacto</h3>
-                                    <p>Llene el formulario a continuación y nos pondremos en contacto con usted lo antes posible.</p>
+                                    <h3><?php echo $lang['cnt_form_title']; ?></h3>
+                                    <p><?php echo $lang['cnt_form_desc']; ?></p>
 
                                     <div class="field-set">
-                                        <input type="text" name="name" id="name" class="form-control mb-4" placeholder="Nombre" required>
+                                        <input type="text" name="name" id="name" class="form-control mb-4" placeholder="<?php echo $lang['cnt_ph_name']; ?>" required>
                                     </div>
 
                                     <div class="field-set">
-                                        <input type="text" name="email" id="email" class="form-control mb-4" placeholder="Email" required>
+                                        <input type="email" name="email" id="email" class="form-control mb-4" placeholder="<?php echo $lang['cnt_ph_email']; ?>" required>
                                     </div>
 
                                     <div class="field-set">
-                                        <input type="text" name="phone" id="phone" class="form-control mb-4" placeholder="Teléfono" required>
+                                        <input type="text" name="phone" id="phone" class="form-control mb-4" placeholder="<?php echo $lang['cnt_ph_phone']; ?>" required>
                                     </div>
 
                                     <div class="field-set">
-                                        <textarea name="message" id="message" class="form-control mb-4 h-100px" placeholder="Mensaje" required></textarea>
+                                        <textarea name="message" id="message" class="form-control mb-4 h-100px" placeholder="<?php echo $lang['cnt_ph_msg']; ?>" required></textarea>
                                     </div>
                                 </div>
                             </div>
                             
                             <div id='submit' class="mt-3">
-                                <input type='submit' id='btn_enviar_php' value='Enviar Mensaje' class="btn-main border-0">
+                                <input type='submit' id='btn_enviar_php' value='<?php echo $lang['cnt_btn_send']; ?>' class="btn-main border-0">
                             </div>
 
                             <?php if(isset($_GET['estado']) && $_GET['estado'] == 'exito'): ?>
                                 <div class="alert alert-success mt-4 p-3 rounded-1" style="background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb;">
-                                    ¡Gracias por contactarnos! Tu mensaje ha sido enviado exitosamente. Nos comunicaremos contigo a la brevedad.
+                                    <?php echo $lang['cnt_alert_success']; ?>
                                 </div>
                             <?php endif; ?>
 
                             <?php if(isset($_GET['estado']) && $_GET['estado'] == 'error'): ?>
                                 <div class="alert alert-danger mt-4 p-3 rounded-1" style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb;">
-                                    Lo sentimos, hubo un problema al enviar tu mensaje. Por favor, revisa tus datos o inténtalo más tarde.
+                                    <?php echo $lang['cnt_alert_error']; ?>
                                 </div>
                             <?php endif; ?>
                         </form>
@@ -128,12 +128,12 @@
 
             <section class="bg-color text-light pt-50 pb-50">
                 <div class="container">
-                    <div class="row g-4">
-                        <div class="col-md-9">
-                            <h3 class="mb-0 fs-32 split">¿Listo para mover su carga por el mundo?</h3>
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-9 text-center text-md-start">
+                            <h3 class="mb-0 fs-32 split"><?php echo $lang['cnt_cta_title']; ?></h3>
                         </div>
-                        <div class="col-lg-3 text-lg-end">
-                            <a class="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="#contact_form"><span>Cotizar Ahora</span></a>
+                        <div class="col-lg-3 text-center text-lg-end mt-4 mt-lg-0">
+                            <a class="btn-main bg-white text-dark fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="contact.php"><span><?php echo $lang['cnt_cta_btn']; ?></span></a>
                         </div>
                     </div>
                 </div>
@@ -141,11 +141,10 @@
 
         </div>
         <?php include 'includes/footer.php'; ?>
-        </div>
+    </div>
 
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-    <!-- <script src="js/validation-contact.js"></script>  -->
 
 </body>
 </html>

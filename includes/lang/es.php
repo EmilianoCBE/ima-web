@@ -193,6 +193,71 @@ $lang = [
     'srv_page_s4_li3' => 'Disponibilidad 24/7 para emergencias.',
     
     'srv_page_cta_title' => '¿Listo para mover su carga con nosotros?',
-    'srv_page_cta_btn' => 'Cotizar Ahora'
+    'srv_page_cta_btn' => 'Cotizar Ahora',
+
+    // About Page (Nuestra Historia)
+    'abt_header_title' => 'Nuestra Historia',
+    'abt_header_breadcrumb' => 'Nuestra Historia',
+
+    'abt_badge_year' => 'Est. 2021',
+    'abt_badge_text' => 'Fundada',
+
+    'abt_subtitle' => '¿Quiénes Somos?',
+    'abt_title' => 'Conectando México y Estados Unidos',
+    'abt_p1' => 'IMA EXPRESS LLC es una empresa fundada en 2021, con el objetivo de ofrecer soluciones integrales para el transporte de mercancías entre México y Estados Unidos.',
+    'abt_p2' => 'Nos hemos consolidado como un puente estratégico para el comercio internacional, entendiendo las necesidades específicas de la cadena de suministro binacional y adaptándonos a los retos de la logística moderna.',
+
+    'abt_mission_title' => 'Misión',
+    'abt_mission_desc' => 'Queremos brindar un servicio seguro y confiable, optimizando cada envío con eficiencia y responsabilidad, con el objetivo de apoyar el crecimiento de los negocios que confían en nosotros.',
+
+    'abt_vision_title' => 'Visión',
+    'abt_vision_desc' => 'Aspiramos a ser la empresa líder en transporte de mercancías entre México y Estados Unidos, destacar por nuestro compromiso y crear nuevas oportunidades en el comercio internacional.',
+
+    'abt_srv_subtitle' => 'Nuestros Servicios',
+    'abt_srv_title' => '¿Qué Ofrecemos?',
+    'abt_srv_desc' => 'Disponemos de servicios logísticos adaptados a las necesidades de nuestros clientes, trabajando con un equipo eficiente disponible las 24 horas. Para garantizar un servicio de calidad, contamos con:',
+
+    'abt_srv_1_title' => 'Seguimiento en Tiempo Real',
+    'abt_srv_1_desc' => 'Visibilidad total de su carga en cada etapa del trayecto para tu tranquilidad.',
+
+    'abt_srv_2_title' => 'Planificación Eficiente',
+    'abt_srv_2_desc' => 'Optimización de rutas para asegurar entregas puntuales y reducir costos.',
+
+    'abt_srv_3_title' => 'Comunicación Directa',
+    'abt_srv_3_desc' => 'Trato cercano y respuesta inmediata a cualquier consulta o eventualidad.',
+
+    'abt_prom_subtitle' => 'Nuestra Promesa',
+    'abt_prom_title' => '¿Por qué trabajar con nosotros?',
+    'abt_prom_desc' => 'Ofrecemos un servicio personalizado y en constante mejora, pensado para apoyar a las empresas que requieren transporte internacional con la máxima seguridad y eficacia.',
+    'abt_prom_li1' => 'Nos distinguimos por nuestro compromiso y responsabilidad.',
+    'abt_prom_li2' => 'Brindamos un trato directo, honesto y cercano.',
+    'abt_prom_btn' => 'Contacte Hoy',
+
+    // Contact Page
+    'cnt_header_title' => 'Contacto',
+    'cnt_header_breadcrumb' => 'Contacto',
+    
+    'cnt_subtitle' => 'Contáctenos ahora',
+    'cnt_title' => 'Estamos aquí para responder sus dudas.',
+    'cnt_desc' => '¿Tiene una pregunta sobre su carga o una cotización? ¡Estamos listos para responderle!',
+    
+    'cnt_loc_title' => 'Ubicación',
+    'cnt_msg_title' => 'Envíenos un mensaje',
+    'cnt_call_title' => 'Llámenos',
+    
+    'cnt_form_title' => 'Póngase en contacto',
+    'cnt_form_desc' => 'Llene el formulario a continuación y nos pondremos en contacto con usted lo antes posible.',
+    
+    'cnt_ph_name' => 'Nombre',
+    'cnt_ph_email' => 'Email',
+    'cnt_ph_phone' => 'Teléfono',
+    'cnt_ph_msg' => 'Mensaje',
+    'cnt_btn_send' => 'Enviar Mensaje',
+    
+    'cnt_alert_success' => '¡Gracias por contactarnos! Tu mensaje ha sido enviado exitosamente. Nos comunicaremos contigo a la brevedad.',
+    'cnt_alert_error' => 'Lo sentimos, hubo un problema al enviar tu mensaje. Por favor, revisa tus datos o inténtalo más tarde.',
+    
+    'cnt_cta_title' => '¿Listo para mover su carga por el mundo?',
+    'cnt_cta_btn' => 'Cotizar Ahora'
 ];
 ?>
